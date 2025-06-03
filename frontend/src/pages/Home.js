@@ -1,94 +1,75 @@
 import React from "react";
-import "../styles/Home.css"
+import "../styles/Home.css";
 
 function Home() {
-    return (
-        <div className="container py-5">
-            {/* Hero Section */}
-            <div className="text-center mb-5">
-                <h1 className="display-4 fw-bold">Welcome to Our Research Group</h1>
-                <p className="lead text-muted">
-                    We explore the frontiers of artificial intelligence, data science, and applied machine learning to solve real-world problems.
-                </p>
-                <a href="/research" className="btn btn-primary btn-lg mt-3">Explore Our Work</a>
-            </div>
+  return (
+    <div className="home-page">
 
-            {/* About Section */}
-            <div className="row align-items-center mb-5">
-                <div className="col-md-6">
-                    <img
-                        src="https://source.unsplash.com/800x400/?technology,ai"
-                        alt="Research"
-                        className="img-fluid rounded shadow-sm"
-                    />
-                </div>
-                <div className="col-md-6">
-                    <h2 className="fw-semibold">About Us</h2>
-                    <p className="text-muted">
-                        Our interdisciplinary team works across machine learning theory, intelligent systems, and real-world deployments. We collaborate with industry and academia to drive innovation and impact.
-                    </p>
-                </div>
-            </div>
 
-            {/* Highlights Section */}
-            <div className="row text-center">
-                <div className="col-md-4">
-                    <h4 className="fw-bold">10+ Publications</h4>
-                    <p className="text-muted">Top conferences and journals in AI and ML.</p>
-                </div>
-                <div className="col-md-4">
-                    <h4 className="fw-bold">Global Collaborations</h4>
-                    <p className="text-muted">Partnerships with researchers worldwide.</p>
-                </div>
-                <div className="col-md-4">
-                    <h4 className="fw-bold">Impact-driven Research</h4>
-                    <p className="text-muted">Solutions for healthcare, energy, and society.</p>
-                </div>
-            </div>
-            <div className="row text-center">
-                <div className="col-md-4">
-                    <h4 className="fw-bold">10+ Publications</h4>
-                    <p className="text-muted">Top conferences and journals in AI and ML.</p>
-                </div>
-                <div className="col-md-4">
-                    <h4 className="fw-bold">Global Collaborations</h4>
-                    <p className="text-muted">Partnerships with researchers worldwide.</p>
-                </div>
-                <div className="col-md-4">
-                    <h4 className="fw-bold">Impact-driven Research</h4>
-                    <p className="text-muted">Solutions for healthcare, energy, and society.</p>
-                </div>
-            </div>
-            <div className="row text-center">
-                <div className="col-md-4">
-                    <h4 className="fw-bold">10+ Publications</h4>
-                    <p className="text-muted">Top conferences and journals in AI and ML.</p>
-                </div>
-                <div className="col-md-4">
-                    <h4 className="fw-bold">Global Collaborations</h4>
-                    <p className="text-muted">Partnerships with researchers worldwide.</p>
-                </div>
-                <div className="col-md-4">
-                    <h4 className="fw-bold">Impact-driven Research</h4>
-                    <p className="text-muted">Solutions for healthcare, energy, and society.</p>
-                </div>
-            </div>
-            <div className="row text-center">
-                <div className="col-md-4">
-                    <h4 className="fw-bold">10+ Publications</h4>
-                    <p className="text-muted">Top conferences and journals in AI and ML.</p>
-                </div>
-                <div className="col-md-4">
-                    <h4 className="fw-bold">Global Collaborations</h4>
-                    <p className="text-muted">Partnerships with researchers worldwide.</p>
-                </div>
-                <div className="col-md-4">
-                    <h4 className="fw-bold">Impact-driven Research</h4>
-                    <p className="text-muted">Solutions for healthcare, energy, and society.</p>
-                </div>
-            </div>
+      {/* 2. 展示栏（Hero） */}
+      <div className="hero-section d-flex flex-column justify-content-center text-center">
+        <div className="hero-content">
+          <h1 className="hero-title mb-4">Welcome to USYD Trustworthy AI Team</h1>
+          <p className="hero-subtitle mb-5">
+            We explore the frontiers of artificial intelligence, data science,
+            and applied machine learning to solve real-world problems.
+          </p>
+          <a href="/research" className="btn hero-btn btn-lg px-5">
+            Explore Our Work
+          </a>
         </div>
-    );
+      </div>
+
+      {/* 3. 信息栏 */}
+      <div className="info-section">
+        {/* 3.1 团队介绍 */}
+        <div className="team-intro mb-5 py-5 px-4 rounded-3">
+          <div className="row gx-4 gy-4 align-items-center">
+            <div className="col-lg-7">
+              <h2 className="section-title mb-3">Our Team</h2>
+              <p className="section-text mb-0">
+                We are a multidisciplinary research group at the University of
+                Sydney, focusing on safety evaluation, adversarial testing,
+                vulnerability discovery, and interpretability of large-scale
+                models. Our members come from top labs globally. Together, we
+                strive to deploy trustworthy AI systems for real-world impact.
+              </p>
+            </div>
+            <div className="col-lg-5 d-flex justify-content-end">
+              <div className="small-box me-3"></div>
+              <div className="small-box"></div>
+            </div>
+          </div>
+        </div>
+
+        {/* 3.2 最近新闻 */}
+        <div className="recent-news px-4">
+          <h3 className="section-title mb-4">Recent News</h3>
+          <ul className="list-unstyled">
+            <li className="news-item pb-3 mb-3 border-bottom">
+              <span className="news-date">2025-06-01</span> — Our paper “Adversarial
+              Safety Testing in Large LMs” was accepted at NeurIPS.
+            </li>
+            <li className="news-item pb-3 mb-3 border-bottom">
+              <span className="news-date">2025-05-20</span> — Awarded USyd research
+              grant for “Multimodal Adversarial Attack & Defense” project.
+            </li>
+            <li className="news-item pb-3">
+              <span className="news-date">2025-04-15</span> — Presented at ICSE
+              “Empirical Study of LLM-based Fuzzing on MOJO Dataset”.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* 4. 底栏 */}
+      <div className="footer-section bg-white py-5">
+        <div className="container text-center">
+          {/* <p className="mb-0">&copy; 2025 Trustworthy AI Team, The University of Sydney.</p> */}
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Home;

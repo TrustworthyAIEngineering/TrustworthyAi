@@ -1,30 +1,51 @@
-* {
-    font-family: "Arial";
-    background: antiquewhite;
-
+/* 1. 只给 body 设置字体和背景色，而不是所有元素 */
+body {
+  font-family: "Arial", sans-serif;
+  /* background-color: #f5f5f5; */
+  margin: 0;           /* 避免默认外边距 */
+  padding: 0;
 }
+
+/* 2. 如果你的 Home.js 或其他组件里有单独的背景色，需要再显式覆盖 */
+/*    例如，你的 Home 页面背景希望是灰色，可以在 Home.css 里加：
+     .home-page { background-color: #f5f5f5; }
+*/
+
+/* 3. 仅当屏幕为竖屏时，对 .navbar 做特殊处理（目前为空，可自行扩展） */
 @media (orientation: portrait) {
-
-    .navbar {
-
-    }
+  .navbar {
+    /* 这里可以写竖屏时对 navbar 的样式调整，比如高度、字体大小等 */
+  }
 }
 
+/* 4. 当屏幕为横屏时，针对特定的导航容器（#navbar-div、.navbar）做调整 */
 @media (orientation: landscape) {
+  /* 如果导航最外层有一个 id="navbar-div" 的容器，让它固定在顶部 */
+  #navbar-div {
+    position: fixed;
+    background-color: #f0eee6;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2000;        /* 确保导航栏在最上层 */
+  }
 
-    #navbar-div{
-        position: fixed;
+  /* 只给 navbar 下的 <ul> 添加横向间距，而不是所有 ul */
+  .navbar ul {
+    display: flex;      /* 确保 gap 生效 */
+    gap: 1.5rem;
+  }
 
-    }
-    .navbar ul{
-        gap: 1.5rem;
+  /* 只给 navbar 下的 <li> 调整字体大小 */
+  .navbar li {
+    font-size: 1.5rem;
+  }
 
-    }
-    .navbar li{
-        font-size: 1.5rem;
-    }
-    .nav-link{
-        color: black !important;
-        font-family: "Arial Black";
-    }
+  /* 只给 .navbar 中的 .nav-link 改颜色和字体 */
+  .navbar .nav-link {
+    color: black !important;          /* 强制覆盖 Bootstrap 或其他样式 */
+    font-family: "Arial Black", sans-serif;
+  }
 }
+
+/* 5. 如果项目中其他地方需要更具体的覆盖，再写在下面 */
