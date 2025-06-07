@@ -9,10 +9,9 @@ function Home() {
       {/* 2. 展示栏（Hero） */}
       <div className="hero-section d-flex flex-column justify-content-center text-center">
         <div className="hero-content">
-          <h1 className="hero-title mb-4">Welcome to USYD Trustworthy AI Team</h1>
+          <h1 className="hero-title mb-4">Forget About Bureaucracy, Just Accomplish The Mission</h1>
           <p className="hero-subtitle mb-5">
-            We explore the frontiers of artificial intelligence, data science,
-            and applied machine learning to solve real-world problems.
+            Welcome to USYD Trustworthy AI Team
           </p>
           <a href="/research" className="btn hero-btn btn-lg px-5">
             Explore Our Work

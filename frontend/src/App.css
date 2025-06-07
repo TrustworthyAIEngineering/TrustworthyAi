@@ -38,7 +38,7 @@ body {
 
   /* 只给 navbar 下的 <li> 调整字体大小 */
   .navbar li {
-    font-size: 1.5rem;
+    font-size: 16px;
   }
 
   /* 只给 .navbar 中的 .nav-link 改颜色和字体 */
