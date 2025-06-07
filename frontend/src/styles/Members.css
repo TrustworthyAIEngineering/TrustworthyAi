@@ -1,3 +1,4 @@
+/* ============== 全局基础 ============== */
 .members-page {
   background-color: #f0eee6;
   padding: 180px 20px;
@@ -17,9 +18,10 @@
   margin-bottom: 1.5rem;
 }
 .members-underline {
-  width: 1120px;
+  width: 80%;
+  max-width: 1200px;
   height: 1px;
-  background-color: black;
+  background-color: #111;
   margin: 0 auto 40px;
   border-radius: 2px;
 }
@@ -28,7 +30,20 @@
 .members-leader {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* 卡片链接，去掉默认焦点效果 */
+.member-link {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+.member-link:focus,
+.member-link:hover {
+  outline: none;
+  box-shadow: none;
 }
 
 /* 四列网格 */
@@ -50,15 +65,11 @@
   display: flex;
   flex-direction: column;
 }
-
-/* 头像 */
 .member-avatar {
   width: 100%;
   height: 220px;
   object-fit: cover;
 }
-
-/* 信息区 */
 .member-info {
   padding: 16px;
 }
@@ -69,17 +80,36 @@
   color: #333;
 }
 
-/* 响应式：小屏两列 */
+/* ============== 响应式调整 ============== */
+/* 屏幕宽度 ≤ 992px：2 列布局，缩小 padding */
 @media (max-width: 992px) {
+  .members-page {
+    padding: 120px 10px;
+  }
   .members-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
+  .members-leader .member-card {
+    width: 80%;
+    max-width: 300px;
+  }
 }
 
-/* 响应式：超小屏一列 */
+/* 屏幕宽度 ≤ 576px：1 列布局，更紧凑 padding 和 gap */
 @media (max-width: 576px) {
+  .members-page {
+    padding: 80px 8px;
+  }
   .members-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .members-leader {
+    margin-bottom: 40px;
+  }
+  .members-leader .member-card {
+    width: 100%;
+    max-width: none;
   }
 }

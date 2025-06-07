@@ -4,6 +4,7 @@ import Members from "./pages/Members";
 import Research from "./pages/Research";
 import Publications from "./pages/Publications";
 import Contact from "./pages/Contact";
+import Huaming_Chen from "./pages/Huaming_Chen";
 import "./App.css"
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
                 <Route path="/research" element={<Research />} />
                 <Route path="/publications" element={<Publications />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/members/huaming-chen" element={<Huaming_Chen />} />
               </Routes>
           </Router>
       </>

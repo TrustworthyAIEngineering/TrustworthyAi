@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Members.css";
+import { Link } from "react-router-dom";
 
 // 复用的卡片组件
 function MemberCard({ avatar, name, direction }) {
@@ -18,7 +19,7 @@ export default function Members() {
   // 领导人数据
   const leader = {
     avatar: "/assets/leader.jpg",
-    name: "Dr. Alice Smith",
+    name: "Dr. Huaming Chen",
     direction: "AI Safety & Trust",
   };
 
@@ -46,8 +47,12 @@ export default function Members() {
 
       {/* 第一行：领导人居中 */}
       <div className="members-leader">
-        <MemberCard {...leader} />
+        <Link to="/members/huaming-chen" className="member-link">
+            <MemberCard {...leader} />
+        </Link>
       </div>
+
+
 
       {/* 接着三行，每行四个 */}
       <div className="members-grid">
