@@ -1,0 +1,141 @@
+/* ================= 整体布局 ================= */
+.profile-page {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 80px 0;
+}
+/* 中心化内容区，上限宽度 1200px，自动居中 */
+.profile-page .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* 标题与副标题 */
+.profile-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 0.25rem;
+}
+.profile-position {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* ================= 信息卡网格 ================= */
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+/* 卡片统一样式 */
+.profile-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+/* 悬停微动效 */
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+/* —— 个人信息卡——水平布局 */
+.profile-card--horizontal {
+  flex-direction: row;
+  align-items: center;
+}
+/* 头像圆形化，并留白 */
+.profile-card--horizontal .profile-avatar {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 16px;
+}
+/* 文字左对齐 */
+.profile-card--horizontal .profile-info {
+  text-align: left;
+  padding: 16px;
+}
+
+/* —— 关键摘要卡、技能卡共用内容样式 —— */
+.card-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #222;
+  margin: 16px;
+  text-align: left;
+}
+.profile-card p,
+.profile-card ul {
+  padding: 0 16px 16px;
+  text-align: left;
+  color: #444;
+  line-height: 1.5;
+}
+.skills-list {
+  list-style: disc;
+  margin-left: 32px;
+}
+
+/* ================= Research Experience ================= */
+.profile-experience {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 24px;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.experience-heading {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 16px;
+}
+.profile-experience p {
+  color: #444;
+  line-height: 1.6;
+}
+
+/* ================= 响应式 ================= */
+/* 平板及以下两列不变 */
+@media (max-width: 992px) {
+  .profile-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+/* 手机端单列 */
+@media (max-width: 576px) {
+  .profile-page {
+    padding: 40px 0;
+  }
+  .profile-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .profile-card--horizontal {
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile-card--horizontal .profile-avatar {
+    margin: 16px auto;
+  }
+  .profile-card {
+    width: 100%;
+  }
+  .profile-experience {
+    padding: 16px;
+  }
+}
