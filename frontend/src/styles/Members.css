@@ -46,12 +46,19 @@
 }
 
 /* ============== 网格布局 ============== */
+/* ============== 网格布局 ============== */
 .members-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  /* five fixed-width columns */
+  grid-template-columns: repeat(5, 240px);
+  /* center the whole grid inside its container */
+  justify-content: center;
+  /* gap between cards */
   gap: 32px;
-  justify-items: center;
+  margin-bottom: 40px;
 }
+
+
 
 /* ============== 卡片样式 ============== */
 .member-card {
