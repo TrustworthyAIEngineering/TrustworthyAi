@@ -7,6 +7,12 @@ import haolinImg from "../assets/haolin.jpg";
 import taozhaoImg from "../assets/taozhao.jpg";
 import linghanImg from "../assets/linghan.jpg";
 
+import jiawenImg from "../assets/jiawen.jpg";
+import liningImg from "../assets/lining.jpg";
+import zhaogeImg from "../assets/zhaoge.jpg";
+import pengyueImg from "../assets/pengyue.jpg";
+import qingwenImg from "../assets/qingwen.jpg";
+
 function MemberCard({ avatar, name, direction }) {
   return (
     <div className="member-card">
@@ -24,14 +30,14 @@ export default function Members() {
   const people = [
     { avatar: huamingImg, name: "Huaming Chen", direction: "AI Safety & Trust" },
     { avatar: haolinImg, name: "Haolin Jin", direction: "AI Agent" },
-    { avatar: "/assets/m3.jpg", name: "Jiawen Wen", direction: "Trustworthy AI" },
+    { avatar: jiawenImg, name: "Jiawen Wen", direction: "Vulnerability Detection" },
     { avatar: linghanImg, name: "Linghan Huang", direction: "Trustworthy AI" },
-    { avatar: "/assets/m8.jpg", name: "Lining Chen", direction: "Forecasting AI" },
-    { avatar: "/assets/m6.jpg", name: "Pengyue Yang", direction: "Trustworthy AI" },
-    { avatar: "/assets/m12.jpg", name: "Qingwen Zeng", direction: "Forecasting AI" },
+    { avatar: liningImg, name: "Lining Chen", direction: "The Application of Recommendation System" },
+    { avatar: pengyueImg, name: "Pengyue Yang", direction: "Trustworthy AI" },
+    { avatar: qingwenImg, name: "Qingwen Zeng", direction: "AI Algotithm & FInance" },
     { avatar: taozhaoImg, name: "Taozhao Chen", direction: "Trustworthy AI" },
     { avatar: yitianImg, name: "Yitian Yang", direction: "Trustworthy AI" },
-    { avatar: "/assets/m2.jpg", name: "Zhaoge Bi", direction: "Forecasting AI" }
+    { avatar: zhaogeImg, name: "Zhaoge Bi", direction: "Forecasting AI" }
   ];
 
   return (
