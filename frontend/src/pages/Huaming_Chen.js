@@ -18,7 +18,7 @@ export default function Huaming_Chen() {
             <img src={huamingImg} alt="Huaming Chen" className="profile-avatar" />
             <div className="profile-info">
               <p><strong>Name:</strong> Huaming Chen</p>
-              <p><strong>Age:</strong> 35</p>
+              {/*<p><strong>Age:</strong> 35</p>*/}
               <p><strong>Contact:</strong> huaming.chen@sydney.edu.au</p>
               <p><strong>Address:</strong> School of ECE, The University of Sydney</p>
             </div>
