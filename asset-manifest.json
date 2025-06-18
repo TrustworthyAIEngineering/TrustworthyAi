@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/TrustworthyAi/static/css/main.542af311.css",
+    "main.js": "/TrustworthyAi/static/js/main.fc406963.js",
+    "static/js/453.ad6eb26e.chunk.js": "/TrustworthyAi/static/js/453.ad6eb26e.chunk.js",
+    "static/media/linghan.jpg": "/TrustworthyAi/static/media/linghan.933a950f331d04540d3f.jpg",
+    "static/media/lining.jpg": "/TrustworthyAi/static/media/lining.848190d3d33720f41fda.jpg",
+    "static/media/jiawen.jpg": "/TrustworthyAi/static/media/jiawen.68279fd49980ab63534e.jpg",
+    "static/media/taozhao.jpg": "/TrustworthyAi/static/media/taozhao.103da64f88db4ba93911.jpg",
+    "static/media/huaming.jpg": "/TrustworthyAi/static/media/huaming.d50eb6df0406b0c6aee5.jpg",
+    "static/media/yitian.jpg": "/TrustworthyAi/static/media/yitian.2a939edd28e983694c1e.jpg",
+    "static/media/pengyue.jpg": "/TrustworthyAi/static/media/pengyue.b5f1ecbaac1ddbc1351d.jpg",
+    "static/media/haolin.jpg": "/TrustworthyAi/static/media/haolin.a21e1bcbcb0f05683f3a.jpg",
+    "index.html": "/TrustworthyAi/index.html",
+    "main.542af311.css.map": "/TrustworthyAi/static/css/main.542af311.css.map",
+    "main.fc406963.js.map": "/TrustworthyAi/static/js/main.fc406963.js.map",
+    "453.ad6eb26e.chunk.js.map": "/TrustworthyAi/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.542af311.css",
+    "static/js/main.fc406963.js"
+  ]
+}
