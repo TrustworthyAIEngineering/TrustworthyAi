@@ -1,6 +1,6 @@
 import React from "react";
 
-function Research(){
+function News(){
     return(
         <>
             <div id="whole" className="d-flex flex-column justify-content-start align-items-center mt-lg-5 min-vh-100 w-100">
@@ -10,4 +10,4 @@ function Research(){
     )
 }
 
-export default Research;
+export default News;

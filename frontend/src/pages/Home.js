@@ -11,7 +11,7 @@ function Home() {
         <div className="hero-content">
           <h1 className="hero-title mb-4">Forget About Bureaucracy, Just Accomplish The Mission</h1>
           <p className="hero-subtitle mb-5">
-            Welcome to USYD Trustworthy AI Team
+            Welcome to <strong>USYD Trustworthy AI and Data Science Team</strong>
           </p>
           <a href="/research" className="btn hero-btn btn-lg px-5">
             Explore Our Work
@@ -61,12 +61,7 @@ function Home() {
         </div>
       </div>
 
-      {/* 4. 底栏 */}
-      <div className="footer-section bg-white py-5">
-        <div className="container text-center">
-          {/* <p className="mb-0">&copy; 2025 Trustworthy AI Team, The University of Sydney.</p> */}
-        </div>
-      </div>
+
     </div>
   );
 }

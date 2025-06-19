@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Members.css";
-import huamingImg from "../assets/huaming.jpg";
-import yitianImg from "../assets/yitian.jpg";
-import haolinImg from "../assets/haolin.jpg";
-import taozhaoImg from "../assets/taozhao.jpg";
-import linghanImg from "../assets/linghan.jpg";
+import huamingImg from "../assets/general/huaming.jpg";
+import yitianImg from "../assets/general/yitian.jpg";
+import haolinImg from "../assets/general/haolin.jpg";
+import taozhaoImg from "../assets/general/taozhao.jpg";
+import linghanImg from "../assets/general/linghan.jpg";
 
-import jiawenImg from "../assets/jiawen.jpg";
-import liningImg from "../assets/lining.jpg";
-import zhaogeImg from "../assets/zhaoge.jpg";
-import pengyueImg from "../assets/pengyue.jpg";
-import qingwenImg from "../assets/qingwen.jpg";
+import jiawenImg from "../assets/general/jiawen.jpg";
+import liningImg from "../assets/general/lining.jpg";
+import zhaogeImg from "../assets/general/zhaoge.jpg";
+import pengyueImg from "../assets/general/pengyue.jpg";
+import qingwenImg from "../assets/general/qingwen.jpg";
 
 function MemberCard({ avatar, name, direction }) {
   return (
@@ -41,7 +41,7 @@ export default function Members() {
   ];
 
   return (
-    <div className="members-page">
+    <div className="members-page mt-lg-5 min-vh-100 w-100">
       <div className="members-container">
         <h1 className="members-title">USYD Trustworthy AI Team</h1>
         <p className="members-subtitle">Infinitely progressing</p>
@@ -50,7 +50,7 @@ export default function Members() {
         {/* 2x5 Grid: first row first leader, then 4 members, etc. */}
         <div className="members-grid">
           {people.map((p, idx) => (
-            <Link key={idx} to={`/members/${p.name.toLowerCase().replace(/\s+/g,'-')}`} className="member-link">
+            <Link key={idx} to={p.name==="Huaming Chen"&&`/members/${p.name.toLowerCase().replace(/\s+/g,'-')}`} className="member-link">
               <MemberCard {...p} />
             </Link>
           ))}

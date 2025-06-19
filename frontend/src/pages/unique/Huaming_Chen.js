@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/Huaming_Chen.css";
-import huamingImg from "../assets/huaming.jpg";
+import "../../styles/Huaming_Chen.css";
+import huamingImg from "../../assets/general/huaming.jpg";
 export default function Huaming_Chen() {
   return (
-    <div className="profile-page py-5">
+    <div className="profile-page mt-lg-5 mt-lg-5 min-vh-100 w-100">
       {/* 中心化内容区域 */}
       <div className="container">
         <Link to="/members" className="btn btn-link mb-4">← Back to Members</Link>
