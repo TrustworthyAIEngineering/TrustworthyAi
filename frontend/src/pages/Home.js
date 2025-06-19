@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
+import {Link} from "react-router-dom";
 
 function Home() {
   return (
@@ -13,9 +14,9 @@ function Home() {
           <p className="hero-subtitle mb-5">
             Welcome to <strong>USYD Trustworthy AI and Data Science Team</strong>
           </p>
-          <a href="/research" className="btn hero-btn btn-lg px-5">
+          <Link to="/research" className="btn hero-btn btn-lg px-5">
             Explore Our Work
-          </a>
+          </Link>
         </div>
       </div>
 
