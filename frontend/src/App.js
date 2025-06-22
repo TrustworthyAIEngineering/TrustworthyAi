@@ -11,7 +11,7 @@ import News from "./pages/News";
 function App() {
   return (
       <>
-          <Router>
+          {/*<Router >*/}
 
               {/*Navigation bar that applied to every page*/}
               <div className="container-fluid py-3" id = "navbar-div">
@@ -67,7 +67,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/members/huaming-chen" element={<Huaming_Chen />} />
               </Routes>
-          </Router>
+          {/*</Router>*/}
 
           <footer className="text-center py-3 bg-dark mt-auto">
               <p className="mb-0" style={{color: "white"}}>&copy; 2025 Trustworthy AI Team, The University of Sydney.</p>
