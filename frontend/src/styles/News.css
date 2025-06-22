@@ -1,0 +1,29 @@
+
+#whole {
+    background-color: #f0eee6; /* 与导航一致 */
+    padding: 100px 0 60px;
+}
+#whole .news-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+    text-align: center;
+}
+.news-title {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 8px;
+}
+.news-subtitle {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 24px;
+}
+.news-underline {
+    width: 1200px;
+    height: 1.5px;
+    background-color: gray;
+    margin: 0 auto 40px;
+    border-radius: 2px;
+}
