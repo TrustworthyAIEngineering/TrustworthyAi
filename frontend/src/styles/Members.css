@@ -63,9 +63,10 @@
 /* ============== 卡片样式 ============== */
 .member-card {
   width: 240px;
-  height: 300px;               /* 新增：固定高度 */
-  background: #fff;
-  border-radius: 12px;
+  height: 350px;               /* 新增：固定高度 */
+  background:  #44362F;
+
+  /*border-radius: 12px;*/
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -94,12 +95,12 @@
 .member-name {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #222;
+  color: whitesmoke;
   margin-bottom: 4px;
 }
 .member-dir {
   font-size: 0.95rem;
-  color: #555;
+  color: whitesmoke;
   line-height: 1.4;
 }
 

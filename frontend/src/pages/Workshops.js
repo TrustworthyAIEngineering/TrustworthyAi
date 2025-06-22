@@ -45,23 +45,23 @@ function Workshops(){
                     <p><strong>Prof. Yang Cao </strong> is an Associate Professor at the Department of Computer Science, Institute of Science Tokyo (Science Tokyo, formerly Tokyo Tech), and directing the Trustworthy Data Science and AI (TDSAI) Lab. He is passionate about studying and teaching on algorithmic trustworthiness in data science and AI. Two of his papers on data privacy were selected as best paper finalists in top-tier conferences IEEE ICDE 2017 and ICME 2020. He was a recipient of the IEEE Computer Society Japan Chapter Young Author Award 2019, Database Society of Japan Kambayashi Young Researcher Award 2021. His research projects were/are supported by JSPS, JST, MSRA, KDDI, LINE, WeBank, etc.</p>
                     <p><strong>Prof. Ling Chen </strong> is a Professor in the School of Computer Science at the University of Technology Sydney (UTS), Australia. She obtained her PhD in Computer Engineering from Nanyang Technological University (NTU), Singapore, followed by postdoctoral training at Leibniz University Hannover (L3S Research Centre), Germany. Dr Chen’s research expertise encompasses fundamental machine learning tasks, particularly in representation learning and anomaly detection. Dr Chen has successfully secured multiple competitive research grants, including an ARC Future Fellowship (Level 3), reflecting the significance of her contributions to the field. Her research has garnered recognition and funding from leading industry partners, such as Facebook and TPG Telecom, and government bodies, including the NSW Department of Environment, Climate Change & Water. She is the Research Director of the Australian Artificial Intelligence Institute (AAII), the largest AI research institute in Australia. She currently holds the position of IEEE Task Chair for Data Science and Advanced Analytics.</p>
 
-                    <p><strong>Tentative program committee: </strong></p>
-                    <p>
-                        •	Prof. Qi Yu, Rochester Institute of Technology, US<br></br>
-                        •	Prof. Weishi Shi, University of North Texas, US<br></br>
-                        •	Prof. Athman Bouguettaya, Univeristy of Sydney, Australia<br></br>
-                        •	Prof. Richard Allmendinger, University of Manchester, UK<br></br>
-                        •	Dr. Grace Lewis, Carnegie Mellon University, US<br></br>
-                        •	Prof. Andrea Stocco, University of Munich, Germany<br></br>
-                        •	Dr. Adriana Simona Mihaita, The University of Technology Sydney, Australia<br></br>
-                        •	Dr. Xilu Wang, Bielefeld University, Germany<br></br>
-                        •	Prof. Rutger Willem Vervoort, The University of Sydney, Australia<br></br>
-                        •	Prof. Jia Zhang, Southern Methodist Unviersity, US<br></br>
-                        •	Prof. Incheon Paik, University of Aizu, Japan<br></br>
-                        •	Prof. Neil Yen, University of Aizu, Japan<br></br>
-                        •	Prof. Marinka Zitnik, Harvard University, US<br></br>
+                    {/*<p><strong>Tentative program committee: </strong></p>*/}
+                    {/*<p>*/}
+                    {/*    •	Prof. Qi Yu, Rochester Institute of Technology, US<br></br>*/}
+                    {/*    •	Prof. Weishi Shi, University of North Texas, US<br></br>*/}
+                    {/*    •	Prof. Athman Bouguettaya, Univeristy of Sydney, Australia<br></br>*/}
+                    {/*    •	Prof. Richard Allmendinger, University of Manchester, UK<br></br>*/}
+                    {/*    •	Dr. Grace Lewis, Carnegie Mellon University, US<br></br>*/}
+                    {/*    •	Prof. Andrea Stocco, University of Munich, Germany<br></br>*/}
+                    {/*    •	Dr. Adriana Simona Mihaita, The University of Technology Sydney, Australia<br></br>*/}
+                    {/*    •	Dr. Xilu Wang, Bielefeld University, Germany<br></br>*/}
+                    {/*    •	Prof. Rutger Willem Vervoort, The University of Sydney, Australia<br></br>*/}
+                    {/*    •	Prof. Jia Zhang, Southern Methodist Unviersity, US<br></br>*/}
+                    {/*    •	Prof. Incheon Paik, University of Aizu, Japan<br></br>*/}
+                    {/*    •	Prof. Neil Yen, University of Aizu, Japan<br></br>*/}
+                    {/*    •	Prof. Marinka Zitnik, Harvard University, US<br></br>*/}
 
-                    </p>
+                    {/*</p>*/}
 
                     <p><strong>Contact information of the organizers (including name, affiliation, mailing address, and e-mail address): </strong><br></br>
                         Huaming Chen, Senior Lecturer, School of Electrical and Computer Engineering, THE UNIVERSITY OF SYDNEY, Room 409A, J03 | The University of Sydney | NSW | 2006, Email: huaming.chen@sydney.edu.au

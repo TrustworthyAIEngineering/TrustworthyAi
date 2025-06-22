@@ -19,6 +19,7 @@ function MemberCard({ avatar, name, direction }) {
       <img src={avatar} alt={name} className="member-avatar" />
       <div className="member-info">
         <h4 className="member-name">{name}</h4>
+
         <p className="member-dir">{direction}</p>
       </div>
     </div>
@@ -38,7 +39,7 @@ export default function Members() {
     { avatar: taozhaoImg, name: "Taozhao Chen", direction: "Trustworthy AI" },
     { avatar: yitianImg, name: "Yitian Yang", direction: "Trustworthy AI" },
     { avatar: zhaogeImg, name: "Zhaoge Bi", direction: "Forecasting AI" }
-  ];
+  ].reverse();
 
   return (
     <div className="members-page mt-lg-5 min-vh-100 w-100">
