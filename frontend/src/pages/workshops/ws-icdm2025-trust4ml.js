@@ -158,7 +158,7 @@ function WsIcdm2025Trust4ml(){
 
                     <h2 id = "contact"><strong>Contact Us</strong></h2>
                     <p>
-                        Huaming Chen, Senior Lecturer, School of Electrical and Computer Engineering, THE UNIVERSITY OF SYDNEY, Room 409A, J03 | The University of Sydney | NSW | 2006, Email: huaming.chen@sydney.edu.au
+                        Huaming Chen, Senior Lecturer, School of Electrical and Computer Engineering, THE UNIVERSITY OF SYDNEY, Room 409A, J03 | The University of Sydney | NSW | 2006, Email: <a href="mailto:huaming.chen@sydney.edu.au">huaming.chen@sydney.edu.au</a>
                     </p>
                 </div>
 
