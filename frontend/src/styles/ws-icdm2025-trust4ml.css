@@ -1,0 +1,64 @@
+#whole{
+    background-color: #f0eee6;
+    min-width: 99.5vw;
+    min-height: 100vh;
+    padding-top: 150px;
+    font-size: x-large;
+
+}
+
+#background{
+    width: 100%;
+    min-height: 40vh;
+
+
+    background-image: url("../assets/workshopRelated/ICDM_2025_trustworthy_machine_learning_12112025.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+
+
+
+}
+
+#background h1{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#background p{
+    margin: 2%;
+}
+
+#call{
+    background: #4C93D2;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+table{
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+table td{
+    padding: 0.2rem;
+    border-bottom: 1px solid gray;
+}
+
+@media(orientation: portrait){
+    #whole{
+        font-size: large;
+
+    }
+}

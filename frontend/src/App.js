@@ -6,7 +6,7 @@ import Publications from "./pages/Publications";
 import Contact from "./pages/Contact";
 import Huaming_Chen from "./pages/unique/Huaming_Chen";
 import "./App.css"
-import Workshops from "./pages/Workshops";
+import WsIcdm2025Trust4ml from "./pages/workshops/ws-icdm2025-trust4ml";
 import News from "./pages/News";
 function App() {
   return (
@@ -58,8 +58,8 @@ function App() {
                 <Route path="/home" element={<Home />} />
                 <Route path="/members" element={<Members />} />
 
-                <Route path={"/"} element={<Workshops />} />
-                <Route path={"/workshops"} element={<Workshops />} />
+                <Route path={"/"} element={<WsIcdm2025Trust4ml />} />
+                <Route path={"/workshops"} element={<WsIcdm2025Trust4ml />} />
 
                 <Route path="/news" element={<News />} />
                 <Route path="/research" element={<Research />} />
