@@ -14,9 +14,9 @@ function WsIcdm2025Trust4ml(){
                     <div id = "call">
                         <h3>Call for papers</h3>
                     </div>
-
-                    <nav className="toc p-3 w-100 w-lg-75">
-                        <h2 className="fw-semibold mb-2">Table of Contents</h2>
+                    <br></br>
+                    <h2 ><strong>Table of Contents</strong></h2>
+                    <nav className="toc w-100 w-lg-75">
                         <ul className="list-unstyled mb-0">
                             {[
                                 { id: "introduction", label: "Introduction" },

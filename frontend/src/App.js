@@ -34,13 +34,13 @@ function App() {
                           <ul className="navbar-nav ms-auto d-flex align-items-center">
 
                               <li className="nav-item">
-                                  <Link className="nav-link fs-3 glow-text" to="/workshops">
+                                  <Link className="nav-link fs-5 glow-text" to="/workshops">
                                       ICDM 2025 Workshop: Trust4ML
                                   </Link>
                               </li>
 
 
-                              <li className="nav-item border-start border-black mx-2" style={{ height: '50px' }}></li>
+                              <li id = "divider" className="nav-item border-start border-black mx-2" style={{ height: '50px' }}></li>
                               <li className="nav-item"><Link className="nav-link" to="/home">USYD Trustworthy AI Team</Link></li>
                               <li className="nav-item"><Link className="nav-link" to="/news">News</Link></li>
                               <li className="nav-item"><Link className="nav-link" to="/members">Members</Link></li>
