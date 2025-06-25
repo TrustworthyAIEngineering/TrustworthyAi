@@ -108,7 +108,7 @@ body {
 
 
 /* 4. 当屏幕为横屏时，针对特定的导航容器（#navbar-div、.navbar）做调整 */
-@media (max-width: 1280px) {
+@media (max-width: 1440px) {
   /* 如果导航最外层有一个 id="navbar-div" 的容器，让它固定在顶部 */
   #navbar-div {
     position: fixed;
