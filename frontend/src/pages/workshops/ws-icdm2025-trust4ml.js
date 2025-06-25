@@ -8,8 +8,12 @@ function WsIcdm2025Trust4ml(){
 
             <div id="whole" className="d-flex flex-column justify-content-start align-items-center mt-lg-0">
                 <div id = "background">
-                    <h1>Workshop on Trustworthy Machine Learning for Fair, Private, Robust, and Explainable Decision-Making</h1>
-                    <p>Co-located with 25th IEEE International Conference on Data Mining (ICDM 2025)<br></br> November 12, 2025, Washington DC, USA
+                    <h1 style={{
+                        WebkitTextStroke: "0.2px grey",
+                    }}>Workshop on Trustworthy Machine Learning for Fair, Private, Robust, and Explainable Decision-Making</h1>
+                    <p style={{
+                        WebkitTextStroke: "0.3px whitesmoke",
+                    }}>Co-located with 25th IEEE International Conference on Data Mining (ICDM 2025)<br></br> November 12, 2025, Washington DC, USA
                     </p>
                 </div>
                 <div id = "call">
@@ -158,7 +162,9 @@ function WsIcdm2025Trust4ml(){
 
                     <h2 id = "contact"><strong>Contact Us</strong></h2>
                     <p>
-                        Huaming Chen, Senior Lecturer, School of Electrical and Computer Engineering, THE UNIVERSITY OF SYDNEY, Room 409A, J03 | The University of Sydney | NSW | 2006, Email: <a href="mailto:huaming.chen@sydney.edu.au">huaming.chen@sydney.edu.au</a>
+                        Huaming Chen, Senior Lecturer, School of Electrical and Computer Engineering, THE UNIVERSITY OF
+                        SYDNEY, Room 409A, J03 | The University of Sydney | NSW | 2006, Email: <a href="mailto:huaming.chen@sydney.edu.au">
+                        huaming.chen@sydney.edu.au</a>
                     </p>
                 </div>
 

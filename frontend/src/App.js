@@ -36,7 +36,14 @@ function App() {
 
                               <li className="nav-item">
                                   <Link id = "first-workshop" className="nav-link fs-5 glow-text d-flex align-items-center gap-3" to="/workshops">
-                                      <img width={"100px"} height={"50px"} src = {ICDM2025}></img>
+                                      <img  style={{
+                                          filter: `
+                                        drop-shadow(1px 0 0 grey)
+                                        drop-shadow(-1px 0 0 grey)
+                                        drop-shadow(0 1px 0 grey)
+                                        drop-shadow(0 -1px 0 grey)
+                                      `
+                                      }} width={"100px"} height={"50px"} src = {ICDM2025}></img>
                                       ICDM 2025 Workshop: Trust4ML
                                   </Link>
                               </li>
