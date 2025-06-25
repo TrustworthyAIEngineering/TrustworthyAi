@@ -9,8 +9,7 @@
 
 #background{
     width: 100%;
-    min-height: 40vh;
-
+    min-height: 45vh;
 
     background-image: url("../assets/workshopRelated/ICDM_2025_trustworthy_machine_learning_12112025.png");
     background-size: cover;
@@ -19,7 +18,7 @@
     color: whitesmoke;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
 
 
@@ -30,10 +29,11 @@
     width: 100%;
     margin-top: 30px;
     text-align: center;
+
 }
 
 #background p{
-    margin: 2%;
+    text-align: center;
 }
 
 #call{
@@ -42,7 +42,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     padding: 25px;
+
 }
 
 table{

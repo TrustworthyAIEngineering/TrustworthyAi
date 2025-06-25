@@ -4,17 +4,29 @@ import background from "../../assets/workshopRelated/ICDM_2025_trustworthy_machi
 function WsIcdm2025Trust4ml(){
     return(
         <>
-            <div id="whole" className="d-flex flex-column justify-content-start align-items-center mt-lg-5">
+
+
+            <div id="whole" className="d-flex flex-column justify-content-start align-items-center mt-lg-0">
+                <div id = "background">
+                    <h1>Workshop on Trustworthy Machine Learning for Fair, Private, Robust, and Explainable Decision-Making</h1>
+                    <p>Co-located with 25th IEEE International Conference on Data Mining (ICDM 2025)<br></br> November 12, 2025, Washington DC, USA
+                    </p>
+                </div>
+                <div id = "call">
+                    <h3>Call for papers</h3>
+                </div>
+                <br></br>
+
                 <div className="container py-1 pb-5">
-                    <div id = "background">
-                        <h1>Workshop on Trustworthy Machine Learning for Fair, Private, Robust, and Explainable Decision-Making</h1>
-                        <p>Co-located with 25th IEEE International Conference on Data Mining (ICDM 2025)<br></br> November 12, 2025, Washington DC, USA
-                        </p>
-                    </div>
-                    <div id = "call">
-                        <h3>Call for papers</h3>
-                    </div>
-                    <br></br>
+                    {/*<div id = "background">*/}
+                    {/*    <h1>Workshop on Trustworthy Machine Learning for Fair, Private, Robust, and Explainable Decision-Making</h1>*/}
+                    {/*    <p>Co-located with 25th IEEE International Conference on Data Mining (ICDM 2025)<br></br> November 12, 2025, Washington DC, USA*/}
+                    {/*    </p>*/}
+                    {/*</div>*/}
+                    {/*<div id = "call">*/}
+                    {/*    <h3>Call for papers</h3>*/}
+                    {/*</div>*/}
+                    {/*<br></br>*/}
                     <h2 ><strong>Table of Contents</strong></h2>
                     <nav className="toc w-100 w-lg-75">
                         <ul className="list-unstyled mb-0">

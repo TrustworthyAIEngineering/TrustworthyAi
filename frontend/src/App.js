@@ -8,6 +8,7 @@ import Huaming_Chen from "./pages/unique/Huaming_Chen";
 import "./App.css"
 import WsIcdm2025Trust4ml from "./pages/workshops/ws-icdm2025-trust4ml";
 import News from "./pages/News";
+import ICDM2025 from "../src/assets/workshopRelated/icdm2025logosmall.png"
 function App() {
   return (
       <>
@@ -34,7 +35,8 @@ function App() {
                           <ul className="navbar-nav ms-auto d-flex align-items-center">
 
                               <li className="nav-item">
-                                  <Link className="nav-link fs-5 glow-text" to="/workshops">
+                                  <Link id = "first-workshop" className="nav-link fs-5 glow-text d-flex align-items-center gap-3" to="/workshops">
+                                      <img width={"100px"} height={"50px"} src = {ICDM2025}></img>
                                       ICDM 2025 Workshop: Trust4ML
                                   </Link>
                               </li>

@@ -18,6 +18,9 @@ body {
     z-index: 2000;        /* 确保导航栏在最上层 */
     box-shadow: 1px 1px 15px 2px lightgrey;
   }
+  /*#first-workshop {*/
+  /*  font-size: 1px;*/
+  /*}*/
 
   #navbar-div li{
     font-size: large;
@@ -124,10 +127,12 @@ body {
   /* 只给 navbar 下的 <ul> 添加横向间距，而不是所有 ul */
   .navbar ul {
     display: flex;      /* 确保 gap 生效 */
-    gap: 0.5rem;
+    gap: 0.1rem;
   }
 
-
+  /*#first-workshop {*/
+  /*  font-size: 1px;*/
+  /*}*/
   /* 只给 .navbar 中的 .nav-link 改颜色和字体 */
   .navbar .nav-link {
     color: black !important;          /* 强制覆盖 Bootstrap 或其他样式 */
@@ -137,6 +142,11 @@ body {
 }
 
 @media (max-width: 992px) {
+
+  #first-workshop img{
+    display: none;
+  }
+
   #divider{
     display: none;
   }
