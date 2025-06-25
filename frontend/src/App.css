@@ -108,7 +108,7 @@ body {
 
 
 /* 4. 当屏幕为横屏时，针对特定的导航容器（#navbar-div、.navbar）做调整 */
-@media (max-width: 1440px) {
+@media (max-width: 1640px) {
   /* 如果导航最外层有一个 id="navbar-div" 的容器，让它固定在顶部 */
   #navbar-div {
     position: fixed;
@@ -121,13 +121,13 @@ body {
   }
 
   #navbar-div li{
-    font-size: smaller;
+    font-size: 16px;
   }
 
   /* 只给 navbar 下的 <ul> 添加横向间距，而不是所有 ul */
   .navbar ul {
     display: flex;      /* 确保 gap 生效 */
-    gap: 0.1rem;
+    gap: 1rem;
   }
 
   /*#first-workshop {*/
