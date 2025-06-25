@@ -70,8 +70,10 @@ function WsIcdm2025Trust4ml(){
                     {/*<p>Full-day</p>*/}
 
                     <h2 id = "submission"><strong>Submission of papers</strong></h2>
-                    <p>
+                    <p >
                         We invite submissions on covering but not limited to the following topics: <br></br>
+                    </p>
+                    <p style={{fontSize: "smaller"}}>
                         •	Theoretical foundations of trustworthy machine learning, including the role of fairness, interpretability, and transparency in data mining.<br></br>
                         •	Innovative techniques for trustworthy machine learning in data mining, such as trustworthy graph mining and trustworthy federated learning.<br></br>
                         •	Explainable and interpretable data mining to enhance decision traceability and transparency.<br></br>
