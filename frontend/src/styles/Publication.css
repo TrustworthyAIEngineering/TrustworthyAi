@@ -1,0 +1,15 @@
+#whole {
+    background-color: #f0eee6;
+    min-width: 99.5vw;
+    min-height: 100vh;
+    padding-top: 150px;
+    font-size: large;
+}
+
+#colla{
+    background-color: #f0eee6;
+}
+.card-body li{
+    background-color: #f0eee6;
+    font-size: small;
+}

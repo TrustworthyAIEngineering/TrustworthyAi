@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.be866853.css",
-    "main.js": "/static/js/main.7955d931.js",
+    "main.css": "/static/css/main.888421f2.css",
+    "main.js": "/static/js/main.045436e5.js",
     "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
     "static/media/linghan.jpg": "/static/media/linghan.933a950f331d04540d3f.jpg",
     "static/media/ICDM_2025_trustworthy_machine_learning_12112025.png": "/static/media/ICDM_2025_trustworthy_machine_learning_12112025.adf587a3f03e7edfc989.png",
     "static/media/lining.jpg": "/static/media/lining.848190d3d33720f41fda.jpg",
     "static/media/jiawen.jpg": "/static/media/jiawen.68279fd49980ab63534e.jpg",
+    "static/media/linghan_bestpaper.jpg": "/static/media/linghan_bestpaper.9f77247b9f2363038ebf.jpg",
     "static/media/icdm2025logosmall.png": "/static/media/icdm2025logosmall.aaafa44ca89f645ce3f8.png",
     "static/media/taozhao.jpg": "/static/media/taozhao.103da64f88db4ba93911.jpg",
     "static/media/huaming.jpg": "/static/media/huaming.d50eb6df0406b0c6aee5.jpg",
     "static/media/yitian.jpg": "/static/media/yitian.2a939edd28e983694c1e.jpg",
     "static/media/pengyue.jpg": "/static/media/pengyue.b5f1ecbaac1ddbc1351d.jpg",
     "static/media/haolin.jpg": "/static/media/haolin.a21e1bcbcb0f05683f3a.jpg",
+    "static/media/cikm2025.png": "/static/media/cikm2025.c95a7f78562467fc7e78.png",
+    "static/media/slack-usydeiesoftware-members.csv": "/static/media/slack-usydeiesoftware-members.42c440d9b721325a7000.csv",
     "index.html": "/index.html",
-    "main.be866853.css.map": "/static/css/main.be866853.css.map",
-    "main.7955d931.js.map": "/static/js/main.7955d931.js.map",
+    "main.888421f2.css.map": "/static/css/main.888421f2.css.map",
+    "main.045436e5.js.map": "/static/js/main.045436e5.js.map",
     "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be866853.css",
-    "static/js/main.7955d931.js"
+    "static/css/main.888421f2.css",
+    "static/js/main.045436e5.js"
   ]
 }

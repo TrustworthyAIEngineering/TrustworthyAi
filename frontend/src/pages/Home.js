@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
 import {Link} from "react-router-dom";
+import newsList from "./NewsList";
 
 function Home() {
   return (
@@ -35,10 +36,10 @@ function Home() {
                 strive to deploy trustworthy AI systems for real-world impact.
               </p>
             </div>
-            <div className="col-lg-5 d-flex justify-content-end">
-              <div className="small-box me-3"></div>
-              <div className="small-box"></div>
-            </div>
+            {/*<div className="col-lg-5 d-flex justify-content-end">*/}
+            {/*  <div className="small-box me-3"></div>*/}
+            {/*  <div className="small-box"></div>*/}
+            {/*</div>*/}
           </div>
         </div>
 
@@ -46,18 +47,25 @@ function Home() {
         <div className="recent-news px-4">
           <h3 className="section-title mb-4">Recent News</h3>
           <ul className="list-unstyled">
-            <li className="news-item pb-3 mb-3 border-bottom">
-              <span className="news-date">2025-06-01</span> — Our paper “Adversarial
-              Safety Testing in Large LMs” was accepted at NeurIPS.
+
+            {newsList.map((item, index) => (
+                <li className="news-item pb-3 mb-3 border-bottom">
+              <span className="news-date">{item.time}</span> {item.title}
             </li>
-            <li className="news-item pb-3 mb-3 border-bottom">
-              <span className="news-date">2025-05-20</span> — Awarded USyd research
-              grant for “Multimodal Adversarial Attack & Defense” project.
-            </li>
-            <li className="news-item pb-3">
-              <span className="news-date">2025-04-15</span> — Presented at ICSE
-              “Empirical Study of LLM-based Fuzzing on MOJO Dataset”.
-            </li>
+
+            ))}
+            {/*<li className="news-item pb-3 mb-3 border-bottom">*/}
+            {/*  <span className="news-date">2025-06-01</span> — Our paper “Adversarial*/}
+            {/*  Safety Testing in Large LMs” was accepted at NeurIPS.*/}
+            {/*</li>*/}
+            {/*<li className="news-item pb-3 mb-3 border-bottom">*/}
+            {/*  <span className="news-date">2025-05-20</span> — Awarded USyd research*/}
+            {/*  grant for “Multimodal Adversarial Attack & Defense” project.*/}
+            {/*</li>*/}
+            {/*<li className="news-item pb-3">*/}
+            {/*  <span className="news-date">2025-04-15</span> — Presented at ICSE*/}
+            {/*  “Empirical Study of LLM-based Fuzzing on MOJO Dataset”.*/}
+            {/*</li>*/}
           </ul>
         </div>
       </div>

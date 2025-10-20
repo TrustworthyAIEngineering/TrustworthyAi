@@ -104,6 +104,7 @@ function WsIcdm2025Trust4ml(){
                     </p>
                     <p><strong>ICDM Submission Site: </strong><a target={"_blank"} href = "https://wi-lab.com/cyberchair/2025/icdm25/scripts/submit.php?subarea=S06&undisplay_detail=1&wh=/cyberchair/2025/icdm25/scripts/ws_submit.php">
                         Trust4ML-ICDM Submission Portal</a></p>
+                    <p> <u>Accepted papers will be included in the ICDM Workshop Proceedings (separate from ICDM Main Conference Proceedings), and each workshop paper requires a full registration. Meanwhile, duplicate submissions of the same paper to more than one ICDM workshop are forbidden.</u></p>
 
                     <h2 id = "important-dates"><strong>Important dates</strong></h2>
                     <div style={{textAlign:"center"}}>
@@ -111,15 +112,15 @@ function WsIcdm2025Trust4ml(){
                             <tbody>
                                 <tr>
                                     <td>Paper Submission:</td>
-                                    <td>Aug 31, 2025 AoE</td>
+                                    <td>Aug 29, 2025 AoE</td>
                                 </tr>
                                 <tr>
                                     <td>Notification to Authors:</td>
-                                    <td>Sep 10, 2025 AoE</td>
+                                    <td>Sep 18, 2025 AoE</td>
                                 </tr>
                                 <tr>
                                     <td>Camera-ready:</td>
-                                    <td>Sep 17, 2025 AoE</td>
+                                    <td>Sep 25, 2025 AoE</td>
                                 </tr>
                                 <tr>
                                     <td>Workshop Date:</td>
