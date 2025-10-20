@@ -68,6 +68,7 @@ function Publications() {
     ];
 
     useEffect(( () => {
+        console.log(API_BASE)
      fetch(`${API_BASE}/api/items`)
         .then(async r => {
             const json = await r.json();       // 关键：解析 JSON
