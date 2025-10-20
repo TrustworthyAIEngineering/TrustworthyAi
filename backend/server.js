@@ -35,4 +35,5 @@ app.get("/api/items", async (req, res) => {
 app.get("/health", (_req, res) => res.send("ok"));
 
 const port = process.env.PORT || 3001;
-app.listen(port, () => console.log(`API http://localhost:${port}`));
+console.log("Port: ",port)
+app.listen(port, () => console.log(`Listening to http://localhost:${port}`));

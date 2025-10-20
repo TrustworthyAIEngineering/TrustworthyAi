@@ -67,7 +67,7 @@ function Publications() {
     ];
 
     useEffect(( () => {
-     fetch("https://trustworthy-ai.com.au/api/items")
+     fetch("http://localhost:10000/api/items")
         .then(async r => {
             const json = await r.json();       // 关键：解析 JSON
             console.log("items:", json);         // 现在能看到集合里的具体值
