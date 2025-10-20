@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import "../styles/Publication.css"
 import hm_c_avatar from "../assets/general/huaming.jpg"
 import {get_huaming_chen} from "./FetchPublication/all";
+import {API_BASE} from "./config";
 
 
 
@@ -67,7 +68,7 @@ function Publications() {
     ];
 
     useEffect(( () => {
-     fetch(`http://localhost:3001/api/items`)
+     fetch(`${API_BASE}/api/items`)
         .then(async r => {
             const json = await r.json();       // 关键：解析 JSON
             console.log("items:", json);         // 现在能看到集合里的具体值
