@@ -1,0 +1,12 @@
+/frontend/.env
+/backend/.env
+/frontend/node_modules
+/backend/node_modules
+
+# 忽略“根目录”的 .env（不会影响子目录）
+/.env
+
+# 常见杂项
+.DS_Store
+Thumbs.db
+*.log
