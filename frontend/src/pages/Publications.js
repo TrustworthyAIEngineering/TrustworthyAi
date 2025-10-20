@@ -68,19 +68,16 @@ function Publications() {
     ];
 
     useEffect(( () => {
-        console.log(API_BASE)
-     fetch(`${API_BASE}/api/items`)
+        // console.log(API_BASE)
+     fetch(`${API_BASE}/api/users`)
         .then(async r => {
-            const json = await r.json();       // 关键：解析 JSON
-            console.log("items:", json);         // 现在能看到集合里的具体值
+            const json = await r.json();
+            console.log("Users:", json);         // 现在能看到集合里的具体值
         })
         .catch(console.error);
-    }))
+    }),[])
 
     useEffect(() => {
-
-
-
         let alive = true;
         (async () => {
             try {
