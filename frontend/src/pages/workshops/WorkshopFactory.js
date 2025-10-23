@@ -6,7 +6,7 @@ import Workshop_template_1 from "./templates/Workshop_template_1";
 import { API_BASE } from "../config";
 import { useParams } from "react-router-dom";
 import "../../styles/WorkshopFactory.css"
-const TIMEOUT_MS = 12000;
+import {TIMEOUT_MS} from "../config"
 
 export default function WorkshopFactory() {
     const { _destination_id } = useParams();

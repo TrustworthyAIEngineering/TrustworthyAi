@@ -8,3 +8,5 @@ export const API_BASE =
 export const EVENT_TYPE_URL_PREFIX_MAPPING = {
     "workshop": "/events/workshops/"
 }
+
+export const TIMEOUT_MS = 25 * 1000;

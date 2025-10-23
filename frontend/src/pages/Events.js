@@ -2,14 +2,13 @@ import React, { useEffect, useState, useCallback } from "react";
 import {API_BASE, EVENT_TYPE_URL_PREFIX_MAPPING} from "./config";
 import "../styles/Events.css"
 import { useNavigate } from "react-router-dom";
-
+import {TIMEOUT_MS} from "./config"
 
 function Events() {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [err, setErr] = useState(null);
     const navigate = useNavigate();
-    const TIMEOUT_MS = 12000;
 
     const load = useCallback(async () => {
         setLoading(true);
