@@ -1,26 +1,30 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
 
+const conns = {}; // { Events: Db, User: Db }
+let client;
 
-
-let col;
-
-export async function initDB() {
-    const client = new MongoClient(process.env.MONGODB_URI, {
+export async function initDBs({
+                                  uri = process.env.MONGODB_URI,
+                                  dbNames = ["Events", "User"],
+                              } = {}) {
+    client = new MongoClient(uri, {
         serverApi: { version: ServerApiVersion.v1, strict: true, deprecationErrors: true },
     });
-    try {
-        await client.connect();
-
-        const db = client.db(process.env.DB_NAME);
-        col = db.collection(process.env.COLL_NAME);
-        console.log("Mongo connected");
-    } catch (err) {
-        console.error("Mongo connect failed:", err);
-        process.exit(1);
-    }
+    await client.connect();
+    for (const name of dbNames) conns[name] = client.db(name);
+    console.log(`Mongo connected. DBs: ${dbNames.join(", ")}`);
 }
 
-export function getCol() {
-    if (!col) throw new Error("DB not initialized");
-    return col;
+export function getDb(name) {
+    const db = conns[name];
+    if (!db) throw new Error(`DB not initialized: ${name}`);
+    return db;
+}
+
+export function getCollection(dbName, collName) {
+    return getDb(dbName).collection(collName);
+}
+
+export async function closeAll() {
+    if (client) await client.close();
 }

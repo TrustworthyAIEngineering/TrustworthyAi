@@ -1,0 +1,58 @@
+{
+  "wid":"ws-icdm2025-trust4ml",
+  "hero": {
+    "title": "Workshop on Trustworthy Machine Learning for Fair, Private, Robust, and Explainable Decision-Making",
+    "subtitle": "Co-located with 25th IEEE International Conference on Data Mining (ICDM 2025)",
+    "datePlace": "November 12, 2025, Washington DC, USA"
+  },
+  "toc": [
+    { "id": "introduction", "label": "Introduction" },
+    { "id": "submission", "label": "Submission of papers" },
+    { "id": "important-dates", "label": "Important dates" },
+    { "id": "organizers", "label": "Organizers" },
+    { "id": "contact", "label": "Contact Us" }
+  ],
+  "sections": {
+    "introduction": "The increasing reliance on data mining techniques in critical decision-making systems has brought remarkable benefits across various domains, including finance, healthcare, cybersecurity, e-commerce, social networks,\nand scientific discovery. Data mining enables organizations to extract valuable insights from vast amounts\nof structured and unstructured data, driving innovations and improving decision-making.\nHowever, as data mining technologies become more sophisticated and widespread, concerns regarding their security,\nfairness, interpretability, and robustness are rising. The lack of transparency, bias in decision-making,\nvulnerability to adversarial attacks, and privacy risks are major challenges that hinder the responsible\ndeployment of data mining solutions in real-world applications. Trustworthy machine learning is emerging\nas a critical area of research aimed at ensuring that data mining models and algorithms adhere to principles\nof fairness, explainability, privacy preservation, robustness, and security. As organizations and individuals\nincreasingly depend on automated data-driven decisions, the need for reliable and responsible data mining methodologies\nhas become essential. This workshop seeks to bridge the gap between data mining advancements and trustworthy AI, bringing\ntogether researchers and practitioners to discuss the latest developments, theoretical foundations, and practical applications\nof trustworthy data science. This workshop will focus on exploring the core principles, methodologies, and real-world applications\nof trustworthy machine learning. Through technical discussions and knowledge exchange, we aim to advance responsible data\nmining practices that align with societal and ethical expectations.",
+    "submissionIntro": "We invite submissions on covering but not limited to the following topics:",
+    "submissionTopics": ["Theoretical foundations of trustworthy machine learning, including the role of fairness, interpretability, and transparency in data mining.", "Innovative techniques for trustworthy machine learning in data mining, such as trustworthy graph mining and trustworthy federated learning.","Explainable and interpretable data mining to enhance decision traceability and transparency.","Privacy-preserving data mining, exploring techniques such as differential privacy, federated learning, and secure multi-party computation.","Adversarial robustness in data mining models to improve resilience against adversarial attacks.","Applications of trustworthy machine learning in finance, healthcare, cybersecurity, and social sciences.","Future challenges in trustworthy machine learning, including data quality, ethical considerations, compliance, and responsible data governance."],
+    "submissionDetails": "We invite regular research paper submissions of maximum <strong>10 pages</strong>, including all content and references. Submissions must be in PDF and formatted according to ICDM. Accepted papers will be included in ICDM proceedings. Selected best papers will be recommended for publication at international journal, after further extensions and revisions.",
+    "submissionLinks": {
+      "icdmGuidelines": "https://www3.cs.stonybrook.edu/~icdm2025/cfp.html",
+      "portal": "https://wi-lab.com/cyberchair/2025/icdm25/scripts/submit.php?subarea=S06&undisplay_detail=1&wh=/cyberchair/2025/icdm25/scripts/ws_submit.php"
+    },
+    "policyNote": "Accepted papers will be included in the ICDM Workshop Proceedings (separate from ICDM Main Conference Proceedings), and each workshop paper requires a full registration. Meanwhile, duplicate submissions of the same paper to more than one ICDM workshop are forbidden.",
+    "importantDates": [
+      { "label": "Paper Submission:", "value": "Aug 29, 2025 AoE" },
+      { "label": "Notification to Authors:", "value": "Sep 18, 2025 AoE" },
+      { "label": "Camera-ready:", "value": "Sep 25, 2025 AoE" },
+      { "label": "Workshop Date:", "value": "Nov 12, 2025 AoE" }
+    ],
+    "organizers": ["Huaming Chen (USYD)", "Na Zou (University of Houston)", "Yang Cao (Science Tokyo) ","Ling Chen (University of Technology Sydney)"],
+    "contact": {
+      "name": "Huaming Chen",
+      "title": "Senior Lecturer, School of Electrical and Computer Engineering",
+      "orgLine": "THE UNIVERSITY OF SYDNEY",
+      "address": "Room 409A, J03 | The University of Sydney | NSW | 2006",
+      "email": "huaming.chen@sydney.edu.au"
+    },
+    "paperlist": [
+      "Fanyu Meng, Ziwen Kan, Shahbaz Rezaei, Zhaodan Kong, Xin Chen, and Xin Liu, Implet: A Post-hoc Subsequence Explainer for Time Series Models",
+      "Sonal Prabhune, Balaji Padmanabhan, and Kaushik Dutta, Measuring and Mitigating Gender Entropy Bias in Large Language Models",
+      "Pernille Matthews, Tommaso Amico, Arthur Zimek, and Ira Assent, DualEx: Dual-Space Clustering for Regional Explanations",
+      "Sebastian Szelest, Marek Pawlicki, Ryszard Choraś, Rafał Kozik, and Michał Choraś, SHAP analyses in feature-based and principal component-based model",
+      "SifEddine Sellami, Juba Agoun, Louenas Bounia, Lamia Yessad, and Auday Berro, Explainable Profiling of Sleep Disorders to Support Trustworthy Clinical Interventions",
+      "Safayat Bin Hakim and Houbing Herbert Song, Synergizing Dynamic Symbolic Rules and Few-Shot Learning for Discrete Reasoning in Hybrid QA",
+      "Zhaoyang Wang, Guangshun Li, Junhua Wu, and Xiaoshan Cui, A Federated Meta-Learning Approach for Transactional Risk Behavior Identification",
+      "Ivan Malashin, Vadim Tynchenko, and Alexey Borodulin, TabuSDE: Diffusion Probabilistic Modeling for Tabular Data Generation and Imputation",
+      "Mary Grace Kozuch, Yan Zhou, and Murat Kantarcioglu, WHETSTONE: Honing Synthetic Data for Improved Downstream Fairness and Utility",
+      "Jinghao Xu, Zhen Wang, Yu Wang, and Wen Zhao, Large Language Models Enhanced Document-level Relationship Extraction based on Logic Rules",
+      "Yongsheng Yang, Zhenke Duan, Jiqun Pan, Xin Li, and Zheyu Tan, Less is More: Counterfactual NL Data Augmentation with Trust Agentic Generative Adversarial Networks",
+      "Minh Vu, Ben Nebgen, Erik Skau, Geigh Zollicoffer, Juan Castorena, Kim Rasmussen, Boian Alexandrov, and Manish Bhattarai, LaFA: Latent Feature Attacks on Non-negative Matrix Factorization",
+      "Cristiano Landi, Alessio Cascione, and Riccardo Guidotti, Interpretable and Accurate Hybrid Decision Trees with Selective Case-Based Splits",
+      "Xinyu Qin, Siyi Li, Yiyu Cai, and Lu Wang, Enhancing Counterfactual Explanations with Feasibility and Diversity",
+      "Dong Liu and Yanxuan Yu, A Data-Centric Safety Framework for Generative Models: Adversarial Fingerprint Detection and Attribution",
+      "Guojun Tang, Mohammad Mamun, Jiayu Zhou, and Steve Drew, Lightweight and Robust Federated Data Valuation"
+    ]
+  }
+}

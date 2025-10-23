@@ -1,0 +1,39 @@
+#whole {
+    background-color: #f0eee6;
+    min-width: 99.5vw;
+    min-height: 100vh;
+    padding: 100px 0 60px;
+    font-size: large;
+}
+#whole .events-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+    text-align: center;
+}
+.events-title {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 8px;
+}
+.events-subtitle {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 24px;
+}
+.events-underline {
+    width: 1200px;
+    height: 1.5px;
+    background-color: gray;
+    margin: 0 auto 40px;
+    border-radius: 2px;
+}
+
+#loading {
+    background-color: #f0eee6;
+}
+#fail{
+    background-color: #f0eee6;
+}
+

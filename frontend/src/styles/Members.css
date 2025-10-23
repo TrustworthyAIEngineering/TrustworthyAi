@@ -64,7 +64,7 @@
 .member-card {
   width: 240px;
   height: 350px;               /* 新增：固定高度 */
-  background:  #44362F;
+  background:  whitesmoke;
 
   /*border-radius: 12px;*/
   overflow: hidden;
@@ -95,12 +95,12 @@
 .member-name {
   font-size: 1.1rem;
   font-weight: 600;
-  color: whitesmoke;
+  color: black;
   margin-bottom: 4px;
 }
 .member-dir {
   font-size: 0.95rem;
-  color: whitesmoke;
+  color: black;
   line-height: 1.4;
 }
 

@@ -86,7 +86,7 @@ export default function Members() {
   }, []);
 
   return (
-      <div className="members-page mt-lg-5 min-vh-100 w-100">
+      <div className="members-page mt-lg-3 min-vh-100 w-100">
         <div className="members-container">
           <h1 className="members-title">USYD Trustworthy AI Team</h1>
           <p className="members-subtitle">Infinitely progressing</p>

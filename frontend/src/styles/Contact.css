@@ -1,0 +1,50 @@
+#whole {
+    background-color: #f0eee6;
+    min-width: 99.5vw;
+    min-height: 100vh;
+    padding: 100px 0 60px;
+    font-size: large;
+}
+
+/* Black & White card */
+.bw-card {
+    width: min(900px, 92vw);
+    background: whitesmoke;
+
+    box-shadow: 0 6px 16px rgba(0,0,0,.12);
+
+    padding: 22px;
+}
+
+.bw-form { color: #000; }
+.bw-label { font-weight: 600; margin-bottom: 6px; display: block; }
+
+.bw-input,
+.bw-textarea {
+    width: 100%;
+    background: white;
+    color: #000;
+    border: 1px solid lightgrey;
+    border-radius: 0px;
+    padding: 10px 12px;
+    outline: none;
+    transition: box-shadow .15s ease, border-color .15s ease;
+}
+
+.bw-input:focus,
+.bw-textarea:focus {
+    border-color: #000;
+    box-shadow: 0 0 0 3px rgba(0,0,0,.15);
+}
+
+.bw-button {
+    background: #000;
+    color: #fff;
+    border: 1.5px solid #000;
+    border-radius: 999px;
+    padding: 8px 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.bw-button:hover { filter: brightness(1.05); }
+

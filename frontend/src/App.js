@@ -6,9 +6,11 @@ import Publications from "./pages/Publications";
 import Contact from "./pages/Contact";
 import Huaming_Chen from "./pages/unique/Huaming_Chen";
 import "./App.css"
-import WsIcdm2025Trust4ml from "./pages/workshops/ws-icdm2025-trust4ml";
+import WorkshopFactory from "./pages/workshops/WorkshopFactory";
+import Workshop_template_1 from "./pages/workshops/templates/Workshop_template_1";
 import News from "./pages/News";
 import ICDM2025 from "../src/assets/workshopRelated/icdm2025logosmall.png"
+import Events from "./pages/Events";
 function App() {
   return (
       <>
@@ -34,28 +36,40 @@ function App() {
                       <div className="collapse navbar-collapse" id="navbarNav">
                           <ul className="navbar-nav ms-auto d-flex align-items-center">
 
-                              <li className="nav-item">
-                                  <Link id = "first-workshop" className="nav-link fs-5 glow-text d-flex align-items-center gap-3" to="/workshops">
-                                      <img  style={{
-                                          filter: `
-                                        drop-shadow(1px 0 0 grey)
-                                        drop-shadow(-1px 0 0 grey)
-                                        drop-shadow(0 1px 0 grey)
-                                        drop-shadow(0 -1px 0 grey)
-                                      `
-                                      }} width={"100px"} height={"50px"} src = {ICDM2025}></img>
-                                      ICDM 2025 Workshop: Trust4ML
+                              {/* Hover dropdown */}
+                              <li className="nav-item dropdown position-relative">
+                                  {/* 主链接：始终能点击导航 */}
+                                  <Link className="nav-link dropdown-anchor" to="/home">
+                                      USYD Trustworthy AI Team
                                   </Link>
+
+                                  {/* 下拉菜单 */}
+                                  <ul className="dropdown-menu">
+                                      <li><Link className="dropdown-item" to="/members"><strong>Members</strong></Link></li>
+                                      <li><Link className="dropdown-item" to="/publications"><strong>Publications</strong></Link></li>
+                                      <li><Link className="dropdown-item" to="/research"><strong>Research</strong></Link></li>
+                                  </ul>
                               </li>
 
+                              {/*<li className="nav-item dropdown position-relative">*/}
+                              {/*    /!* 主链接：始终能点击导航 *!/*/}
+                              {/*    <Link className="nav-link dropdown-anchor" >*/}
+                              {/*        Posts*/}
+                              {/*    </Link>*/}
 
-                              <li id = "divider" className="nav-item border-start border-black mx-2" style={{ height: '50px' }}></li>
-                              <li className="nav-item"><Link className="nav-link" to="/home">USYD Trustworthy AI Team</Link></li>
-                              <li className="nav-item"><Link className="nav-link" to="/news">News</Link></li>
-                              <li className="nav-item"><Link className="nav-link" to="/members">Members</Link></li>
-                              <li className="nav-item"><Link className="nav-link" to="/research">Research</Link></li>
-                              <li className="nav-item"><Link className="nav-link" to="/publications">Publications</Link></li>
-                              <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
+                              {/*    /!* 下拉菜单 *!/*/}
+                              {/*    <ul className="dropdown-menu">*/}
+                              {/*        <li><Link className="dropdown-item" to="/events"><strong>Events</strong></Link></li>*/}
+                              {/*        <li><Link className="dropdown-item" to="/news"><strong>News</strong></Link></li>*/}
+
+                              {/*    </ul>*/}
+                              {/*</li>*/}
+
+
+
+                              <li className="nav-item"><Link className="nav-link" to="/events">Events</Link></li>
+                              <li className="nav-item"><Link className="nav-link" to="/news">Blogs</Link></li>
+                              <li className="nav-item"><Link className="nav-link" to="/contact">Contact Us</Link></li>
                           </ul>
                       </div>
                   </nav>
@@ -64,17 +78,22 @@ function App() {
 
 
               <Routes>
-                <Route path="/home" element={<Home />} />
-                <Route path="/members" element={<Members />} />
+                  <Route path="/home" element={<Home />} />
+                  <Route path="/members" element={<Members />} />
 
-                <Route path={"/"} element={<WsIcdm2025Trust4ml />} />
-                <Route path={"/workshops"} element={<WsIcdm2025Trust4ml />} />
+                  <Route path={"/"} element={<Home />} />
+                  <Route path={"/events"} element={<Events />} />
+                  <Route path="/events/workshops/:_destination_id" element={<WorkshopFactory />} />
 
-                <Route path="/news" element={<News />} />
-                <Route path="/research" element={<Research />} />
-                <Route path="/publications" element={<Publications />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/members/huaming-chen" element={<Huaming_Chen />} />
+
+
+                  {/*<Route path={"/workshops"} element={<WorkshopFactory />} />*/}
+                  <Route path="/news" element={<News />} />
+                  <Route path="/research" element={<Research />} />
+                  <Route path="/publications" element={<Publications />} />
+                  <Route path="/contact" element={<Contact />} />
+                  <Route path="/members/huaming-chen" element={<Huaming_Chen />} />
+
               </Routes>
           {/*</Router>*/}
 

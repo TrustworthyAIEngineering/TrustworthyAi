@@ -1,12 +1,12 @@
-import { getCol } from "../../db.js";
+import { getCollection } from "../../db.js";
 
 export async function listUsers(_req, res) {
     try {
-        const users = await getCol()
-            .find({}, { projection: { /* 按需投影 */ } })
+        const users = getCollection("User", "users");
+        const results = await users.find({}, { projection: { /* 按需投影 */ } })
             .toArray();
         // console.log("users", users)
-        res.json(users);
+        res.json(results);
     } catch (e) {
         res.status(500).json({ error: e.message });
     }
