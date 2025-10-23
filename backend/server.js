@@ -7,9 +7,14 @@ import {getAllEvents, loadWorkshopContent} from "./src/controllers/eventControll
 import cron from "node-cron";
 import axios from "axios";
 
+
+          // 本地默认
+
 config();
 const app = express();
 const isProd = process.env.NODE_ENV === "production";
+
+export const API_BASE = isProd? "https://trustworthyai-5avd.onrender.com":"http://localhost:8000";
 
 app.use(cors({
     origin: isProd ? (process.env.ALLOW_ORIGIN || "").split(",") : true,
@@ -34,21 +39,12 @@ app.listen(port, "0.0.0.0", () => {
     console.log(`Server started on port ${port} (${isProd ? "prod" : "dev"})`);
 });
 
-// cron.schedule("*/14 * * * *", async () => {
-//     try {
-//         await axios.get("https://trustworthyai-5avd.onrender.com/api/healthcheck"); // 换成你后端真实地址
-//         console.log("Healthcheck pinged");
-//     } catch (err) {
-//         console.error("Healthcheck failed:", err.message);
-//     }
-//
-//     // 多出的 30 秒用 setTimeout 补充
-//     setTimeout(async () => {
-//         try {
-//             await axios.get("https://trustworthyai-5avd.onrender.com/api/healthcheck");
-//             console.log("Healthcheck pinged (14.5min)");
-//         } catch (err) {
-//             console.error("Healthcheck failed:", err.message);
-//         }
-//     }, 30 * 1000);
-// });
+cron.schedule("*/14 * * * *", async () => {
+    try {
+        await axios.get(`${API_BASE}/api/healthcheck`); // 换成你后端真实地址
+        console.log("Healthcheck pinged");
+    } catch (err) {
+        console.error("Healthcheck failed:", err.message);
+    }
+
+});
