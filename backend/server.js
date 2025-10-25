@@ -40,7 +40,7 @@ app.listen(port, "0.0.0.0", () => {
 });
 let check_times = 0;
 const date = new Date()
-cron.schedule("*/1 * * * *", async () => {
+cron.schedule("*/14 * * * *", async () => {
     try {
         await axios.get(`${API_BASE}/api/healthcheck`);
         check_times += 1;
