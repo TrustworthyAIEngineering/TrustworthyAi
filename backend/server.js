@@ -39,17 +39,17 @@ app.listen(port, "0.0.0.0", () => {
     console.log(`Server started on port ${port} (${isProd ? "prod" : "dev"})`);
 });
 let check_times = 0;
-const date = new Date()
-cron.schedule("*/14 * * * *", async () => {
+const date = new Date();
+
+cron.schedule("*/1 * * * *", async () => {
     try {
         await axios.get(`${API_BASE}/api/healthcheck`);
         check_times += 1;
-        process.stdout.clearLine(0);
-        process.stdout.cursorTo(0);
-        process.stdout.write(`Healthcheck pinged (${check_times}) since ${date}`);
-
+        if (check_times === 1){
+            console.log("Initial health check has been done at ",date.toISOString())
+        }else if (check_times % 15 === 0)
+            console.log(`Healthcheck pinged (${check_times}) since ${date.toISOString()}`);
     } catch (err) {
         console.error("Healthcheck failed:", err.message);
     }
-
 });
