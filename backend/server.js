@@ -38,11 +38,16 @@ app.set("trust proxy", 1);
 app.listen(port, "0.0.0.0", () => {
     console.log(`Server started on port ${port} (${isProd ? "prod" : "dev"})`);
 });
-
-cron.schedule("*/14 * * * *", async () => {
+let check_times = 0;
+const date = new Date()
+cron.schedule("*/1 * * * *", async () => {
     try {
-        await axios.get(`${API_BASE}/api/healthcheck`); // 换成你后端真实地址
-        console.log("Healthcheck pinged");
+        await axios.get(`${API_BASE}/api/healthcheck`);
+        check_times += 1;
+        process.stdout.clearLine(0);
+        process.stdout.cursorTo(0);
+        process.stdout.write(`Healthcheck pinged (${check_times}) since ${date}`);
+
     } catch (err) {
         console.error("Healthcheck failed:", err.message);
     }
