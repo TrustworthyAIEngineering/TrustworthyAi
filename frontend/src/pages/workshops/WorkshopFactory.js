@@ -8,11 +8,15 @@ import { useParams } from "react-router-dom";
 import "../../styles/WorkshopFactory.css"
 import {TIMEOUT_MS} from "../config"
 
-export default function WorkshopFactory() {
-    const { _destination_id } = useParams();
+export default function WorkshopFactory({_predefinedDestinationId}) {
+    let { _destination_id } = useParams();
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [err, setErr] = useState(null);
+
+    if (_destination_id == null) {
+        _destination_id = _predefinedDestinationId;
+    }
 
     const load = useCallback(async () => {
         setLoading(true);

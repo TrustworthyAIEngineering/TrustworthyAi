@@ -2,7 +2,7 @@ import { getCollection } from "../../db.js";
 
 export async function listUsers(_req, res) {
     try {
-        const users = getCollection("User", "users");
+        const users = getCollection("Users", "users");
         const results = await users.find({}, { projection: { /* 按需投影 */ } })
             .toArray();
         // console.log("users", users)

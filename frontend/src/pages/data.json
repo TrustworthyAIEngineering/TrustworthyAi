@@ -1,0 +1,108 @@
+{
+  "sections": [
+    {
+      "prefixClass": "hero-section",
+      "role": "heroSection",
+      "children": [
+        {
+          "tag": "div",
+          "prefixClass": "hero-content",
+          "children": [
+            {
+              "tag": "h1",
+              "prefixClass": "hero-title",
+              "text": "Forget About Bureaucracy, Just Accomplish The Mission"
+            },
+            {
+              "tag": "p",
+              "prefixClass": "hero-subtitle",
+              "html": "Welcome to <strong>USYD Trustworthy AI and Data Science Team</strong>"
+            },
+            {
+              "tag":"div",
+              "prefixClass": "d-flex flex-row justify-content-start align-items-start",
+              "children": [
+              {
+                "tag": "p",
+                "prefixClass": "hero-subtitle",
+                "html": "<h2>We are currently hosting the TrustML Workshop at <strong>ICDM 2025!</strong></h2>"
+              },
+            
+              {
+                "tag": "Link",
+                "prefixClass": "btn btn-success ms-3",
+                "to": "/events/workshops/68f9966fbf19cc8467eb37b7",
+                "text": "Click here to learn more!"
+              }
+            ]}
+          ]
+        },
+        {"tag":"div",
+          "prefixClass": "d-flex flex-row justify-content-center align-items-center",
+        "children": [
+          {
+            "tag": "Link",
+            "prefixClass": "btn btn-dark me-xxl-4",
+            "to": "/research",
+            "text": "Explore Our Work"
+          },
+          {
+            "tag": "Link",
+            "prefixClass": "btn btn-dark",
+            "to": "/members",
+            "text": "Our Members"
+          }
+        ]}
+
+      ]
+    },
+
+    {
+      "prefixClass": "info-section",
+      "children": [
+        {
+          "tag": "div",
+          "role": "teamIntroBox",
+          "prefixClass": "team-intro",
+          "children": [
+            {
+              "tag": "div",
+              "role": "rowLayout",
+              "prefixClass": "row",
+              "children": [
+                {
+                  "tag": "div",
+                  "prefixClass": "col-lg-7",
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "role": "sectionTitle",
+                      "prefixClass": "section-title mb-3",
+                      "text": "Our Team"
+                    },
+                    {
+                      "tag": "p",
+                      "role": "sectionText",
+                      "text": "We are a multidisciplinary research group at the University of Sydney, focusing on safety evaluation, adversarial testing, vulnerability discovery, and interpretability of large-scale models. Our members come from top labs globally. Together, we strive to deploy trustworthy AI systems for real-world impact."
+                    },
+                    {
+                      "tag": "h2",
+                      "role": "sectionTitle",
+                      "prefixClass": "section-title",
+                      "text": "What is Trustworthy AI?"
+                    },
+                    {
+                      "tag": "p",
+                      "role": "sectionText",
+                      "text": "Trustworthy AI is an approach to designing and deploying artificial intelligence systems that are technically reliable, ethically sound, and socially accountable. It emphasizes building AI that performs accurately and securely under uncertainty, aligns with human values such as fairness, transparency, and privacy, and operates under clear governance with human oversight and responsibility. The goal is to ensure that AI technologies can be trusted by users and society by integrating robustness, ethics, and accountability throughout their entire life cycle—from development to real-world application."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

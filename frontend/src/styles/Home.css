@@ -1,50 +1,27 @@
-/* ============== 全局基础 ============== */
-.home-page {
+
+.hero-section {
+  background-color: #f0eee6;
+  text-align: center;
+  height: 70vh;
+  z-index: 1500;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  /* background-color: #f5f5f5; */
-  color: #222222;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-a {
-  text-decoration: none;
-  transition: color 0.2s ease-in-out;
-}
-a:hover {
-  color: #1e90ff;
-}
-
-
-
-/* ============== 2. 展示栏 (Hero) ============== */
-.hero-section {
-  /* 之前的 */
-  /* background-image: url("../assets/9.webp");
-  新增：强制铺满且居中 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
-
-  /* 以下保留你已有的 */
-  background-color: #f0eee6;
-  padding: 100px 20px;
-  text-align: center;
-  height: 100vh;
-  z-index: 1500;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .hero-content {
-  max-width: 800px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 50vw;
+
 }
 .hero-title {
-  font-size: 2.75rem;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: 1.2;
-  color: #111111;
   margin-bottom: 1rem;
 }
 @media (min-width: 992px) {
@@ -75,14 +52,14 @@ a:hover {
   border-color: #187bcd;
 }
 
-/* ============== 3. 信息区 ============== */
+/* ============== 信息区 ============== */
 .info-section {
   flex: 1;
   background-color: #f0eee6;
   padding: 60px 20px;
 }
 
-/* —— 3.1 团队介绍板块 —— */
+/* —— 团队介绍板块 —— */
 .team-intro {
   background-color: #f0eee6;
   padding: 40px 20px;

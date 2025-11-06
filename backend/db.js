@@ -5,7 +5,7 @@ let client;
 
 export async function initDBs({
                                   uri = process.env.MONGODB_URI,
-                                  dbNames = ["Events", "User"],
+                                  dbNames = ["Events", "Users"],
                               } = {}) {
     client = new MongoClient(uri, {
         serverApi: { version: ServerApiVersion.v1, strict: true, deprecationErrors: true },

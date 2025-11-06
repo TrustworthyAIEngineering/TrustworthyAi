@@ -12,8 +12,9 @@ import axios from "axios";
 
 config();
 const app = express();
-const isProd = process.env.NODE_ENV === "production";
 
+const isProd = process.env.NODE_ENV === "production";
+const port = (isProd ? process.env.PORT : 8000) || 8000;
 export const API_BASE = isProd? "https://trustworthyai-5avd.onrender.com":"http://localhost:8000";
 
 app.use(cors({
@@ -29,11 +30,8 @@ app.get("/api/healthcheck", (req, res) => {
     res.status(200).send("OK");
 });
 
-app.get("/api/users", listUsers);
 app.get("/api/workshops/:_destination_id", loadWorkshopContent);
 app.get("/api/events/all",getAllEvents)
-
-const port = (isProd ? process.env.PORT : 8000) || 8000;
 app.set("trust proxy", 1);
 app.listen(port, "0.0.0.0", () => {
     console.log(`Server started on port ${port} (${isProd ? "prod" : "dev"})`);
@@ -41,13 +39,13 @@ app.listen(port, "0.0.0.0", () => {
 let check_times = 0;
 const date = new Date();
 
-cron.schedule("*/1 * * * *", async () => {
+cron.schedule("*/14 * * * *", async () => {
     try {
         await axios.get(`${API_BASE}/api/healthcheck`);
         check_times += 1;
         if (check_times === 1){
             console.log("Initial health check has been done at ",date.toISOString())
-        }else if (check_times % 15 === 0)
+        }else if (check_times % 140 === 0)
             console.log(`Healthcheck pinged (${check_times}) since ${date.toISOString()}`);
     } catch (err) {
         console.error("Healthcheck failed:", err.message);

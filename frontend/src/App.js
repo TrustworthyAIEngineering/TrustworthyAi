@@ -8,7 +8,7 @@ import Huaming_Chen from "./pages/unique/Huaming_Chen";
 import "./App.css"
 import WorkshopFactory from "./pages/workshops/WorkshopFactory";
 import Workshop_template_1 from "./pages/workshops/templates/Workshop_template_1";
-import News from "./pages/News";
+import Blogs from "./pages/Blogs";
 import ICDM2025 from "../src/assets/workshopRelated/icdm2025logosmall.png"
 import Events from "./pages/Events";
 function App() {
@@ -45,9 +45,10 @@ function App() {
 
                                   {/* 下拉菜单 */}
                                   <ul className="dropdown-menu">
+                                      <li><Link className="dropdown-item" to="/home"><strong>Home</strong></Link></li>
                                       <li><Link className="dropdown-item" to="/members"><strong>Members</strong></Link></li>
                                       <li><Link className="dropdown-item" to="/publications"><strong>Publications</strong></Link></li>
-                                      <li><Link className="dropdown-item" to="/research"><strong>Research</strong></Link></li>
+                                      {/*<li><Link className="dropdown-item" to="/research"><strong>Research</strong></Link></li>*/}
                                   </ul>
                               </li>
 
@@ -60,7 +61,7 @@ function App() {
                               {/*    /!* 下拉菜单 *!/*/}
                               {/*    <ul className="dropdown-menu">*/}
                               {/*        <li><Link className="dropdown-item" to="/events"><strong>Events</strong></Link></li>*/}
-                              {/*        <li><Link className="dropdown-item" to="/news"><strong>News</strong></Link></li>*/}
+                              {/*        <li><Link className="dropdown-item" to="/news"><strong>Blogs</strong></Link></li>*/}
 
                               {/*    </ul>*/}
                               {/*</li>*/}
@@ -78,17 +79,17 @@ function App() {
 
 
               <Routes>
+                
+                  <Route path={"/"} element={<WorkshopFactory _predefinedDestinationId={"68f9966fbf19cc8467eb37b7"} />} />
+
+
                   <Route path="/home" element={<Home />} />
                   <Route path="/members" element={<Members />} />
-
-                  <Route path={"/"} element={<Home />} />
                   <Route path={"/events"} element={<Events />} />
                   <Route path="/events/workshops/:_destination_id" element={<WorkshopFactory />} />
 
-
-
                   {/*<Route path={"/workshops"} element={<WorkshopFactory />} />*/}
-                  <Route path="/news" element={<News />} />
+                  <Route path="/news" element={<Blogs />} />
                   <Route path="/research" element={<Research />} />
                   <Route path="/publications" element={<Publications />} />
                   <Route path="/contact" element={<Contact />} />

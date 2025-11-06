@@ -8,6 +8,7 @@ body {
 
 }
 
+
 @media (max-width: 3200px){
   #navbar-div {
     position: fixed;
@@ -25,7 +26,6 @@ body {
   #navbar-div li{
     font-size: large;
   }
-
   /* 只给 navbar 下的 <ul> 添加横向间距，而不是所有 ul */
   .navbar ul {
     display: flex;      /* 确保 gap 生效 */
@@ -113,18 +113,33 @@ body {
 
 /* 下拉菜单稍微下移 */
 .navbar .dropdown:hover > .dropdown-menu {
+  height: fit-content;
   margin-top: -10px;
+  border-radius: 0;
   background-color: #f0eee6;
   border-top: none;                 /* 上边框去掉 */
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
-  border-bottom: 1px solid transparent;
-  box-shadow: 2px 3px 10px rgba(211, 211, 211, 0.8); /* lightgrey 阴影 */
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  /*box-shadow: 2px 3px 10px rgba(211, 211, 211, 0.8); !* lightgrey 阴影 *!*/
 }
 
 .dropdown-menu li{
   text-align: center;
+
 }
+.dropdown strong{
+  font-size: large;
+}
+
+.dropdown-menu .dropdown-item:active,
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:focus:active {
+  background-color: #222;   /* 你想要的颜色 */
+  color: #fff;              /* 字体颜色 */
+}
+
+
 .nav-item:hover {
   text-decoration: underline;
 
