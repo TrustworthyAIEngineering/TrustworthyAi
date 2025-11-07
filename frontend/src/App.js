@@ -12,6 +12,14 @@ import Blogs from "./pages/Blogs";
 import ICDM2025 from "../src/assets/workshopRelated/icdm2025logosmall.png"
 import Events from "./pages/Events";
 function App() {
+    function showDevtoolsBanner() {
+        const title = 'USYD Trustworthy AI Team';
+        const s1 = 'font-size:20px;font-weight:700;color:#fff;background:#000;padding:8px 12px;';
+        console.log('%c' + title, s1);
+        console.log('https://trustworthy-ai.com.au');
+    }
+    // 1) 页面加载就打印
+    showDevtoolsBanner();
   return (
       <>
           {/*<Router >*/}

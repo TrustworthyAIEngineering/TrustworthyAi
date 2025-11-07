@@ -10,3 +10,4 @@ export const EVENT_TYPE_URL_PREFIX_MAPPING = {
 }
 
 export const TIMEOUT_MS = 25 * 1000;
+

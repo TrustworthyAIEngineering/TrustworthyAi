@@ -32,10 +32,14 @@ export default function WorkshopFactory({_predefinedDestinationId}) {
             setData(remote);
         } catch (e) {
             setErr(e.name === "AbortError" ? "Time out, please refresh the page.\"" : "Failed to fetch data, please refresh the page.");
-            setData(null);
+            
         } finally {
             clearTimeout(timer);
             setLoading(false);
+            if (cfg)
+                setData(cfg);
+            else
+                setData(null);
         }
     }, [_destination_id]);
 
@@ -53,9 +57,10 @@ export default function WorkshopFactory({_predefinedDestinationId}) {
         );
     }
 
-    if (err) {
+    if (err && data == null) {
         return (
             <div  id = "fail"  className="d-flex flex-column justify-content-center align-items-center min-vh-100">
+               
                 <p className="text-black mb-3">{err}</p>
                 <div className="d-flex gap-2">
                     <button className="btn btn-dark" onClick={load}>Retry</button>

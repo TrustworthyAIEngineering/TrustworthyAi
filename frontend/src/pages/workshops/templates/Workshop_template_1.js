@@ -49,7 +49,8 @@ export default function workshop_template_1({ data }) {
             address: parse(S(cfg.sections?.contact?.address)),
             email: cfg.sections?.contact?.email // 邮箱保持纯文本用于 mailto
         },
-        paperlist:(cfg.sections?.paperlist || []).map((o) => parse(S(o)))
+        paperlist:(cfg.sections?.paperlist || []).map((o) => parse(S(o))),
+        schedules:(cfg.sections?.schedules || []).map((o) => parse(S(o)))
     };
 
 
@@ -174,6 +175,18 @@ export default function workshop_template_1({ data }) {
                     {safe.paperlist.map((o, i) => (
                         <span key={i}>
                     {i+1}. {o}
+                            <br />
+                  </span>
+                    ))}
+                </p>
+
+                <h2 id = "schedules">
+                    <strong>Schedules</strong>
+                </h2>
+                <p>
+                    {safe.schedules.map((o, i) => (
+                        <span key={i}>
+                     {o}
                             <br />
                   </span>
                     ))}

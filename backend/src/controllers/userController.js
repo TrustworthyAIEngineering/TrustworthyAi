@@ -11,3 +11,21 @@ export async function listUsers(_req, res) {
         res.status(500).json({ error: e.message });
     }
 }
+
+export async function openAdminLogin(req, res) {
+    try {
+        const { _userinput } = req.params;
+
+        if ( _userinput.replace("trust","")!== process.env.ADMIN_GATEWAY_KEY) {
+            
+            return res.status(403).json({ error: "forbidden" });
+        }else{
+            console.log(_userinput)
+            res.status(200).json();
+        }
+    } catch (e) {
+        console.error(e);
+        res.status(500).json({ error: e.message });
+        
+    }
+}

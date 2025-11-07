@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import { config } from "dotenv";
 import { initDBs } from "./db.js";
-import { listUsers } from "./src/controllers/userController.js";
+import { listUsers, openAdminLogin } from "./src/controllers/userController.js";
 import {getAllEvents, loadWorkshopContent} from "./src/controllers/eventController.js";
 import cron from "node-cron";
 import axios from "axios";
@@ -29,6 +29,8 @@ await initDBs({ dbNames: ["Events", "User"] });
 app.get("/api/healthcheck", (req, res) => {
     res.status(200).send("OK");
 });
+
+app.get("/api/openAdminLogin/:_userinput", openAdminLogin)
 
 app.get("/api/workshops/:_destination_id", loadWorkshopContent);
 app.get("/api/events/all",getAllEvents)
