@@ -32,14 +32,15 @@ export default function WorkshopFactory({_predefinedDestinationId}) {
             setData(remote);
         } catch (e) {
             setErr(e.name === "AbortError" ? "Time out, please refresh the page.\"" : "Failed to fetch data, please refresh the page.");
-            
+            if (cfg){
+                setData(cfg);
+                console.log("Using fallback.");
+            }else
+                setData(null);
         } finally {
             clearTimeout(timer);
             setLoading(false);
-            if (cfg)
-                setData(cfg);
-            else
-                setData(null);
+            
         }
     }, [_destination_id]);
 
