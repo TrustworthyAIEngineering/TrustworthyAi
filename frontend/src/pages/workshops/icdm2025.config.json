@@ -33,7 +33,7 @@
       "label": "Paper List"
     },
     {
-      "id": "Schedules",
+      "id": "schedules",
       "label": "Schedules"
     }
   ],
@@ -77,7 +77,8 @@
       "Huaming Chen (USYD)",
       "Na Zou (University of Houston)",
       "Yang Cao (Science Tokyo) ",
-      "Ling Chen (University of Technology Sydney)"
+      "Ling Chen (University of Technology Sydney)",
+      "Mengnan Du (New Jersey Institute of Technology)"
     ],
     "contact": {
       "name": "Huaming Chen",
@@ -105,22 +106,23 @@
       "Guojun Tang, Mohammad Mamun, Jiayu Zhou, and Steve Drew, Lightweight and Robust Federated Data Valuation"
     ],
     "schedules": [
-      "Wednesday Nov.12, 2025",
+      "<strong>Date: </strong>Wednesday Nov.12, 2025",
+      "<strong>Location: </strong>Capital Hilton, located at 1001 16th Street NW, Washington, DC 20036",
       "<strong>8:30–8:45 — Opening and equipment check / Session introduction</strong>",
       "8:45–9:10 — Measuring and Mitigating Gender Entropy Bias in Large Language Models",
       "9:10–9:35 — Implet: A Post-hoc Subsequence Explainer for Time Series Models",
       "9:35–10:00 — DualEx: Dual-Space Clustering for Regional Explanations",
       "10:00–10:25 — SHAP Analyses in Feature-based and Principal Component-based Model",
       "10:25–10:50 — Explainable Profiling of Sleep Disorders to Support Trustworthy Clinical Interventions",
-      "10:50–11:15 — Synergizing Dynamic Symbolic Rules and Few-Shot Learning for Discrete Reasoning in Hybrid QA",
+      "10:50–11:15 — LaFA: Latent Feature Attacks on Non-negative Matrix Factorization (Video present)",
       "11:15–11:40 — TabuSDE: Diffusion Probabilistic Modeling for Tabular Data Generation and Imputation",
       "11:40–12:05 — WHETSTONE: Honing Synthetic Data for Improved Downstream Fairness and Utility",
       "12:05–12:30 — Large Language Models Enhanced Document-level Relationship Extraction based on Logic Rules",
       "<strong>12:30–13:30 — Lunch</strong>",
       "13:30–13:55 — Less is More: Counterfactual NL Data Augmentation with Trust Agentic GANs",
-      "13:55–14:20 — LaFA: Latent Feature Attacks on Non-negative Matrix Factorization (Video present)",
+      "13:55–14:20 — Synergizing Dynamic Symbolic Rules and Few-Shot Learning for Discrete Reasoning in Hybrid QA",
       "14:20–14:45 — Interpretable and Accurate Hybrid Decision Trees with Selective Case-Based Splits",
-      "14:45–15:10 — Enhancing Counterfactual Explanations with Feasibility and Diversity (Video presentation)",
+      "14:45–15:10 — Enhancing Counterfactual Explanations with Feasibility and Diversity",
       "15:10–15:35 — A Data-Centric Safety Framework for Generative Models: Adversarial Fingerprint Detection and Attribution",
       "15:35–16:00 — Lightweight and Robust Federated Data Valuation",
       "<strong>16:00–16:30 — Coffee Break</strong>",

@@ -97,6 +97,18 @@ export default function workshop_template_1({ data }) {
                     </ul>
                 </nav>
 
+                <h2 id = "schedules">
+                    <strong>Schedules</strong>
+                </h2>
+                <p>
+                    {safe.schedules.map((o, i) => (
+                        <span key={i}>
+                     {o}<br />
+                            <br />
+                  </span>
+                    ))}
+                </p>
+
                 <h2 id="introduction">
                     <strong>Introduction</strong>
                 </h2>
@@ -180,17 +192,7 @@ export default function workshop_template_1({ data }) {
                     ))}
                 </p>
 
-                <h2 id = "schedules">
-                    <strong>Schedules</strong>
-                </h2>
-                <p>
-                    {safe.schedules.map((o, i) => (
-                        <span key={i}>
-                     {o}
-                            <br />
-                  </span>
-                    ))}
-                </p>
+                
 
             </div>
         </div>
