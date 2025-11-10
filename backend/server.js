@@ -47,7 +47,7 @@ cron.schedule("*/14 * * * *", async () => {
         check_times += 1;
         if (check_times === 1){
             console.log("Initial health check has been done at ",date.toISOString())
-        }else if (check_times % 140 === 0)
+        }else if (check_times % 70 === 0)
             console.log(`Healthcheck pinged (${check_times}) since ${date.toISOString()}`);
     } catch (err) {
         console.error("Healthcheck failed:", err.message);
