@@ -9,6 +9,10 @@
   },
   "toc": [
     {
+      "id": "schedules",
+      "label": "Schedules"
+    },
+    {
       "id": "introduction",
       "label": "Introduction"
     },
@@ -31,10 +35,6 @@
     {
       "id": "paperlist",
       "label": "Paper List"
-    },
-    {
-      "id": "schedules",
-      "label": "Schedules"
     }
   ],
   "sections": {
@@ -95,14 +95,11 @@
       "SifEddine Sellami, Juba Agoun, Louenas Bounia, Lamia Yessad, and Auday Berro, Explainable Profiling of Sleep Disorders to Support Trustworthy Clinical Interventions",
       "Safayat Bin Hakim and Houbing Herbert Song, Synergizing Dynamic Symbolic Rules and Few-Shot Learning for Discrete Reasoning in Hybrid QA",
       "Zhaoyang Wang, Guangshun Li, Junhua Wu, and Xiaoshan Cui, A Federated Meta-Learning Approach for Transactional Risk Behavior Identification",
-      "Ivan Malashin, Vadim Tynchenko, and Alexey Borodulin, TabuSDE: Diffusion Probabilistic Modeling for Tabular Data Generation and Imputation",
+      "Ivan Malashin, Vadim Tynchenko, and Alexey Borodulin, A Stochastic Diffusion Framework for Tabular Data Synthesis and Completion",
       "Mary Grace Kozuch, Yan Zhou, and Murat Kantarcioglu, WHETSTONE: Honing Synthetic Data for Improved Downstream Fairness and Utility",
-      "Jinghao Xu, Zhen Wang, Yu Wang, and Wen Zhao, Large Language Models Enhanced Document-level Relationship Extraction based on Logic Rules",
-      "Yongsheng Yang, Zhenke Duan, Jiqun Pan, Xin Li, and Zheyu Tan, Less is More: Counterfactual NL Data Augmentation with Trust Agentic Generative Adversarial Networks",
       "Minh Vu, Ben Nebgen, Erik Skau, Geigh Zollicoffer, Juan Castorena, Kim Rasmussen, Boian Alexandrov, and Manish Bhattarai, LaFA: Latent Feature Attacks on Non-negative Matrix Factorization",
       "Cristiano Landi, Alessio Cascione, and Riccardo Guidotti, Interpretable and Accurate Hybrid Decision Trees with Selective Case-Based Splits",
       "Xinyu Qin, Siyi Li, Yiyu Cai, and Lu Wang, Enhancing Counterfactual Explanations with Feasibility and Diversity",
-      "Dong Liu and Yanxuan Yu, A Data-Centric Safety Framework for Generative Models: Adversarial Fingerprint Detection and Attribution",
       "Guojun Tang, Mohammad Mamun, Jiayu Zhou, and Steve Drew, Lightweight and Robust Federated Data Valuation"
     ],
     "schedules": [
@@ -115,19 +112,17 @@
       "10:00–10:25 — SHAP Analyses in Feature-based and Principal Component-based Model",
       "10:25–10:50 — Explainable Profiling of Sleep Disorders to Support Trustworthy Clinical Interventions",
       "10:50–11:15 — LaFA: Latent Feature Attacks on Non-negative Matrix Factorization (Video present)",
-      "11:15–11:40 — TabuSDE: Diffusion Probabilistic Modeling for Tabular Data Generation and Imputation",
+      "11:15–11:40 — A Stochastic Diffusion Framework for Tabular Data Synthesis and Completion (Video present)",
       "11:40–12:05 — WHETSTONE: Honing Synthetic Data for Improved Downstream Fairness and Utility",
-      "12:05–12:30 — Large Language Models Enhanced Document-level Relationship Extraction based on Logic Rules",
+      "12:05–12:30 — Interpretable and Accurate Hybrid Decision Trees with Selective Case-Based Splits",
       "<strong>12:30–13:30 — Lunch</strong>",
-      "13:30–13:55 — Less is More: Counterfactual NL Data Augmentation with Trust Agentic GANs",
+      "13:30–13:55 — Enhancing Counterfactual Explanations with Feasibility and Diversity",
       "13:55–14:20 — Synergizing Dynamic Symbolic Rules and Few-Shot Learning for Discrete Reasoning in Hybrid QA",
-      "14:20–14:45 — Interpretable and Accurate Hybrid Decision Trees with Selective Case-Based Splits",
-      "14:45–15:10 — Enhancing Counterfactual Explanations with Feasibility and Diversity",
-      "15:10–15:35 — A Data-Centric Safety Framework for Generative Models: Adversarial Fingerprint Detection and Attribution",
-      "15:35–16:00 — Lightweight and Robust Federated Data Valuation",
+      "14:20–14:45 — Lightweight and Robust Federated Data Valuation",
+      "14:45–15:10 — A Federated Meta-Learning Approach for Transactional Risk Behavior Identification (Video present)",
+      "15:10–16:00 — Poster session & Networking",
       "<strong>16:00–16:30 — Coffee Break</strong>",
-      "16:30–16:55 — A Federated Meta-Learning Approach for Transactional Risk Behavior Identification (Online)",
-      "16:55–17:30 — Networking"
+      "16:30–17:30 — Poster session & Networking"
     ]
   }
 }

@@ -9,5 +9,5 @@ export const EVENT_TYPE_URL_PREFIX_MAPPING = {
     "workshop": "/events/workshops/"
 }
 
-export const TIMEOUT_MS = 25 * 1000;
+export const TIMEOUT_MS = 8 * 1000;
 
