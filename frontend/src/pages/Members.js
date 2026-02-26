@@ -1,17 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Members.css";
-import huamingImg from "../assets/general/huaming.jpg";
-import yitianImg from "../assets/general/yitian.jpg";
-import haolinImg from "../assets/general/haolin.jpg";
-import taozhaoImg from "../assets/general/taozhao.jpg";
-import linghanImg from "../assets/general/linghan.jpg";
-
-import jiawenImg from "../assets/general/jiawen.jpg";
-import liningImg from "../assets/general/lining.jpg";
-import zhaogeImg from "../assets/general/zhaoge.jpg";
-import pengyueImg from "../assets/general/pengyue.jpg";
-import qingwenImg from "../assets/general/qingwen.jpg";
+import people from "../data/membersData";
 
 // 通过 import.meta.url 获取打包后的 CSV 资源 URL（Vite/CRA 均可用）
 const membersCsvUrl = new URL(
@@ -33,18 +23,6 @@ function MemberCard({ avatar, name, direction }) {
 
 export default function Members() {
   // Leader plus 9 members sorted alphabetically by given names
-  const people = [
-    { avatar: huamingImg, name: "Huaming Chen", direction: "AI Safety & Trust" },
-    { avatar: haolinImg, name: "Haolin Jin", direction: "AI Agent" },
-    { avatar: jiawenImg, name: "Jiawen Wen", direction: "Vulnerability Detection" },
-    { avatar: linghanImg, name: "Linghan Huang", direction: "Trustworthy AI" },
-    { avatar: liningImg, name: "Lining Chen", direction: "The Application of Recommendation System" },
-    { avatar: pengyueImg, name: "Pengyue Yang", direction: "Trustworthy AI" },
-    { avatar: qingwenImg, name: "Qingwen Zeng", direction: "AI Algotithm & FInance" },
-    { avatar: taozhaoImg, name: "Taozhao Chen", direction: "Trustworthy AI" },
-    { avatar: yitianImg, name: "Yitian Yang", direction: "Trustworthy AI" },
-    { avatar: zhaogeImg, name: "Zhaoge Bi", direction: "Forecasting AI" }
-  ].reverse();
 
   // 从 CSV 加载名字列表
   const [nameList, setNameList] = useState([]);
@@ -86,31 +64,43 @@ export default function Members() {
   }, []);
 
   return (
-      <div className="members-page mt-lg-3 min-vh-100 w-100">
+      <div className="members-page min-vh-100 w-100">
         <div className="members-container">
-          <h1 className="members-title">USYD Trustworthy AI Team</h1>
+          <h1 className="members-title">Our Team</h1>
           <p className="members-subtitle">Infinitely progressing</p>
           <div className="members-underline" />
-
-          {/* 2x5 Grid: first row first leader, then 4 members, etc. */}
-          <div className="members-grid">
-            {people.map((p, idx) => (
+          <h2>Supervisor</h2>
+          <br></br>
+          <div className="members-grid-leader">
+            
+            {people
+              .filter((p) => p.name === "Huaming Chen")
+              .map((p, idx) => (
                 <Link
-                    key={idx}
-                    to={
-                        p.name === "Huaming Chen" &&
-                        `/members/${p.name.toLowerCase().replace(/\s+/g, "-")}`
-                    }
-                    className="member-link"
+                  key={`leader-${idx}`}
+                  to={`/members/${p.name.toLowerCase().replace(/\s+/g, "-")}`}
+                  className="member-link"
                 >
                   <MemberCard {...p} />
                 </Link>
-            ))}
+              ))}
+          </div>
+          <h2>Master/PHD Students</h2>
+          <br></br>
+          <div className="members-grid">
+            {people
+              .filter((p) => p.name !== "Huaming Chen")
+              .map((p, idx) => (
+                <Link key={`student-${idx}`} to="" className="member-link">
+                  <MemberCard {...p} />
+                </Link>
+              ))}
           </div>
 
           {/* 名字列表：三列布局（Bootstrap 栅格） */}
           <div className="container mt-5">
-            <h1 className="mb-4">Thesis students</h1>
+            <h2>Thesis Students</h2>
+            <br></br>
             <div className="row">
               {nameList.map((m, i) => {
                 const label =

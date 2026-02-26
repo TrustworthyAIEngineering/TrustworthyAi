@@ -1,56 +1,12 @@
-/* 1. 只给 body 设置字体和背景色，而不是所有元素 */
-body {
-  font-family: "Arial", sans-serif;
-  /* background-color: #f5f5f5; */
-  margin: 0;           /* 避免默认外边距 */
-  padding: 0;
-  overflow-y: scroll;
-
-}
-
-
-@media (max-width: 3200px){
-  #navbar-div {
-    position: fixed;
-    background-color: #f0eee6;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2000;        /* 确保导航栏在最上层 */
-    box-shadow: 1px 1px 15px 2px lightgrey;
-  }
-  /*#first-workshop {*/
-  /*  font-size: 1px;*/
-  /*}*/
-
-  #navbar-div li{
-    font-size: large;
-  }
-  /* 只给 navbar 下的 <ul> 添加横向间距，而不是所有 ul */
-  .navbar ul {
-    display: flex;      /* 确保 gap 生效 */
-    gap: 1.75rem;
-  }
-
-
-  /* 只给 .navbar 中的 .nav-link 改颜色和字体 */
-  .navbar .nav-link {
-    color: black !important;          /* 强制覆盖 Bootstrap 或其他样式 */
-    font-family: "Arial Black", sans-serif;
-  }
-}
-
-
 
 /*General*/
 ::-webkit-scrollbar {
   width: 13px;  /* 设置为你想要的宽度 */
-
 }
 
 /* 2. 滚动条轨道（背景） */
 ::-webkit-scrollbar-track {
-  background: #f0eee6;  /* 使轨道透明 */
+  background: transparent;  /* 使轨道透明 */
 }
 
 ::-webkit-scrollbar-button{
@@ -59,7 +15,7 @@ body {
 
 /* 3. 滚动条滑块 */
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.6);  /* 半透明黑色 */
+  background-color: black;  /* 半透明黑色 */
   border-radius: 10px;                  /* 圆角 */
   border: 2px solid transparent;        /* 增加 padding-like 效果 */
   background-clip: content-box;         /* 内边框透明 */
@@ -70,170 +26,86 @@ body {
   background-color: black;
 }
 
-.glow-text {
+/* start */
 
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
+*{
+  font: 1.2rem "Manrope";
+  /*以Charcoal为底色*/
+  /* background-color: #36454F; */
+  /* font color */
+  /* color: whitesmoke; */
 }
 
-.glow-text::before {
-  content: "";
-  position: absolute;
+#web-title{
+  font-weight: 200;
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+#first-row, #second-row{
+  background-color: #36454F;
+  color: whitesmoke;
+}
+
+#navigation-bar{
+  background-color: #36454F;
+  flex-direction: column;
+  position: fixed;
+  width:100%;
   top: 0;
-  left: -75%;
-  height: 120%;
-  width: 50%;
-  background: linear-gradient(
-          120deg,
-          transparent,
-          whitesmoke,
-          transparent
-  );
-  transform: skewX(-45deg);
-  animation: shimmer-sweep 4s infinite;
+  z-index: 2000;
+  transition: padding 200ms ease, box-shadow 200ms ease;
+}
+.navbar-container{
+  background-color: #36454F;
+}
+#navigation-bar img{
+  width: 15%;
+  transition: width 200ms ease;
 }
 
-
-/* 仅当鼠标悬停在 USYD 处才展开 dropdown */
-.navbar .nav-item.dropdown:hover > .dropdown-menu {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-  width: 100%;
-}
-
-/* 避免一开始就显示 */
-.navbar .dropdown-menu {
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.2s ease;
-}
-
-/* 下拉菜单稍微下移 */
-.navbar .dropdown:hover > .dropdown-menu {
+#navigation-bar.shrink #first-row{
   height: fit-content;
-  margin-top: -10px;
-  border-radius: 0;
-  background-color: #f0eee6;
-  border-top: none;                 /* 上边框去掉 */
-  border-left: 1px solid whitesmoke;
-  border-right: 1px solid whitesmoke;
-  border-bottom: 1px solid whitesmoke;
-  /*box-shadow: 2px 3px 10px rgba(211, 211, 211, 0.8); !* lightgrey 阴影 *!*/
-}
-
-.dropdown-menu li{
-  text-align: center;
+  margin-top: 5px !important;
+  margin-bottom: 0 !important;
+  padding-top: 1px;
+  padding-bottom: 0;
+  transition: 200ms ease;
 
 }
-.dropdown strong{
-  font-size: large;
+
+#navigation-bar.shrink img{
+  width: 10%;
+  transition: width 200ms ease;
+}
+#navigation-bar.shrink p{
+  font-size: 25px;
+  transition: width 200ms ease;
 }
 
-.dropdown-menu .dropdown-item:active,
-.dropdown-menu .dropdown-item:focus,
-.dropdown-menu .dropdown-item:focus:active {
-  background-color: #222;   /* 你想要的颜色 */
-  color: #fff;              /* 字体颜色 */
+#navigation-bar.shrink #second-row{
+  margin-top: 0px;
+  margin-bottom: 0;
 }
 
+#navigation-bar.shrink #second-row .nav-item{
+  padding-left:7px;
+  padding-right: 7px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 5px;
 
+}
+
+.nav-item{
+  padding: 10px;
+  font-weight: 200;
+  color: whitesmoke;
+
+}
 .nav-item:hover {
-  text-decoration: underline;
+  background-color: whitesmoke;
+  color: black;
 
 }
 
-.navbar .dropdown .dropdown-anchor {
-  position: relative;
-  display: inline-block;
-  padding-bottom: 10px; /* 给三角留空间 */
-}
-
-.navbar .dropdown .dropdown-anchor::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 2px;                 /* 距文字底部 */
-  width: 0; height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 6px solid currentColor; /* 用文字颜色 */
-  opacity: 0.7;
-}
-
-
-@keyframes shimmer-sweep {
-  0% {
-    left: -75%;
-  }
-  100% {
-    left: 125%;
-  }
-}
-
-
-/* 3. 仅当屏幕为竖屏时，对 .navbar 做特殊处理（目前为空，可自行扩展） */
-
-
-/* 4. 当屏幕为横屏时，针对特定的导航容器（#navbar-div、.navbar）做调整 */
-@media (max-width: 1640px) {
-  /* 如果导航最外层有一个 id="navbar-div" 的容器，让它固定在顶部 */
-  #navbar-div {
-    position: fixed;
-    background-color: #f0eee6;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2000;        /* 确保导航栏在最上层 */
-    box-shadow: 1px 1px 15px 2px lightgrey;
-  }
-
-  #navbar-div li{
-    font-size: 16px;
-  }
-
-  /* 只给 navbar 下的 <ul> 添加横向间距，而不是所有 ul */
-  .navbar ul {
-    display: flex;      /* 确保 gap 生效 */
-    gap: 1rem;
-  }
-
-  /*#first-workshop {*/
-  /*  font-size: 1px;*/
-  /*}*/
-  /* 只给 .navbar 中的 .nav-link 改颜色和字体 */
-  .navbar .nav-link {
-    color: black !important;          /* 强制覆盖 Bootstrap 或其他样式 */
-    font-family: "Arial Black", sans-serif;
-  }
-
-}
-
-@media (max-width: 992px) {
-
-  #first-workshop img{
-    display: none;
-  }
-
-  #divider{
-    display: none;
-  }
-  #navbar-div {
-    text-align: center;
-  }
-  .navbar ul {
-    display: flex;      /* 确保 gap 生效 */
-    gap: 0px;
-  }
-
-}
-
-
-@media (hover:hover) and (pointer:fine) {
-  .navbar .nav-item.dropdown:hover > .dropdown-menu {
-    display: block;
-  }
-}

@@ -1,11 +1,12 @@
 /* ============== 整体布局 ============== */
 .members-page {
-  background-color: #f0eee6; /* 与导航一致 */
+  background-color: #f0eee6; 
   padding: 100px 0 60px;
 }
 .members-page .members-container {
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 15vh;
   padding: 0 16px;
   text-align: center;
 }
@@ -30,7 +31,13 @@
   border-radius: 2px;
 }
 
-/* 领导人卡片 */
+.members-grid-leader {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+/* 领导人卡�?*/
 .members-leader {
   margin-bottom: 60px;
   display: flex;
@@ -50,11 +57,11 @@
 .members-grid {
   display: grid;
   /* five fixed-width columns */
-  grid-template-columns: repeat(5, 240px);
+  grid-template-columns: repeat(5, 210px);
   /* center the whole grid inside its container */
   justify-content: center;
   /* gap between cards */
-  gap: 32px;
+  gap: 24px;
   margin-bottom: 40px;
 }
 
@@ -62,8 +69,8 @@
 
 /* ============== 卡片样式 ============== */
 .member-card {
-  width: 240px;
-  height: 350px;               /* 新增：固定高度 */
+  width: 210px;
+  height: 300px;               /* 新增：固定高�?*/
   background:  whitesmoke;
 
   /*border-radius: 12px;*/
@@ -83,36 +90,36 @@
 /* 头像 */
 .member-avatar {
   width: 100%;
-  height: 220px;
+  height: 185px;
   object-fit: cover;
 }
 
-/* 信息区 */
+/* 信息�?*/
 .member-info {
-  padding: 16px;
+  padding: 12px;
   text-align: left;
 }
 .member-name {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   color: black;
   margin-bottom: 4px;
 }
 .member-dir {
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   color: black;
   line-height: 1.4;
 }
 
-/* ============== 响应式 ============== */
-/* 平板 (≤992px)：两列 */
+/* ============== 响应�?============== */
+/* 平板 (�?92px)：两�?*/
 @media (max-width: 992px) {
   .members-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 }
-/* 手机 (≤576px)：单列 */
+/* 手机 (�?76px)：单�?*/
 @media (max-width: 576px) {
   .members-page {
     padding: 60px 0 40px;
@@ -128,3 +135,5 @@
     max-width: none;
   }
 }
+
+

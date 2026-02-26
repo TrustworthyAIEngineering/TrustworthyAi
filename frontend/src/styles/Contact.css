@@ -6,14 +6,36 @@
     font-size: large;
 }
 
-/* Black & White card */
-.bw-card {
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
     width: min(900px, 92vw);
-    background: whitesmoke;
+    background: transparent;
+    padding: 10px 0;
+}
 
-    box-shadow: 0 6px 16px rgba(0,0,0,.12);
+.contact-item {
+    text-align: center;
+    background: transparent;
+}
 
-    padding: 22px;
+.contact-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.contact-email {
+    font-size: 1.05rem;
+    color: #111;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.contact-email:hover {
+    text-decoration: underline;
 }
 
 .bw-form { color: #000; }

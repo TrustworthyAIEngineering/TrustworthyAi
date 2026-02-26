@@ -56,7 +56,7 @@ export default function workshop_template_1({ data }) {
 
 
     return (
-        <div id="whole" className="d-flex flex-column justify-content-start align-items-center mt-lg-0">
+        <div id="whole" style={{ marginTop: "10vh" }} className="d-flex flex-column justify-content-start align-items-center">
             <div
                 id="background"
                 style={{ backgroundImage: `url(${background})`, backgroundSize: "cover", backgroundPosition: "center" }}

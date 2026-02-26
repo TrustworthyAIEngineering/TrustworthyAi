@@ -1,4 +1,5 @@
 // 实时抓取 https://huaming-chen.com/ 的 Publications 列表为字符串数组
+
 export async function get_huaming_chen(url = "https://huaming-chen.com/", fetchOpts = {}) {
     const res = await fetch(url, fetchOpts);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);

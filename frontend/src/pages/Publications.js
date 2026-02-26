@@ -10,25 +10,26 @@ function CollapsibleAuthor({ author }) {
     const [open, setOpen] = useState(false);
 
     return (
-        <div id = "colla" className="card mb-3 w-100" style={{ maxWidth: 720 }}>
+        <div id="colla" className="card mb-3 w-100" style={{ maxWidth: 960 }}>
             <button
-                className="btn text-start p-3 d-flex align-items-center gap-3"
+                className="btn text-start p-3 d-flex align-items-center gap-3 author-toggle"
                 onClick={() => setOpen((v) => !v)}
                 aria-expanded={open}
                 aria-controls={`refs-${author.id}`}
             >
-                <img
-                    src={author.avatar}
-                    alt={author.name}
-                    className="rounded-circle border"
-                    width="48"
-                    height="48"
-                />
+                <div className="author-avatar">
+                    <img
+                        src={author.avatar}
+                        alt={author.name}
+                        width="52"
+                        height="52"
+                    />
+                </div>
                 <div className="flex-grow-1">
-                    <div className="fw-semibold">{author.name}</div>
+                    <div className="fw-semibold author-name">{author.name}</div>
                     <div className="text-muted small">{author.affiliation}</div>
                 </div>
-                <span className="ms-auto small">{open ? "▾" : "▸"}</span>
+                <span className="ms-auto small author-arrow">{open ? "▾" : "▸"}</span>
             </button>
 
             <div
@@ -60,7 +61,7 @@ function Publications() {
         {
             id: "a1",
             name: "Huaming Chen",
-            affiliation: "Senior Lecturer",
+            affiliation: "Supervisor",
             avatar: hm_c_avatar,
             references: hm_c_pub,
         },
@@ -96,14 +97,19 @@ function Publications() {
 
     return (
         <>
-
             <div
                 id="whole"
-                className="d-flex flex-column justify-content-start align-items-center min-vh-100 w-100 p-3"
-
+                className="publications-page d-flex flex-column justify-content-start align-items-center min-vh-100 w-100"
             >
-                <div style={{marginTop: "20vh"}}></div>
-                <div className="w-100 d-flex flex-column align-items-center">
+                <section className="publications-header-container">
+                    <h1 className="publications-title">Publications</h1>
+                    <p className="publications-subtitle">
+                        Browse by author to explore the full list of publications.
+                    </p>
+                    <div className="publications-underline" />
+                </section>
+                
+                <div className="publications-list container">
                     {DUMMY_AUTHORS.map((a) => (
                         <CollapsibleAuthor key={a.id} author={a} />
                     ))}

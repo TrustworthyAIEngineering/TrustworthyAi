@@ -1,144 +1,295 @@
 
-.hero-section {
-  background-color: #f0eee6;
-  text-align: center;
-  height: 70vh;
-  z-index: 1500;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+.home-page {
+  width: 100%;
+  padding-bottom: 4rem;
 }
 
-
-.hero-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.home-hero {
+  margin-top: 4.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3rem;
   align-items: center;
-  max-width: 50vw;
-
+  position: relative;
 }
-.hero-title {
-  font-size: 4rem;
-  font-weight: 700;
+
+.home-hero::before {
+  content: "";
+  position: absolute;
+  top: -2rem;
+  left: -2rem;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  /* background: radial-gradient(circle, rgba(21, 68, 67, 0.2), transparent 70%); */
+  z-index: 0;
+}
+
+.home-hero-text {
+  position: relative;
+  z-index: 1;
+}
+
+.home-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.85rem;
   margin-bottom: 1rem;
 }
-@media (min-width: 992px) {
-  .hero-title {
-    font-size: 3.5rem;
-  }
-}
 
-.hero-subtitle {
-  font-size: 1.25rem;
-  color: #555555;
-  margin-bottom: 2rem;
-}
-
-.hero-btn {
-  background-color: #1e90ff;
-  border-color: #1e90ff;
-  color: #ffffff;
-  font-size: 1rem;
-  padding: 0.75rem 2rem;
-  border-radius: 4px;
-  letter-spacing: 0.05em;
-  transition: background-color 0.2s ease-in-out;
-}
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: #187bcd;
-  border-color: #187bcd;
-}
-
-/* ============== 信息区 ============== */
-.info-section {
-  flex: 1;
-  background-color: #f0eee6;
-  padding: 60px 20px;
-}
-
-/* —— 团队介绍板块 —— */
-.team-intro {
-  background-color: #f0eee6;
-  padding: 40px 20px;
-  border-radius: 8px;
-}
-.section-title {
-  font-size: 1.75rem;
-  font-weight: 600;
-  color: #111111;
+.home-hero-text h1 {
+  font-size: 2.6rem;
   margin-bottom: 1rem;
-}
-.section-text {
-  font-size: 1rem;
-  color: #555555;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
-.small-box {
-  width: 80px;
-  height: 80px;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+.home-subtitle {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.8rem;
 }
 
-/* —— 3.2 最近新闻板块 —— */
-.recent-news {
-  margin-top: 60px;
-}
-.recent-news .news-item {
+.home-cta {
   display: flex;
+  gap: 1rem;
   flex-wrap: wrap;
-  font-size: 1rem;
-  color: #444444;
-  padding: 12px 0;
-  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 1rem;
 }
-.recent-news .news-item:last-child {
-  border-bottom: none;
+
+.home-cta .btn {
+  background-color: #111111;
+  color: #f0eee6;
+  border-color: #111111;
+  padding: 0.6rem 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
 }
-.news-date {
+
+.home-cta .btn-outline-dark {
+  background-color: transparent;
+  color: #111111;
+}
+
+.home-quicklinks {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.home-quicklinks a {
   font-weight: 600;
-  color: #1e90ff;
-  margin-right: 0.75rem;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
 }
 
-/* ============== 4. 底栏 ============== */
-.footer-section {
-  background-color: #ffffff;
-  margin-top: auto;
-  color: #777777;
-}
-.footer-section .container {
-  padding: 0 20px;
+.home-quicklinks a:hover {
+  border-bottom: 2px solid #111111;
 }
 
-/* ============== 响应式调整 ============== */
+.home-carousel {
+  display: flex;
+  justify-content: center;
+  width: 34vw;
+  height: 45vh;
+}
+
+.carousel-frame {
+  overflow: hidden;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+.carousel-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: transparent;
+  display: block;
+  flex: 0 0 auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3.4rem;
+  padding: 0.6rem 0.9rem;
+  background: rgba(0, 0, 0, 0.55);
+  color: #f0eee6;
+  font-weight: 600;
+}
+
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.6rem;
+  padding: 0 0.8rem;
+}
+
+.carousel-btn {
+  background: #111111;
+  color: #f0eee6;
+  border: none;
+  border-radius: 10px;
+  padding: 0.45rem 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+  font-size: 0.75rem;
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border: none;
+  background: #c8c4b8;
+}
+
+.carousel-dot.active {
+  background: #111111;
+}
+
+.home-section {
+  margin-top: 4rem;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+
+.section-copy h2,
+.feature-highlight h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section-copy p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.section-cards {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.info-card {
+  background: transparent;
+  border-radius: 20px;
+  padding: 1.4rem;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+}
+
+.info-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.info-card p {
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+}
+
+.info-card a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-feature {
+
+  border-radius: 28px;
+  padding: 2.5rem;
+}
+
+.feature-row {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.feature-links {
+  display: grid;
+  gap: 1rem;
+}
+
+.feature-link {
+  display: block;
+  padding: 1.2rem;
+  border-radius: 18px;
+  color:#111111;
+
+  text-decoration: none;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.feature-link:hover {
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+  background-color: lightgray;
+}
+
+.feature-link span {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.home-cta-band {
+  margin-top: 4.5rem;
+  width: 100%;
+
+}
+
+.home-cta-band {
+  background: transparent;
+
+}
+
+.cta-band-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1.5rem;
+}
+
+.home-cta-band .btn-light {
+  background: black;
+  color: #f0eee6;
+  border: none;
+
+}
+
 @media (max-width: 768px) {
-  .hero-title {
-    font-size: 2rem;
+  .home-hero {
+    margin-top: 2.5rem;
   }
-  .hero-subtitle {
-    font-size: 1rem;
-  }
-  .nav-link {
-    font-size: 0.95rem;
-  }
-  .team-intro {
-    padding: 30px 10px;
-  }
-}
 
-@media (max-width: 576px) {
-  .navbar-brand {
-    font-size: 1.25rem;
+  .home-hero-text h1 {
+    font-size: 2.1rem;
   }
-  .nav-link {
-    font-size: 0.9rem;
-  }
-  .team-intro {
-    padding: 20px 10px;
+
+  .carousel-image {
+    height: 240px;
   }
 }

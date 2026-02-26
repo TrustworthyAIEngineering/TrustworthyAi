@@ -1,15 +1,126 @@
 #whole {
     background-color: #f0eee6;
-    min-width: 99.5vw;
+    min-width: 100%;
     min-height: 100vh;
-    padding-top: 150px;
     font-size: large;
 }
 
-#colla{
-    background-color: #f0eee6;
+.publications-page .publications-header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 15vh;
+    padding: 0 16px;
+    text-align: center;
 }
-.card-body li{
-    background-color: #f0eee6;
-    font-size: small;
+
+.publications-kicker {
+    text-transform: uppercase;
+    letter-spacing: 0.18rem;
+    font-size: 0.85rem;
+    margin-bottom: 0.8rem;
+}
+
+.publications-title {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.publications-subtitle {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+.publications-underline {
+    width: 1200px;
+    height: 1.5px;
+    background-color: gray;
+    margin: 0 0 16px;
+    border-radius: 2px;
+}
+
+.publications-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#colla {
+    background-color: rgba(255, 255, 255, 0.85);
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+    
+}
+
+#colla .author-toggle {
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+#colla .author-toggle:hover {
+    background-color: rgba(17, 17, 17, 0.04);
+}
+
+#colla .author-toggle.open {
+    background-color: rgba(17, 17, 17, 0.06);
+}
+
+#colla .author-avatar {
+    width: 52px;
+    height: 52px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+#colla .author-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#colla .author-name {
+    font-size: 1.05rem;
+}
+
+#colla .author-arrow {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(17, 17, 17, 0.08);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    transition: transform 0.2s ease;
+}
+
+#colla .author-toggle.open .author-arrow {
+    transform: rotate(180deg);
+}
+
+#colla .btn {
+    background: transparent;
+    
+}
+
+.card-body li {
+    background-color: transparent;
+    font-size: medium;
+}
+
+@media (max-width: 768px) {
+    #whole {
+        padding-top: 5rem;
+    }
+
+    .publications-title {
+        font-size: 2.25rem;
+    }
 }
