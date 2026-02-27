@@ -30,15 +30,20 @@ export default function Huaming_Chen() {
           <div className="profile-item">
             <h3 className="profile-item-title">Research Summary</h3>
             <p className="profile-item-desc">
-              Focused on AI safety, adversarial robustness, and trustworthy machine learning deployments in
-              high-stakes domains.
+              Focused on trustworthy AI systems, data science and software engineering.
             </p>
           </div>
           <div className="profile-item">
             <h3 className="profile-item-title">Research Experience</h3>
             <p className="profile-item-desc">
-              Leads projects on evaluation and red-team testing for large-scale models, with publications in
+              Leads projects on ensuring trustworthy development and deployment for large models, with publications in
               top-tier venues.
+            </p>
+          </div>
+          <div className="profile-item">
+            <h3 className="profile-item-title">Links</h3>
+            <p className="profile-item-desc">
+		<Link to="https://scholar.google.com.au/citations?hl=en&user=3-qRVLUAAAAJ&view_op=list_works&alert_preview_top_rm=2&sortby=pubdate" className="btn btn-link mb-4">GS</Link>
             </p>
           </div>
         </div>

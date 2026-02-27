@@ -2,7 +2,7 @@ const avatarMale = "https://www.w3schools.com/howto/img_avatar.png";
 const avatarFemale = "https://www.w3schools.com/howto/img_avatar2.png";
 
 const people = [
-  { avatar: avatarMale, name: "Huaming Chen", direction: "AI Safety & Trust" },
+  { avatar: avatarMale, name: "Huaming Chen", direction: "Trustworthy AI" },
   { avatar: avatarMale, name: "Jiawen Wen", direction: "Vulnerability Detection" },
   { avatar: avatarMale, name: "Pengyue Yang", direction: "Trustworthy AI" },
   { avatar: avatarMale, name: "Linghan Huang", direction: "Trustworthy AI" },

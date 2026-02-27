@@ -99,7 +99,7 @@ export default function Members() {
 
           {/* 名字列表：三列布局（Bootstrap 栅格） */}
           <div className="container mt-5">
-            <h2>Thesis Students</h2>
+            <h2>Alumni</h2>
             <br></br>
             <div className="row">
               {nameList.map((m, i) => {
