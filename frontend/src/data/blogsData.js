@@ -26,7 +26,21 @@ const blogsData = [
       "We are grateful for the support from our colleagues, students, and collaborators. May the new year bring peace, prosperity, and new research breakthroughs.",
       "We look forward to welcoming the year with renewed energy and exciting progress in trustworthy AI."
     ]
+  },
+  {
+    "id": "blog-0-1",
+    "title": "Long Paper by Pengyue, Jiawen, and Linghan Accepted to WWW 2026",
+    "date": "2026-01-14",
+    "author": "USYD Trustworthy AI Team",
+    "summary": "We are thrilled to announce that our team's long paper has been accepted to The Web Conference (WWW 2026), marking a significant contribution to the field.",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop",
+    "content": [
+      "The USYD Trustworthy AI Team is proud to share that a long research paper authored by Pengyue, Jiawen, and Linghan has been officially accepted to The Web Conference 2026 (WWW 2026).",
+      "As a premier international forum for web technology and intelligence, WWW is known for its rigorous selection process. The acceptance of this long paper highlights the depth, innovation, and potential impact of our team's research on the global stage.",
+      "Congratulations to Pengyue, Jiawen, and Linghan on this outstanding achievement! We look forward to presenting our findings and engaging with the global research community in the upcoming conference."
+    ]
   }
+
 ];
 
 export default blogsData;
