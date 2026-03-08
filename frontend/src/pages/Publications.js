@@ -1,10 +1,6 @@
-import React, {useEffect, useState} from "react";
-import "../styles/Publication.css"
-import hm_c_avatar from "../assets/general/huaming.jpg"
-import {get_huaming_chen} from "./FetchPublication/all";
-import {API_BASE} from "./config";
-
-
+import React, { useEffect, useState } from "react";
+import "../styles/Publication.css";
+import hm_c_avatar from "../assets/general/huaming.jpg";
 
 function CollapsibleAuthor({ author }) {
     const [open, setOpen] = useState(false);
@@ -36,12 +32,21 @@ function CollapsibleAuthor({ author }) {
                 id={`refs-${author.id}`}
                 className={`collapse ${open ? "show" : ""}`}
             >
-                <div className="card-body pt-0" style={{maxHeight: "50vh", overflowY: "auto"}}>
+                <div className="card-body pt-0" style={{ maxHeight: "50vh", overflowY: "auto" }}>
                     <ul className="list-group list-group-flush">
                         {author.references.map((r, idx) => (
-                            <li key={idx} className="list-group-item">
-                                {idx+1}{". "}{r}
-
+                            <li key={r.id || idx} className="list-group-item">
+                                <div>
+                                    {idx + 1}.{" "}
+                                    <a href={r.gs_url} target="_blank" rel="noreferrer">
+                                        {r.title}
+                                    </a>
+                                </div>
+                                <div className="text-muted small">{r.authors}</div>
+                                <div className="small">
+                                    {r.venue}
+                                    {r.year ? ` (${r.year})` : ""}
+                                </div>
                             </li>
                         ))}
                     </ul>
@@ -51,11 +56,8 @@ function CollapsibleAuthor({ author }) {
     );
 }
 
-
-
 function Publications() {
-    const [hm_c_pub, set_hm_c_pub] = useState(["Loading....."])
-
+    const [hm_c_pub, set_hm_c_pub] = useState([]);
 
     const DUMMY_AUTHORS = [
         {
@@ -65,57 +67,53 @@ function Publications() {
             avatar: hm_c_avatar,
             references: hm_c_pub,
         },
-
     ];
-
-    useEffect(( () => {
-        // console.log(API_BASE)
-     fetch(`${API_BASE}/api/users`)
-        .then(async r => {
-            const json = await r.json();
-            console.log("Users:", json);         // 现在能看到集合里的具体值
-        })
-        .catch(console.error);
-    }),[])
 
     useEffect(() => {
         let alive = true;
+
         (async () => {
             try {
-                const data = await get_huaming_chen(); // 仅挂载时调用一次
-                set_hm_c_pub(data)
-                // if (alive) setRefs(data);
-                // console.log(data)
+                const res = await fetch("/Huaming_publications.json");
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+                const data = await res.json();
+
+                if (alive) {
+                    set_hm_c_pub(data);
+                }
             } catch (e) {
-                // if (alive) setErr(e.message || String(e));
-                set_hm_c_pub(["Error"])
-                console.log(e)
+                console.log(e);
+                if (alive) {
+                    set_hm_c_pub([]);
+                }
             }
         })();
-        return () => { alive = false; };
+
+        return () => {
+            alive = false;
+        };
     }, []);
 
     return (
-        <>
-            <div
-                id="whole"
-                className="publications-page d-flex flex-column justify-content-start align-items-center min-vh-100 w-100"
-            >
-                <section className="publications-header-container">
-                    <h1 className="publications-title">Publications</h1>
-                    <p className="publications-subtitle">
-                        Browse by author to explore the full list of publications.
-                    </p>
-                    <div className="publications-underline" />
-                </section>
-                
-                <div className="publications-list container">
-                    {DUMMY_AUTHORS.map((a) => (
-                        <CollapsibleAuthor key={a.id} author={a} />
-                    ))}
-                </div>
+        <div
+            id="whole"
+            className="publications-page d-flex flex-column justify-content-start align-items-center min-vh-100 w-100"
+        >
+            <section className="publications-header-container">
+                <h1 className="publications-title">Publications</h1>
+                <p className="publications-subtitle">
+                    Browse by author to explore the full list of publications.
+                </p>
+                <div className="publications-underline" />
+            </section>
+
+            <div className="publications-list container">
+                {DUMMY_AUTHORS.map((a) => (
+                    <CollapsibleAuthor key={a.id} author={a} />
+                ))}
             </div>
-        </>
+        </div>
     );
 }
 
