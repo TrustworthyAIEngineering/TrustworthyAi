@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "3-qRVLUAAAAJ:kzcrU_BdoSEC",
+    "title": "Trust in One Round: Confidence Estimation for Large Language Models via Structural Signals",
+    "authors": "P Yang, J Wen, H Jin, L Huang, H Chen, L Chen",
+    "venue": "Proceedings of the ACM on Web Conference 2026 , 2026",
+    "year": 2026,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:kzcrU_BdoSEC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:2KloaMYe4IUC",
+    "title": "K&L: Penetrating Backdoor Defense with Key and Locks",
+    "authors": "X Wang, J Zhang, Z Zhu, Z Jin, D Yuan, H Chen",
+    "venue": "Proceedings of the ACM on Web Conference 2026 , 2026",
+    "year": 2026,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:2KloaMYe4IUC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:35r97b3x0nAC",
+    "title": "Are LLMs Reliable Code Reviewers? Systematic Overcorrection in Requirement Conformance Judgement",
+    "authors": "H Jin, H Chen",
+    "venue": "arXiv preprint arXiv:2603.00539 , 2026",
+    "year": 2026,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:35r97b3x0nAC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:_Re3VWB3Y0AC",
+    "title": "DAMA: A Dual Alignment Framework for Enhanced LLM-Powered Recommendations",
+    "authors": "Q Zeng, L Chen, J Qiu, F Liu, H Chen, L Chen",
+    "venue": "2025 IEEE International Conference on Data Mining (ICDM), 1692-1701 , 2026",
+    "year": 2026,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:_Re3VWB3Y0AC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:7T2F9Uy0os0C",
+    "title": "What You See Is Not Always What You Get: Evaluating GPT’s Comprehension of Source Code",
+    "authors": "J Wen, B Zhu, H Chen",
+    "venue": "2025 32nd Asia-Pacific Software Engineering Conference (APSEC), 383-394 , 2026",
+    "year": 2026,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:7T2F9Uy0os0C",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:VL0QpB8kHFEC",
+    "title": "LLMs are All You Need? Improving Fuzz Testing for MOJO with Large Language Models",
+    "authors": "L Huang, P Zhao, H Chen",
+    "venue": "2025 32nd Asia-Pacific Software Engineering Conference (APSEC) , 2026",
+    "year": 2026,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:VL0QpB8kHFEC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:tKAzc9rXhukC",
+    "title": "A Multi-Factor Evaluation of Fidelity in LLM-Based Cross-Cultural Surrogates",
+    "authors": "DW Zhang, A Cao, Y Yang, H Jin, L Chen, K Weatherall, H Chen",
+    "venue": "",
+    "year": 2026,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:tKAzc9rXhukC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:tzM49s52ZIMC",
+    "title": "Dual Visual Prompting with Context-Modulated Diffusion Prompts",
+    "authors": "H Wang, H Li, H Chen, J Yan, J Shi, J Shen",
+    "venue": "IEEE Transactions on Multimedia , 2026",
+    "year": 2026,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:tzM49s52ZIMC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:evX43VCCuoAC",
+    "title": "Towards Zero-Shot Diabetic Retinopathy Grading: Learning Generalized Knowledge via Prompt-Driven Matching and Emulating",
+    "authors": "H Wang, H Li, Y Lin, H Chen, J Yan, L Wang, J Shi, Q Xu, Y Hu, Y Xu, ...",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence , 2026",
+    "year": 2026,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:evX43VCCuoAC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:_Ybze24A_UAC",
+    "title": "Feature-Selective Representation Misdirection for Machine Unlearning",
+    "authors": "T Chen, L Huang, KKR Choo, H Chen",
+    "venue": "IFIP International Conference on ICT Systems Security and Privacy Protection , 2026",
+    "year": 2026,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:_Ybze24A_UAC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:W5xh706n7nkC",
+    "title": "Trust in LLM-controlled Robotics: a Survey of Security Threats, Defenses and Challenges",
+    "authors": "X Huang, SK VB, T Chen, M Bryson, T Chaffey, H Chen, KKR Choo, ...",
+    "venue": "Authorea Preprints , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:W5xh706n7nkC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:dTyEYWd-f8wC",
+    "title": "Uncovering Systematic Failures of LLMs in Verifying Code Against Natural Language Specifications",
+    "authors": "H Jin, H Chen",
+    "venue": "Proceedings of the 40th IEEE/ACM International Conference on Automated … , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:dTyEYWd-f8wC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:uLbwQdceFCQC",
+    "title": "GuardFed: A Trustworthy Federated Learning Framework Against Dual-Facet Attacks",
+    "authors": "Y Li, Y Zhou, Z Guo, N Yang, Y Zhang, H Chen, D Yuan, W Ding, ...",
+    "venue": "arXiv preprint arXiv:2511.09294 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:uLbwQdceFCQC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:PR6Y55bgFSsC",
+    "title": "Rethinking Lipschitzness Data-free Backdoor Defense",
+    "authors": "X Wang, Z Zhu, Z Jin, H Chen, TJ Lim",
+    "venue": "Proceedings of the 34th ACM International Conference on Information and … , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:PR6Y55bgFSsC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=7755508845279018849"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:1yQoGdGgb4wC",
+    "title": "M- REC: A Motivation-Aware User-Item Interaction Framework for Enhancing Recommendation Accuracy with LLMs",
+    "authors": "L Chen, Q Zeng, H Chen",
+    "venue": "Proceedings of the 34th ACM International Conference on Information and … , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:1yQoGdGgb4wC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=3367930992542570314"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:hkOj_22Ku90C",
+    "title": "MVGFormer: Multi-view perspective with graph-guided transformer for cryo-ET segmentation",
+    "authors": "H Li, X Li, H Wang, J Shi, H Chen, Y Zhao, B Du, J Barthelemy, D Kihara, ...",
+    "venue": "Knowledge-Based Systems, 114810 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:hkOj_22Ku90C",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:UHK10RUVsp4C",
+    "title": "A multi-geometric graph fusion network for protein-ligand affinity prediction",
+    "authors": "G Zhou, S Yuan, Q Xu, H Li, H Chen, J Shen",
+    "venue": "Physical Chemistry Chemical Physics , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:UHK10RUVsp4C",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:ye4kPcJQO24C",
+    "title": "Human-aligned AI Model Cards with Weighted Hierarchy Architecture",
+    "authors": "P Yang, H Jin, Q Zeng, J Wen, H Rao, H Chen",
+    "venue": "arXiv preprint arXiv:2510.06989 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:ye4kPcJQO24C",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:LjlpjdlvIbIC",
+    "title": "Deep Learning Representations of Programs: A Systematic Literature Review",
+    "authors": "D Shanmugasundaram, P Arivukkarasu, H Chen, H Cai",
+    "venue": "ACM Computing Surveys , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:LjlpjdlvIbIC",
+    "cited_by": 3,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=13240988073914649338"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:Fu2w8maKXqMC",
+    "title": "A multi-task Transformer with mixture-of-experts for personalized periodic predictions of individual travel behavior in multimodal public transport",
+    "authors": "H Xi, Z Shao, DA Hensher, JD Nelson, H Chen, K Wijayaratna",
+    "venue": "Transportation Research Part C: Emerging Technologies 179, 105287 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:Fu2w8maKXqMC",
+    "cited_by": 8,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=8223259188201132868"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:eq2jaN3J8jMC",
+    "title": "Foe for Fraud: Transferable Adversarial Attacks in Credit Card Fraud Detection",
+    "authors": "JL Fok, Q Zeng, S Chen, O Fawkes, H Chen",
+    "venue": "2025 IEEE International Conference on Web Services (ICWS), 286-292 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:eq2jaN3J8jMC",
+    "cited_by": 2,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=16601940040157078167"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:J-pR_7NvFogC",
+    "title": "PAR-AdvGAN: Improving Adversarial Attack Capability with Progressive Auto-regression AdvGAN",
+    "authors": "J Zhang, Z Zhu, X Wang, S Liao, Z Jin, F Salim, H Chen",
+    "venue": "Joint European Conference on Machine Learning and Knowledge Discovery in … , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:J-pR_7NvFogC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=3287529004890102502"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:eMMeJKvmdy0C",
+    "title": "FedSC: Federated Learning with Semantic-Aware Collaboration",
+    "authors": "H Wang, H Li, H Chen, J Yan, J Shi, J Shen",
+    "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and … , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:eMMeJKvmdy0C",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:SdhP9T11ey4C",
+    "title": "On the challenges of fuzzing techniques via large language models",
+    "authors": "L Huang, P Zhao, L Ma, H Chen",
+    "venue": "2025 IEEE International Conference on Software Services Engineering (SSE … , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:SdhP9T11ey4C",
+    "cited_by": 6,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=4394928496706547408"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:XiVPGOgt02cC",
+    "title": "FedSKC: Federated Learning with Non-IID Data via Structural Knowledge Collaboration",
+    "authors": "H Wang, H Li, H Chen, J Yan, L Wang, J Shi, S Chen, J Shen",
+    "venue": "2025 IEEE International Conference on Web Services (ICWS), 702-712 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:XiVPGOgt02cC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:AXPGKjj_ei8C",
+    "title": "Splitting & Integrating: Out-of-Distribution Detection via Adversarial Gradient Attribution",
+    "authors": "J Zhang, X Wang, Z Jin, Z Zhu, J Zhou, F Chen, H Chen",
+    "venue": "Forty-second International Conference on Machine Learning , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:AXPGKjj_ei8C",
+    "cited_by": 3,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=18125056590208631368"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:HE397vMXCloC",
+    "title": "Improving Adversarial Transferability via Decision Boundary Adaptation",
+    "authors": "J Zhang, Z Zhu, Z Jin, X Wang, H Chen, KKR Choo",
+    "venue": "The 41st Conference on Uncertainty in Artificial Intelligence , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:HE397vMXCloC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=15867572302196116000"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:Mojj43d5GZwC",
+    "title": "SplineFormer: Improving Time Series Forecasting with Kolmogorov-Arnold Networks and Enhanced ProbSparse Self-Attention",
+    "authors": "Q Zeng, N Yang, J Qiu, J Gao, H Chen",
+    "venue": "Pacific-Asia Conference on Knowledge Discovery and Data Mining, 257-268 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:Mojj43d5GZwC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:WA5NYHcadZ8C",
+    "title": "CrossFL: A Cross-Round Federated Learning Framework with Asynchronous Client Selection",
+    "authors": "Z Wen, N Yang, Y Zhang, Y Li, Z Yao, H Chen, D Yuan",
+    "venue": "Pacific-Asia Conference on Knowledge Discovery and Data Mining, 146-158 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:WA5NYHcadZ8C",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:t6usbXjVLHcC",
+    "title": "NSW-EPNews: A News-Augmented Benchmark for Electricity Price Forecasting with LLMs",
+    "authors": "Z Bi, L Huang, H Jin, Q Zeng, H Chen",
+    "venue": "arXiv preprint arXiv:2506.11050 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:t6usbXjVLHcC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=16501696542831490452"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:wbdj-CoPYUoC",
+    "title": "The Tower of Babel Revisited: Multilingual Jailbreak Prompts on Closed-Source Large Language Models",
+    "authors": "L Huang, H Jin, Z Bi, P Yang, P Zhao, T Chen, X Wu, L Ma, H Chen",
+    "venue": "arXiv preprint arXiv:2505.12287 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:wbdj-CoPYUoC",
+    "cited_by": 2,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=7973855020350907275"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:OU6Ihb5iCvQC",
+    "title": "Threats and defenses in the federated learning life cycle: A comprehensive survey and challenges",
+    "authors": "Y Li, Z Guo, N Yang, H Chen, D Yuan, W Ding",
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:OU6Ihb5iCvQC",
+    "cited_by": 41,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=9208414907493787661"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:5ugPr518TE4C",
+    "title": "Construction of Domain-Specific Knowledge Graph for Advanced Persistent Threat Behaviour Analysis and Detection",
+    "authors": "Y Yang, H Chen",
+    "venue": "Companion Proceedings of the ACM on Web Conference 2025, 1480-1484 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:5ugPr518TE4C",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=13612371304503607535"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:LPZeul_q3PIC",
+    "title": "Vox-UDA: Voxel-wise unsupervised domain adaptation for cryo-electron subtomogram segmentation with denoised pseudo-labeling",
+    "authors": "H Li, X Li, J Shi, H Chen, B Du, D Kihara, J Barthelemy, J Shen, M Xu",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence 39 (1), 406-414 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:LPZeul_q3PIC",
+    "cited_by": 3,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=12804210348119709639"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:4fKUyHm3Qg0C",
+    "title": "CAKD: A Correlation-Aware Knowledge Distillation Framework Based on Decoupling Kullback-Leibler Divergence",
+    "authors": "Z Zhang, H Chen, P Ning, N Yang, D Yuan",
+    "venue": "2024 IEEE International Conference on Data Mining (ICDM), 959-964 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:4fKUyHm3Qg0C",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=17715206987053687742"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:q3oQSFYPqjQC",
+    "title": "`Do as I say not as I do': A Semi-Automated Approach for Jailbreak Prompt Attack against Multimodal LLMs",
+    "authors": "CW Chiu, L Huang, B Li, H Chen, KKR Choo",
+    "venue": "arXiv preprint arXiv:2502.00735 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:q3oQSFYPqjQC",
+    "cited_by": 4,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=2136783509048606601"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:bnK-pcrLprsC",
+    "title": "FairCompass: Operationalising Fairness in Machine Learning",
+    "authors": "J Liu, H Chen, J Shen, KKR Choo",
+    "venue": "IEEE Transactions on Artificial Intelligence 6 (2) , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:bnK-pcrLprsC",
+    "cited_by": 13,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=16740938156405664765"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:eJXPG6dFmWUC",
+    "title": "Look Before You Leap: An Exploratory Study of Uncertainty Analysis for Large Language Models",
+    "authors": "Y Huang, J Song, Z Wang, S Zhao, H Chen, F Juefei-Xu, L Ma",
+    "venue": "IEEE Transactions on Software Engineering 51 (2), 413-429 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:eJXPG6dFmWUC",
+    "cited_by": 67,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=15864040949778097726"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:bFI3QPDXJZMC",
+    "title": "Rethinking Transferable Adversarial Attacks with Double Adversarial Neuron Attribution",
+    "authors": "Z Zhu, Z Jin, X Wang, J Zhang, H Chen, KKR Choo",
+    "venue": "IEEE Transactions on Artificial Intelligence 6 (2), 354-364 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:bFI3QPDXJZMC",
+    "cited_by": 6,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=9460860366578059432"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:eflP2zaiRacC",
+    "title": "Towards advancing code generation with large language models: A research roadmap",
+    "authors": "H Jin, H Chen, Q Lu, L Zhu",
+    "venue": "arXiv preprint arXiv:2501.11354 , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:eflP2zaiRacC",
+    "cited_by": 11,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=123997571257205558"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:JQOojiI6XY0C",
+    "title": "Deep Learning Representations of Programs: A Systematic",
+    "authors": "D SHANMUGASUNDARAM, P ARIVUKKARASU, H CHEN, H CAI",
+    "venue": "",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:JQOojiI6XY0C",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:PELIpwtuRlgC",
+    "title": "FedDifRC: Unlocking the Potential of Text-to-Image Diffusion Models in Heterogeneous Federated Learning",
+    "authors": "H Wang, H Li, H Chen, J Yan, J Shi, J Shen",
+    "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision … , 2025",
+    "year": 2025,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:PELIpwtuRlgC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:VOx2b1Wkg3QC",
+    "title": "Attribution for Enhanced Explanation with Transferable Adversarial eXploration",
+    "authors": "Z Zhu, J Zhang, Z Jin, H Chen, J Zhou, F Chen",
+    "venue": "arXiv preprint arXiv:2412.19523 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:VOx2b1Wkg3QC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:BrmTIyaxlBUC",
+    "title": "Engineering Carbon Credits Towards A Responsible FinTech Era: The Practices, Implications, and Future",
+    "authors": "Q Zeng, H Xu, N Xu, Z Zhao, J Westerholm, F Salim, J Gao, H Chen",
+    "venue": "arXiv preprint arXiv:2501.14750 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:BrmTIyaxlBUC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=9516352507004924358"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:D_sINldO8mEC",
+    "title": "Maasformer-mmoe: Multi-task transformer under mixture-of-experts framework for maas bundle customization",
+    "authors": "H Xi, S Zhiiqi, D Hensher, J Nelson, H Chen, KP Wijayaratna",
+    "venue": "Available at SSRN 5056659 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:D_sINldO8mEC",
+    "cited_by": 3,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=12126093398485353693"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:olpn-zPbct0C",
+    "title": "Rgd: Multi-llm based agent debugger via refinement and generation guidance",
+    "authors": "H Jin, Z Sun, H Chen",
+    "venue": "2024 IEEE International Conference on Agents (ICA), 136-141 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:olpn-zPbct0C",
+    "cited_by": 16,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=14912199733061182723"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:fQNAKQ3IYiAC",
+    "title": "What you see is not always what you get: An empirical study of code comprehension by large language models",
+    "authors": "B Zhu, J Wen, H Chen",
+    "venue": "arXiv e-prints, arXiv: 2412.08098 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:fQNAKQ3IYiAC",
+    "cited_by": 3,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=1628095703593728598"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:mvPsJ3kp5DgC",
+    "title": "Improving Carbon Price Prediction by Decomposing Single Influencing Factor with XGBoost",
+    "authors": "H Xu, Q Zeng, H Chen",
+    "venue": "2024 Twelfth International Conference on Advanced Cloud and Big Data (CBD … , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:mvPsJ3kp5DgC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:ZfRJV9d4-WMC",
+    "title": "Enhanced Carbon Credits Price Prediction with Multiple Influencing Market Factors",
+    "authors": "Q Zeng, H Xu, N Xu, J Gao, H Chen",
+    "venue": "Australasian Conference on Data Science and Machine Learning, 32-47 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:ZfRJV9d4-WMC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:8AbLer7MMksC",
+    "title": "AI-Compass: A Comprehensive and Effective Multi-module Testing Tool for AI Systems",
+    "authors": "Z Zhu, Z Jin, H Hu, M Xue, R Sun, S Camtepe, P Gauravaram, H Chen",
+    "venue": "arXiv preprint arXiv:2411.06146 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:8AbLer7MMksC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=4995652250971901172"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:geHnlv5EZngC",
+    "title": "Enhancing model interpretability with local attribution over global exploration",
+    "authors": "Z Zhu, Z Jin, J Zhang, H Chen",
+    "venue": "Proceedings of the 32nd ACM International Conference on Multimedia, 5347-5355 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:geHnlv5EZngC",
+    "cited_by": 6,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=7905299358621438739"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:sSrBHYA8nusC",
+    "title": "Trustworthy and responsible ai for information and knowledge management system",
+    "authors": "H Chen, J Zhuang, Y Yao, W Jin, H Wang, Y Xie, CH Chi, KKR Choo",
+    "venue": "Proceedings of the 33rd ACM International Conference on Information and … , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:sSrBHYA8nusC",
+    "cited_by": 2,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=4013324315508758744"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:B3FOqHPlNUQC",
+    "title": "Improving adversarial transferability via frequency-guided sample relevance attack",
+    "authors": "X Wang, Z Jin, Z Zhu, J Zhang, H Chen",
+    "venue": "Proceedings of the 33rd ACM International Conference on Information and … , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:B3FOqHPlNUQC",
+    "cited_by": 7,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=959932532860284046"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:vRqMK49ujn8C",
+    "title": "High Security and Privacy Protection Model for STI/HIV Risk Prediction",
+    "authors": "Z Tang, TPV Nguyen, W Yang, X Xia, H Chen, AB Mullens, JA Dean, ...",
+    "venue": "Digital Health, 1-13 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:vRqMK49ujn8C",
+    "cited_by": 5,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=4576553406495762062"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:dshw04ExmUIC",
+    "title": "On Security Weaknesses and Vulnerabilities in Deep Learning Systems",
+    "authors": "Z Lai, H Chen, R Sun, Y Zhang, M Xue, D Yuan",
+    "venue": "IEEE Transactions on Dependable and Secure Computing , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:dshw04ExmUIC",
+    "cited_by": 12,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=4619015314426577715"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:WbkHhVStYXYC",
+    "title": "Leveraging Information Consistency in Frequency and Spatial Domain for Adversarial Attacks",
+    "authors": "Z Jin, J Zhang, Z Zhu, X Wang, Y Huang, H Chen",
+    "venue": "The Pacific Rim International Conference on Artificial Intelligence (PRICAI) , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:WbkHhVStYXYC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=632742745698945192"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:Tiz5es2fbqcC",
+    "title": "From llms to llm-based agents for software engineering: A survey of current, challenges and future",
+    "authors": "H Jin, L Huang, H Cai, J Yan, B Li, H Chen",
+    "venue": "arXiv preprint arXiv:2408.02479 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:Tiz5es2fbqcC",
+    "cited_by": 257,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=18228541973918888018,3841958191135501871,8692207871450138645,1546892550346660378"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:uWQEDVKXjbEC",
+    "title": "GEMF: a novel geometry-enhanced mid-fusion network for PLA prediction",
+    "authors": "G Zhou, Y Qin, Q Hong, H Li, H Chen, J Shen",
+    "venue": "Briefings in Bioinformatics 25 (4) , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:uWQEDVKXjbEC",
+    "cited_by": 4,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=14891140996834409564"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:UxriW0iASnsC",
+    "title": "Iterative Search Attribution for Deep Neural Networks",
+    "authors": "Z Zhu, H Chen, X Wang, J Zhang, Z Jin, J Xue, J Shen",
+    "venue": "Forty-first International Conference on Machine Learning , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:UxriW0iASnsC",
+    "cited_by": 10,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=16203848881917102408"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:SP6oXDckpogC",
+    "title": "Fairpriori: Improving Biased Subgroup Discovery for Deep Neural Network Fairness",
+    "authors": "K Zhou, J Wen, N Yang, D Yuan, Q Lu, H Chen",
+    "venue": "arXiv preprint arXiv:2407.01595 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:SP6oXDckpogC",
+    "cited_by": 2,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=13339845050339956070"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:KxtntwgDAa4C",
+    "title": "DMS: addressing information loss with more steps for pragmatic adversarial attacks",
+    "authors": "Z Zhu, J Zhang, X Wang, Z Jin, H Chen",
+    "venue": "arXiv preprint arXiv:2406.07580 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:KxtntwgDAa4C",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=15189871340366693500"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:xtRiw3GOFMkC",
+    "title": "Holistic evaluation metrics: Use case sensitive evaluation metrics for federated learning",
+    "authors": "Y Li, J Ibrahim, H Chen, D Yuan, KKR Choo",
+    "venue": "arXiv preprint arXiv:2405.02360 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:xtRiw3GOFMkC",
+    "cited_by": 5,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=1161588200168976461"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:08ZZubdj9fEC",
+    "title": "AttEXplore: Attribution for Explanation with model parameters eXploration",
+    "authors": "Z Zhu, H Chen, J Zhang, X Wang, Z Jin, J Xue, FD Salim",
+    "venue": "The Twelfth International Conference on Learning Representations , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:08ZZubdj9fEC",
+    "cited_by": 18,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=7899402595634045724"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:pyW8ca7W8N0C",
+    "title": "Holistic Evaluation Metrics for Federated Learning",
+    "authors": "J Ibrahim, Y Li, H Chen, D Yuan",
+    "venue": "The 2024 27th International Conference on Computer Supported Cooperative … , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:pyW8ca7W8N0C",
+    "cited_by": 2,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=6936686058877777564"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:SeFeTyx0c_EC",
+    "title": "Code Ownership in Open-Source AI Software Security",
+    "authors": "J Wen, D Yuan, L Ma, H Chen",
+    "venue": "2024 IEEE/ACM International Workshop on Responsible AI Engineering co … , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:SeFeTyx0c_EC",
+    "cited_by": 2,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=7563124163055162914"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:zA6iFVUQeVQC",
+    "title": "GE-AdvGAN: Improving the transferability of adversarial samples by gradient editing-based adversarial generative model",
+    "authors": "Z Zhu, H Chen, X Wang, J Zhang, Z Jin, KKR Choo, J Shen, D Yuan",
+    "venue": "SIAM International Conference on Data Mining (SDM24) , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:zA6iFVUQeVQC",
+    "cited_by": 25,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=8716712101147473250"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:l7t_Zn2s7bgC",
+    "title": "SBFT Tool Competition 2024---Fuzzing Track",
+    "authors": "P Görz, J Schilling, X Wu, H Chen, R Gopinath",
+    "venue": "Proceedings of the 17th ACM/IEEE International Workshop on Search-Based and … , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:l7t_Zn2s7bgC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=7383849804973418909"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:ZHo1McVdvXMC",
+    "title": "MFABA: A More Faithful and Accelerated Boundary-based Attribution Method for Deep Neural Networks",
+    "authors": "Z Zhu, H Chen, J Zhang, X Wang, Z Jin, M Xue, D Zhu, KKR Choo",
+    "venue": "The 38th Annual AAAI Conference on Artificial Intelligence , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:ZHo1McVdvXMC",
+    "cited_by": 27,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=9246644325216411495"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:pqnbT2bcN3wC",
+    "title": "Contribution-Wise Byzantine-Robust Aggregation for Class-Balanced Federated Learning",
+    "authors": "Y Li, W Ding, H Chen, W Bao, D Yuan",
+    "venue": "Information Sciences , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:pqnbT2bcN3wC",
+    "cited_by": 7,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=5299527263374759958"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:maZDTaKrznsC",
+    "title": "Security for Machine Learning-based Software Systems: a survey of threats, practices and challenges",
+    "authors": "H Chen, MA Babar",
+    "venue": "ACM Computing Surveys , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:maZDTaKrznsC",
+    "cited_by": 65,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=7498470977629635434"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:dfsIfKJdRG4C",
+    "title": "Large language models based fuzzing techniques: A survey",
+    "authors": "L Huang, P Zhao, H Chen, L Ma",
+    "venue": "arXiv e-prints, arXiv: 2402.00350 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:dfsIfKJdRG4C",
+    "cited_by": 42,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=7258732020408785690"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:u_35RYKgDlwC",
+    "title": "Global disentangled graph convolutional neural network based on a graph topological metric",
+    "authors": "W Liu, G Zhou, X Mao, S Bao, H Li, J Shi, H Chen, J Shen, Y Huang",
+    "venue": "Knowledge-Based Systems 284, 111283 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:u_35RYKgDlwC",
+    "cited_by": 6,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=637947949159304974"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:NJ774b8OgUMC",
+    "title": "From llms to llm-based agents for software engineering: A survey of current, challenges and future. arXiv 2024",
+    "authors": "H Jin, L Huang, H Cai, J Yan, B Li, H Chen",
+    "venue": "arXiv preprint arXiv:2408.02479 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:NJ774b8OgUMC",
+    "cited_by": 13,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=1532686695871055161"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:u9iWguZQMMsC",
+    "title": "Enhancing Transferable Adversarial Attacks on Vision Transformers through Gradient Normalization Scaling and High-Frequency Adaptation",
+    "authors": "Z Zhu, X Wang, Z Jin, J Zhang, H Chen",
+    "venue": "The Twelfth International Conference on Learning Representations , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:u9iWguZQMMsC",
+    "cited_by": 16,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=13904993439380467359"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:EUQCXRtRnyEC",
+    "title": "Benchmarking Transferable Adversarial Attacks",
+    "authors": "Z Jin, J Zhang, Z Zhu, H Chen",
+    "venue": "",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:EUQCXRtRnyEC",
+    "cited_by": 18,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=6108874219286427374"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:cFHS6HbyZ2cC",
+    "title": "FDNet: Frequency Domain Denoising Network For Cell Segmentation in Astrocytes Derived From Induced Pluripotent Stem Cells",
+    "authors": "H Li, J Shi, H Chen, B Du, S Maksour, G Phillips, M Dottori, J Shen",
+    "venue": "The IEEE International Symposium on Biomedical Imaging (ISBI) 2024 , 2024",
+    "year": 2024,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:cFHS6HbyZ2cC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=5836699798286295743"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:35N4QoGY0k4C",
+    "title": "Handling heavy occlusion in dense crowd tracking by focusing on the heads",
+    "authors": "Y Zhang, H Chen, Z Lai, Z Zhang, D Yuan",
+    "venue": "Australasian Joint Conference on Artificial Intelligence, 79-90 , 2023",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:35N4QoGY0k4C",
+    "cited_by": 13,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=14441652571735580477"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:HoB7MX3m0LUC",
+    "title": "Honest score client selection scheme: Preventing federated learning label flipping attacks in non-iid scenarios",
+    "authors": "Y Li, H Chen, W Bao, Z Xu, D Yuan",
+    "venue": "arXiv preprint arXiv:2311.05826 , 2023",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:HoB7MX3m0LUC",
+    "cited_by": 10,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=7283128827949991269"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:g5m5HwL7SMYC",
+    "title": "Improving adversarial transferability via frequency-based stationary point search",
+    "authors": "Z Zhu, H Chen, J Zhang, X Wang, Z Jin, Q Lu, J Shen, KKR Choo",
+    "venue": "Proceedings of the 32nd ACM International Conference on Information and … , 2023",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:g5m5HwL7SMYC",
+    "cited_by": 12,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=13152343724042758342"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:M05iB0D1s5AC",
+    "title": "Fvw: Finding valuable weight on deep neural network for model pruning",
+    "authors": "Z Zhu, H Chen, Z Jin, X Wang, J Zhang, M Xue, Q Lu, J Shen, KKR Choo",
+    "venue": "Proceedings of the 32nd ACM International Conference on Information and … , 2023",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:M05iB0D1s5AC",
+    "cited_by": 4,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=8690548335009764539"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:70eg2SAEIzsC",
+    "title": "Towards Minimising Perturbation Rate for Adversarial Machine Learning with Pruning",
+    "authors": "Z Zhu, J Zhang, Z Jin, X Wang, M Xue, J Shen, KKR Choo, H Chen",
+    "venue": "Joint European Conference on Machine Learning and Knowledge Discovery in … , 2023",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:70eg2SAEIzsC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=13943412269845225946"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:ldfaerwXgEUC",
+    "title": "DANAA: Towards transferable attacks with double adversarial neuron attribution",
+    "authors": "Z Jin, Z Zhu, X Wang, J Zhang, J Shen, H Chen",
+    "venue": "International Conference on Advanced Data Mining and Applications, 456-470 , 2023",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:ldfaerwXgEUC",
+    "cited_by": 19,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=1707386986793991463"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:vV6vV6tmYwMC",
+    "title": "Look before you leap: An exploratory study of uncertainty measurement for large language models",
+    "authors": "Y Huang, J Song, Z Wang, S Zhao, H Chen, F Juefei-Xu, L Ma",
+    "venue": "arXiv preprint arXiv:2307.10236 , 2023",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:vV6vV6tmYwMC",
+    "cited_by": 189,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=6603911262545362944"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:J_g5lzvAfSwC",
+    "title": "POSTER: ML-Compass: A Comprehensive Assessment Framework for Machine Learning Models",
+    "authors": "Z Jin, Z Zhu, H Hu, M Xue, H Chen",
+    "venue": "Proceedings of the 2023 ACM Asia Conference on Computer and Communications … , 2023",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:J_g5lzvAfSwC",
+    "cited_by": 3,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=9497282069783637579"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:2P1L_qKh6hAC",
+    "title": "Towards better ML-based software services: an investigation of source code engineering impact",
+    "authors": "Y Li, C Ye, H Chen, S Chen, M Xue, J Shen",
+    "venue": "2023 IEEE International Conference on Software Services Engineering (SSE), 1-10 , 2023",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:2P1L_qKh6hAC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=16101220275464764208"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:RYcK_YlVTxYC",
+    "title": "Wirelessdt: A digital twin platform for real-time evaluation of wireless software applications",
+    "authors": "Z Lai, D Yuan, H Chen, Y Zhang, W Bao",
+    "venue": "2023 IEEE/ACM 45th International Conference on Software Engineering … , 2023",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:RYcK_YlVTxYC",
+    "cited_by": 8,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=588068585036341802"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:lSLTfruPkqcC",
+    "title": "Data hiding with deep learning: A survey unifying digital watermarking and steganography",
+    "authors": "Z Wang, O Byrnes, H Wang, R Sun, C Ma, H Chen, Q Wu, M Xue",
+    "venue": "IEEE Transactions on Computational Social Systems 10 (6), 2985-2999 , 2023",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:lSLTfruPkqcC",
+    "cited_by": 159,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=16041637411923719614"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:NMxIlDl6LWMC",
+    "title": "Distributed online multi-label learning with privacy protection in internet of things",
+    "authors": "F Huang, N Yang, H Chen, W Bao, D Yuan",
+    "venue": "Applied Sciences 13 (4), 2713 , 2023",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:NMxIlDl6LWMC",
+    "cited_by": 3,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=759422531998110784"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:blknAaTinKkC",
+    "title": "ICB FL: Implicit class balancing towards fairness in federated learning",
+    "authors": "Y Li, L Zhong, D Yuan, H Chen, W Bao",
+    "venue": "Proceedings of the 2023 Australasian Computer Science Week, 135-142 , 2023",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:blknAaTinKkC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=2741190600233396575"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:5awf1xo2G04C",
+    "title": "2023 IEEE/ACM 45th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)| 979-8-3503-2263-7/23/$31.00© 2023 IEEE| DOI: 10.1109/ICSE …",
+    "authors": "M Aboushadi, R Abreu, A Agrawal, F Ahmad, A Aleti, S Ali, L Almeida, ...",
+    "venue": "",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:5awf1xo2G04C",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:tkaPQYYpVKoC",
+    "title": "Chairs",
+    "authors": "N Novielli, X Peng, A Bosu, T Bryksin, H Cai, F Calefato, O Chaparro, ...",
+    "venue": "",
+    "year": 2023,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:tkaPQYYpVKoC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:k_IJM867U9cC",
+    "title": "A survey on data-driven software vulnerability assessment and prioritization",
+    "authors": "THM Le, H Chen, MA Babar",
+    "venue": "ACM Computing Surveys 55 (5), 1-39 , 2022",
+    "year": 2022,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:k_IJM867U9cC",
+    "cited_by": 140,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=7389496465912517883"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:YFjsv_pBGBYC",
+    "title": "FocalMatch: Mitigating class imbalance of pseudo labels in semi-supervised learning",
+    "authors": "Y Deng, C Zhang, N Yang, H Chen",
+    "venue": "Applied Sciences 12 (20), 10623 , 2022",
+    "year": 2022,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:YFjsv_pBGBYC",
+    "cited_by": 8,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=15597576486711948129"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:JV2RwH3_ST0C",
+    "title": "Noisy label learning for security defects",
+    "authors": "R Croft, MA Babar, H Chen",
+    "venue": "Proceedings of the 19th International Conference on Mining Software … , 2022",
+    "year": 2022,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:JV2RwH3_ST0C",
+    "cited_by": 20,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=15380245859556167832"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:M3NEmzRMIkIC",
+    "title": "Linevd: Statement-level vulnerability detection using graph neural networks",
+    "authors": "D Hin, A Kan, H Chen, MA Babar",
+    "venue": "Proceedings of the 19th international conference on mining software … , 2022",
+    "year": 2022,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:M3NEmzRMIkIC",
+    "cited_by": 347,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=1535929275786002373"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:HDshCWvjkbEC",
+    "title": "Systematic evaluation of machine learning methods for identifying human–pathogen protein–protein interactions",
+    "authors": "H Chen, F Li, L Wang, Y Jin, CH Chi, L Kurgan, J Song, J Shen",
+    "venue": "Briefings in Bioinformatics 22 (3), bbaa068 , 2021",
+    "year": 2021,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:HDshCWvjkbEC",
+    "cited_by": 44,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=16557323040535674676"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:isC4tDSrTZIC",
+    "title": "Towards industrial internet of things in steel manufacturing: a multiple-factor-based detection system of longitudinal surface cracks",
+    "authors": "F Li, A Yang, H Chen, G Sun, F Wang, Y Xie, J Li, J Shen",
+    "venue": "2020 IEEE International Conference on Big Data (Big Data), 4627-4635 , 2020",
+    "year": 2020,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:isC4tDSrTZIC",
+    "cited_by": 5,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=1991236628586560421"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:bEWYMUwI8FkC",
+    "title": "A service computing framework for proteomics analysis and collaboration of pathogenic mechanism studies",
+    "authors": "H Chen, F Li, G Sun, X Zhang, X Dong, L Wang, K Liao, H Shen, J Shen",
+    "venue": "2020 IEEE International Conference on Services Computing (SCC), 463-465 , 2020",
+    "year": 2020,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:bEWYMUwI8FkC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:iH-uZ7U-co4C",
+    "title": "HIME: Mining and Ensembling Heterogeneous Information for Protein-Protein Interactions Prediction",
+    "authors": "H Chen, Y Jin, L Wang, CH Chi, J Shen",
+    "venue": "2020 International Joint Conference on Neural Networks (IJCNN), 1-8 , 2020",
+    "year": 2020,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:iH-uZ7U-co4C",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:j3f4tGmQtD8C",
+    "title": "Towards a more effective bidirectional LSTM-based learning model for human-bacterium protein-protein interactions",
+    "authors": "H Chen, J Shen, L Wang, Y Jin",
+    "venue": "International Conference on Practical Applications of Computational Biology … , 2020",
+    "year": 2020,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:j3f4tGmQtD8C",
+    "cited_by": 3,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=745809931244827013"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:kRWSkSYxWN8C",
+    "title": "Evolutionary Learner Profile Optimization Using Rare and Negative Association Rules",
+    "authors": "J Lin, J Shen, T Cui, D Xu, H Chen",
+    "venue": "Intelligent Tutoring Systems: 16th International Conference, ITS 2020 … , 2020",
+    "year": 2020,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:kRWSkSYxWN8C",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:TQgYirikUcIC",
+    "title": "Evolutionary learner profile optimization using rare and negative association rules for micro open learning",
+    "authors": "G Sun, J Lin, J Shen, T Cui, D Xu, H Chen",
+    "venue": "International Conference on Intelligent Tutoring Systems, 432-440 , 2020",
+    "year": 2020,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:TQgYirikUcIC",
+    "cited_by": 2,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=4103037644847916232"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:MXK_kJrjxJIC",
+    "title": "An intelligent blockchain-based system for safe vaccine supply and supervision",
+    "authors": "B Yong, J Shen, X Liu, F Li, H Chen, Q Zhou",
+    "venue": "International Journal of Information Management 52, 102024 , 2020",
+    "year": 2020,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:MXK_kJrjxJIC",
+    "cited_by": 327,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=13672250731597628738"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:4JMBOYKVnBMC",
+    "title": "APEX2S: A two‐layer machine learning model for discovery of host‐pathogen protein‐protein interactions on cloud‐based multiomics data",
+    "authors": "H Chen, J Shen, L Wang, CH Chi",
+    "venue": "Concurrency and Computation: Practice and Experience, e5846 , 2020",
+    "year": 2020,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:4JMBOYKVnBMC",
+    "cited_by": 10,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=17790645778085005012"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:e5wmG9Sq2KIC",
+    "title": "A novel Monte Carlo-based neural network model for electricity load forecasting",
+    "authors": "B Yong, Z Xu, J Shen, H Chen, J Wu, F Li, Q Zhou",
+    "venue": "International Journal of Embedded Systems 12 (4), 522-533 , 2020",
+    "year": 2020,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:e5wmG9Sq2KIC",
+    "cited_by": 7,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=2521917997599206485"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:3fE2CSJIrl8C",
+    "title": "A framework towards data analytics on host–pathogen protein–protein interactions",
+    "authors": "H Chen, J Shen, L Wang, J Song",
+    "venue": "Journal of Ambient Intelligence and Humanized Computing, 1-13 , 2020",
+    "year": 2020,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:3fE2CSJIrl8C",
+    "cited_by": 10,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=4395507400509302072"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:KlAtU1dfN6UC",
+    "title": "Hyperparameter estimation in SVM with GPU acceleration for prediction of protein-protein interactions",
+    "authors": "H Chen, L Wang, Y Jin, CH Chi, F Li, H Chu, J Shen",
+    "venue": "2019 IEEE International Conference on Big Data (Big Data), 2197-2204 , 2019",
+    "year": 2019,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:KlAtU1dfN6UC",
+    "cited_by": 5,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=100637602164500618"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:8k81kl-MbHgC",
+    "title": "Leveraging SMOTE in a two-layer model for prediction of protein-protein interactions",
+    "authors": "H Chen, L Wang, CH Chi, J Shen",
+    "venue": "2019 Seventh International Conference on Advanced Cloud and Big Data (CBD … , 2019",
+    "year": 2019,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:8k81kl-MbHgC",
+    "cited_by": 7,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=13208632681151437119"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:Zph67rFs4hoC",
+    "title": "Large expert-curated database for benchmarking document similarity detection in biomedical literature search",
+    "authors": "P Brown, Y Zhou",
+    "venue": "Database 2019, baz085 , 2019",
+    "year": 2019,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:Zph67rFs4hoC",
+    "cited_by": 49,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=17097264375281475524,7786664401513510843"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:roLk4NBRz8UC",
+    "title": "Ensemble machine learning systems for the estimation of steel quality control",
+    "authors": "F Li, J Wu, F Dong, J Lin, G Sun, H Chen, J Shen",
+    "venue": "2018 IEEE International Conference on Big Data (Big Data), 2245-2252 , 2018",
+    "year": 2018,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:roLk4NBRz8UC",
+    "cited_by": 56,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=16399158211569944983"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:WF5omc3nYNoC",
+    "title": "Towards biological sequence data service with insights",
+    "authors": "H Chen, J Shen, L Wang, CH Chi",
+    "venue": "2018 IEEE International Conference on Big Data (Big Data), 2847-2854 , 2018",
+    "year": 2018,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:WF5omc3nYNoC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=14089150156104489393"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:d1gkVwhDpl0C",
+    "title": "Effective long-term travel time prediction with fuzzy rules for tollway",
+    "authors": "R Li, G Rose, H Chen, J Shen",
+    "venue": "Neural Computing and Applications 30 (9), 2921-2933 , 2018",
+    "year": 2018,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:d1gkVwhDpl0C",
+    "cited_by": 16,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=1210510828320315804"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:eQOLeE2rZwMC",
+    "title": "GVM based intuitive simulation web application for collision detection",
+    "authors": "B Yong, J Shen, Z Shen, H Chen, X Wang, Q Zhou",
+    "venue": "Neurocomputing 279, 63-73 , 2018",
+    "year": 2018,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:eQOLeE2rZwMC",
+    "cited_by": 9,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=11938625224734619804"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:W7OEmFMy1HYC",
+    "title": "Structural principles analysis of host-pathogen protein-protein interactions: A structural bioinformatics survey",
+    "authors": "H Chen, W Guo, J Shen, L Wang, J Song",
+    "venue": "Ieee Access 6, 11760-11771 , 2018",
+    "year": 2018,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:W7OEmFMy1HYC",
+    "cited_by": 16,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=7012008779356396634"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:UebtZRa9Y70C",
+    "title": "Real-time management of groundwater resources based on wireless sensors networks",
+    "authors": "Q Zhou, C Chen, G Zhang, H Chen, D Chen, Y Yan, J Shen, R Zhou",
+    "venue": "Journal of Sensor and Actuator Networks 7 (1), 4 , 2018",
+    "year": 2018,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:UebtZRa9Y70C",
+    "cited_by": 17,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=17204665049852118916"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:ufrVoPGSRksC",
+    "title": "Parallel GPU-based collision detection of irregular vessel wall for massive particles",
+    "authors": "B Yong, J Shen, H Sun, H Chen, Q Zhou",
+    "venue": "Cluster Computing 20 (3), 2591-2603 , 2017",
+    "year": 2017,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:ufrVoPGSRksC",
+    "cited_by": 7,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=14363656840583389308"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:YsMSGLbcyi4C",
+    "title": "Intelligent monitor system based on cloud and convolutional neural networks",
+    "authors": "B Yong, G Zhang, H Chen, Q Zhou",
+    "venue": "The Journal of Supercomputing 73 (7), 3260-3276 , 2017",
+    "year": 2017,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:YsMSGLbcyi4C",
+    "cited_by": 25,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=9482400943991125219"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:_FxGoFyzp5QC",
+    "title": "Leveraging stacked denoising autoencoder in prediction of pathogen-host protein-protein interactions",
+    "authors": "H Chen, J Shen, L Wang, J Song",
+    "venue": "2017 IEEE International Congress on Big Data (BigData Congress), 368-375 , 2017",
+    "year": 2017,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:_FxGoFyzp5QC",
+    "cited_by": 16,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=14622789062306967592"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:zYLM7Y9cAGgC",
+    "title": "Towards elucidating the structural principles of host-pathogen protein-protein interaction networks: A bioinformatics survey",
+    "authors": "H Chen, J Song, G Sun, J Shen, L Wang",
+    "venue": "2017 IEEE International Congress on Big Data (BigData Congress), 177-184 , 2017",
+    "year": 2017,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:zYLM7Y9cAGgC",
+    "cited_by": 3,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=6066166450894371303"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:u5HHmVD_uO8C",
+    "title": "Assisting open education resource providers and instructors to deal with cold start problem in adaptive micro learning: a service oriented solution",
+    "authors": "G Sun, T Cui, D Xu, H Chen, S Chen, J Shen",
+    "venue": "2017 IEEE International Conference on Services Computing (SCC), 196-203 , 2017",
+    "year": 2017,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:u5HHmVD_uO8C",
+    "cited_by": 9,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=244765174355276980"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:aqlVkmm33-oC",
+    "title": "Line-tracking navigation method and device for intelligent robot",
+    "authors": "Q Zhou, H Chen, C Di, R Zhou",
+    "venue": "CN Patent CN103,822,625 B , 2017",
+    "year": 2017,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:aqlVkmm33-oC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:9yKSN-GCB0IC",
+    "title": "Collaborative data analytics towards prediction on pathogen-host protein-protein interactions",
+    "authors": "H Chen, J Shen, L Wang, J Song",
+    "venue": "2017 IEEE 21st International Conference on Computer Supported Cooperative … , 2017",
+    "year": 2017,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:9yKSN-GCB0IC",
+    "cited_by": 3,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=1564047336011161632"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:2osOgNQ5qMEC",
+    "title": "Neural network model with Monte Carlo algorithm for electricity demand forecasting in Queensland",
+    "authors": "B Yong, Z Xu, J Shen, H Chen, Y Tian, Q Zhou",
+    "venue": "Proceedings of the Australasian computer science week multiconference, 1-7 , 2017",
+    "year": 2017,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:2osOgNQ5qMEC",
+    "cited_by": 33,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=3645127964713554894"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:0EnyYjriUFMC",
+    "title": "Big Data in Genomics",
+    "authors": "H Chen, J Song, J Shen, L Wang",
+    "venue": "Big Data Management and Processing, 363-384 , 2017",
+    "year": 2017,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:0EnyYjriUFMC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:Se3iqnhoufwC",
+    "title": "A Comparison Study for Supervised Machine Learning Models in Cancer Classification",
+    "authors": "H Chen, H Zhao, L Wang, J Song, J Shen",
+    "venue": "The 16th International Conference on Bioinformatics (InCoB), 1-2 , 2017",
+    "year": 2017,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:Se3iqnhoufwC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:hqOjcs7Dif8C",
+    "title": "A local field correlated and Monte Carlo based shallow neural network model for non-linear time series prediction",
+    "authors": "Q Zhou, H Chen, H Zhao, G Zhang, J Yong, J Shen",
+    "venue": "University of Wollongong , 2016",
+    "year": 2016,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:hqOjcs7Dif8C",
+    "cited_by": 14,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=17932958917445086270"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:Tyk-4Ss8FVUC",
+    "title": "Towards data analytics of pathogen-host protein-protein interaction: a survey",
+    "authors": "H Chen, J Shen, L Wang, J Song",
+    "venue": "2016 IEEE International Congress on Big Data (BigData Congress), 377-388 , 2016",
+    "year": 2016,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:Tyk-4Ss8FVUC",
+    "cited_by": 12,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=6143799958863012866"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:LkGwnXOMwfcC",
+    "title": "An evaluation of the dynamics of diluted neural network",
+    "authors": "L Wang, J Shen, Q Zhou, Z Shang, H Chen, H Zhao",
+    "venue": "International Journal of Computational Intelligence Systems 9 (6), 1191-1199 , 2016",
+    "year": 2016,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:LkGwnXOMwfcC",
+    "cited_by": 4,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=15158108797382889396"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:u-x6o8ySG0sC",
+    "title": "RCSoS: An IEC 61508 Compatible Server Model for Reliable Communication",
+    "authors": "R Zhou, X Chen, H Chen, F Yan, C Chen, Q Yu, Q Zhou, KC Li",
+    "venue": "Journal of Signal Processing Systems 80 (3), 323-337 , 2015",
+    "year": 2015,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:u-x6o8ySG0sC",
+    "cited_by": 1,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=246285800353014884"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:Y0pCki6q_DkC",
+    "title": "Supervised machine learning model for high dimensional gene data in colon cancer detection",
+    "authors": "H Chen, H Zhao, J Shen, R Zhou, Q Zhou",
+    "venue": "2015 IEEE International Congress on Big Data, 134-141 , 2015",
+    "year": 2015,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:Y0pCki6q_DkC",
+    "cited_by": 60,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=6784564172429410337,7879339709335890690"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:IjCSPb-OGe4C",
+    "title": "Cloud services aided e-tourism: In the case of low-cost airlines for backpacking",
+    "authors": "JC Hung, R Zhou, J Hu, H Chen, Q Zhou, J Qi, L Yang",
+    "venue": "2013 International Conference on Parallel and Distributed Systems, 468-473 , 2013",
+    "year": 2013,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:IjCSPb-OGe4C",
+    "cited_by": 6,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=4563192493246958024"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:5nxA0vEk-isC",
+    "title": "The communication model between humanoid robot and mobile phone",
+    "authors": "H Chen, Y Sheng, R Zhou, Q Zhou, S Sun, JC Hung",
+    "venue": "2013 International Joint Conference on Awareness Science and Technology … , 2013",
+    "year": 2013,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:5nxA0vEk-isC",
+    "cited_by": null,
+    "cited_by_url": ""
+  },
+  {
+    "id": "3-qRVLUAAAAJ:qjMakFHDy7sC",
+    "title": "A server model for reliable communication on cell/BE",
+    "authors": "R Zhou, H Chen, Q Liu, Y Sheng, Q Zhou, X Wang, KC Li",
+    "venue": "2013 42nd International Conference on Parallel Processing, 1020-1027 , 2013",
+    "year": 2013,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:qjMakFHDy7sC",
+    "cited_by": 3,
+    "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=zh-CN&cites=4200551890469230426"
+  },
+  {
+    "id": "3-qRVLUAAAAJ:N5tVd3kTz84C",
+    "title": "Research Online",
+    "authors": "CJ Degeling, SM Carter, K Dale, K Singh, K Watts",
+    "venue": "Perspectives 1, 1-2020 , 0",
+    "year": null,
+    "gs_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=3-qRVLUAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=3-qRVLUAAAAJ:N5tVd3kTz84C",
+    "cited_by": null,
+    "cited_by_url": ""
+  }
+]
