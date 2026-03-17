@@ -1,4 +1,3 @@
-
 #whole {
     background-color: transparent;
     min-width: 100%;
@@ -14,19 +13,22 @@
     padding: 0 16px;
     text-align: center;
 }
+
 .news-title {
     font-size: 2.75rem;
     font-weight: 700;
     color: #222;
     margin-bottom: 8px;
 }
+
 .news-subtitle {
     font-size: 1.25rem;
     color: #555;
     margin-bottom: 24px;
 }
+
 .news-underline {
-    width: 1200px;
+    width: min(1200px, 92vw);
     height: 1.5px;
     background-color: gray;
     margin: 0 auto 40px;
@@ -38,74 +40,89 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     justify-content: center;
-
-    gap: 16px;
+    gap: 20px;
 }
 
-/* 纵向卡片：高度通常大于宽度 */
 .news-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;      
-
-    width:50vw;
+    display: grid;
+    grid-template-columns: 320px minmax(0, 1fr);
+    align-items: stretch;
+    width: min(960px, 100%);
     background: #fff;
     border: 2px solid #ddd;
-    box-shadow: 0 6px 14px rgba(0,0,0,.06);
-    border-radius: 3px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, .06);
+    border-radius: 12px;
     overflow: hidden;
 }
 
-/* 图片区域：铺满顶部 30% */
 .news-card__img {
-    width: 100%;
-    height: 100%;
+    width: 320px;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
-
+    background: #f4f4f4;
 }
+
 .news-card__img img {
-    padding: 15px;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-/* 文本区域 */
 .news-card__body {
-    padding: 14px 16px 16px;
-    background: white; /* 你原来的底色 */
-
+    padding: 18px 20px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 .news-card__title {
     margin: 0 0 6px 0;
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     font-weight: 600;
     color: #111;
 }
+
 .news-card__time {
     margin: 0 0 10px 0;
     font-size: .85rem;
     color: #6c757d;
 }
+
 .news-card__desc {
-    margin: 0;
+    margin: 0 0 14px;
     font-size: .95rem;
     line-height: 1.5;
     color: #222;
-
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 4;        /* 限制显示行数 */
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     white-space: normal;
 }
 
-/* 响应式收紧 */
-@media (max-width: 480px) {
-    .news-grid { grid-template-columns: 1fr; }
-    .news-card { min-height: 380px; }
+@media (max-width: 900px) {
+    .news-card {
+        grid-template-columns: 280px minmax(0, 1fr);
+    }
+
+    .news-card__img {
+        width: 280px;
+    }
+}
+
+@media (max-width: 640px) {
+    .news-card {
+        grid-template-columns: 1fr;
+    }
+
+    .news-card__img {
+        width: 100%;
+    }
+
+    .news-card__body {
+        padding: 16px;
+    }
 }
