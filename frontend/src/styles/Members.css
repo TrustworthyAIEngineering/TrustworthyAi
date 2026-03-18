@@ -12,14 +12,14 @@
 }
 
 .members-title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #222;
   margin-bottom: 8px;
 }
 
 .members-subtitle {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: #555;
   margin-bottom: 24px;
 }
@@ -35,11 +35,11 @@
 .members-grid-leader {
   display: flex;
   justify-content: center;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .members-leader {
-  margin-bottom: 60px;
+  margin-bottom: 48px;
   display: flex;
   justify-content: center;
 }
@@ -56,15 +56,15 @@
 
 .members-grid {
   display: grid;
-  grid-template-columns: repeat(5, 210px);
+  grid-template-columns: repeat(5, 196px);
   justify-content: center;
-  gap: 24px;
-  margin-bottom: 40px;
+  gap: 20px;
+  margin-bottom: 36px;
 }
 
 .member-card {
-  width: 210px;
-  height: 300px;
+  width: 196px;
+  height: 284px;
   background: whitesmoke;
   overflow: hidden;
   display: flex;
@@ -81,37 +81,37 @@
 
 .member-avatar {
   width: 100%;
-  height: 185px;
+  height: 172px;
   object-fit: cover;
 }
 
 .member-info {
-  padding: 12px;
+  padding: 11px;
   text-align: left;
 }
 
 .member-name {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: black;
   margin-bottom: 4px;
 }
 
 .member-dir {
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   color: black;
   line-height: 1.4;
 }
 
 @media (max-width: 1100px) {
   .members-grid {
-    grid-template-columns: repeat(3, minmax(210px, 1fr));
+    grid-template-columns: repeat(3, minmax(196px, 1fr));
   }
 }
 
 @media (max-width: 992px) {
   .members-grid {
-    grid-template-columns: repeat(2, minmax(210px, 1fr));
+    grid-template-columns: repeat(2, minmax(196px, 1fr));
     gap: 24px;
   }
 }

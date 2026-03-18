@@ -10,8 +10,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 28px;
-    width: min(900px, 92vw);
+    gap: 24px;
+    width: min(820px, 92vw);
     background: transparent;
     padding: 10px 0;
 }
@@ -22,13 +22,13 @@
 }
 
 .contact-title {
-    font-size: 1.25rem;
+    font-size: 1.12rem;
     font-weight: 700;
     margin-bottom: 8px;
 }
 
 .contact-email {
-    font-size: 1.05rem;
+    font-size: 0.98rem;
     color: #111;
     text-decoration: none;
     word-break: break-all;

@@ -2,14 +2,14 @@
 
 .home-page {
   width: 100%;
-  padding: 8.5rem 0 4rem;
+  padding: 8.2rem 0 3.5rem;
 }
 
 .home-hero {
   margin-top: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 3rem;
+  gap: 2.5rem;
   align-items: center;
   position: relative;
 }
@@ -39,15 +39,15 @@
 }
 
 .home-hero-text h1 {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   margin-bottom: 1rem;
   line-height: 1.2;
 }
 
 .home-subtitle {
-  font-size: 1.1rem;
+  font-size: 1.02rem;
   line-height: 1.7;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.5rem;
 }
 
 .home-cta {
@@ -91,9 +91,9 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  max-width: 520px;
-  min-height: 320px;
-  height: 45vh;
+  max-width: 500px;
+  min-height: 300px;
+  height: 42vh;
 }
 
 .carousel-frame {
@@ -167,7 +167,7 @@
 }
 
 .home-section {
-  margin-top: 4rem;
+  margin-top: 3.5rem;
 }
 
 .section-grid {
@@ -179,7 +179,7 @@
 
 .section-copy h2,
 .feature-highlight h2 {
-  font-size: 2rem;
+  font-size: 1.85rem;
   margin-bottom: 1rem;
 }
 
@@ -196,7 +196,7 @@
 .info-card {
   background: transparent;
   border-radius: 20px;
-  padding: 1.4rem;
+  padding: 1.25rem;
   box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
 }
 
@@ -217,7 +217,7 @@
 
 .home-feature {
   border-radius: 28px;
-  padding: 2.5rem;
+  padding: 2.2rem;
 }
 
 .feature-row {
@@ -233,7 +233,7 @@
 
 .feature-link {
   display: block;
-  padding: 1.2rem;
+  padding: 1.05rem;
   border-radius: 18px;
   color:#111111;
 
@@ -253,7 +253,7 @@
 }
 
 .home-cta-band {
-  margin-top: 4.5rem;
+  margin-top: 4rem;
   width: 100%;
 
 }
@@ -268,10 +268,10 @@
   flex-direction: column;
   align-items: center;
 
-  gap: 1.5rem;
+  gap: 1.2rem;
   align-items: center;
   justify-content: center;
-  padding: 2.5rem 1.5rem;
+  padding: 2.2rem 1.5rem;
 }
 
 .home-cta-band .btn-light {

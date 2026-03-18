@@ -15,14 +15,14 @@
 }
 
 .news-title {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #222;
     margin-bottom: 8px;
 }
 
 .news-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     color: #555;
     margin-bottom: 24px;
 }
@@ -41,14 +41,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 18px;
 }
 
 .news-card {
     display: grid;
-    grid-template-columns: 320px minmax(0, 1fr);
+    grid-template-columns: 300px minmax(0, 1fr);
     align-items: stretch;
-    width: min(960px, 100%);
+    width: min(900px, 100%);
     background: #fff;
     border: 2px solid #ddd;
     box-shadow: 0 6px 14px rgba(0, 0, 0, .06);
@@ -57,7 +57,7 @@
 }
 
 .news-card__img {
-    width: 320px;
+    width: 300px;
     aspect-ratio: 16 / 9;
     overflow: hidden;
     background: #f4f4f4;
@@ -70,7 +70,7 @@
 }
 
 .news-card__body {
-    padding: 18px 20px;
+    padding: 16px 18px;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -79,20 +79,20 @@
 
 .news-card__title {
     margin: 0 0 6px 0;
-    font-size: 1.15rem;
+    font-size: 1.08rem;
     font-weight: 600;
     color: #111;
 }
 
 .news-card__time {
     margin: 0 0 10px 0;
-    font-size: .85rem;
+    font-size: .8rem;
     color: #6c757d;
 }
 
 .news-card__desc {
     margin: 0 0 14px;
-    font-size: .95rem;
+    font-size: .9rem;
     line-height: 1.5;
     color: #222;
     overflow: hidden;

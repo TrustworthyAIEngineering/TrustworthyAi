@@ -21,14 +21,14 @@
 }
 
 .publications-title {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #222;
     margin-bottom: 8px;
 }
 
 .publications-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     color: #555;
     margin-bottom: 24px;
 }
@@ -46,13 +46,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.25rem;
 }
 
 #colla {
     background-color: rgba(255, 255, 255, 0.85);
     border: none;
-    border-radius: 18px;
+    border-radius: 16px;
     box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
     
 }
@@ -70,9 +70,9 @@
 }
 
 #colla .author-avatar {
-    width: 52px;
-    height: 52px;
-    border-radius: 16px;
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
     overflow: hidden;
     border: 1px solid rgba(0, 0, 0, 0.08);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
@@ -86,7 +86,7 @@
 }
 
 #colla .author-name {
-    font-size: 1.05rem;
+    font-size: 0.98rem;
 }
 
 #colla .author-arrow {
@@ -112,7 +112,7 @@
 
 .card-body li {
     background-color: transparent;
-    font-size: medium;
+    font-size: 0.95rem;
 }
 
 @media (max-width: 768px) {
