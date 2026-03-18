@@ -2,11 +2,11 @@
 
 .home-page {
   width: 100%;
-  padding-bottom: 4rem;
+  padding: 8.5rem 0 4rem;
 }
 
 .home-hero {
-  margin-top: 4.5rem;
+  margin-top: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 3rem;
@@ -90,7 +90,9 @@
 .home-carousel {
   display: flex;
   justify-content: center;
-  width: 34vw;
+  width: 100%;
+  max-width: 520px;
+  min-height: 320px;
   height: 45vh;
 }
 
@@ -214,7 +216,6 @@
 }
 
 .home-feature {
-
   border-radius: 28px;
   padding: 2.5rem;
 }
@@ -281,15 +282,82 @@
 }
 
 @media (max-width: 768px) {
+  .home-page {
+    padding-top: 7.5rem;
+  }
+
   .home-hero {
-    margin-top: 2.5rem;
+    gap: 2rem;
   }
 
   .home-hero-text h1 {
     font-size: 2.1rem;
   }
 
-  .carousel-image {
-    height: 240px;
+  .home-subtitle,
+  .section-copy p,
+  .info-card p,
+  .feature-link p {
+    font-size: 1rem;
+  }
+
+  .home-carousel {
+    min-height: 240px;
+    height: auto;
+  }
+
+  .carousel-frame {
+    aspect-ratio: 16 / 11;
+  }
+
+  .home-feature {
+    padding: 1.5rem;
+  }
+
+  .cta-band-inner {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-page {
+    padding-top: 7rem;
+  }
+
+  .home-hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .home-hero-text h1 {
+    font-size: 1.7rem;
+  }
+
+  .home-kicker {
+    letter-spacing: 0.12rem;
+    font-size: 0.75rem;
+  }
+
+  .home-cta {
+    flex-direction: column;
+  }
+
+  .home-cta .btn {
+    width: 100%;
+  }
+
+  .carousel-controls {
+    padding: 0 0.5rem;
+  }
+
+  .carousel-btn {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.7rem;
+  }
+
+  .section-copy h2,
+  .feature-highlight h2,
+  .cta-band-inner h2 {
+    font-size: 1.6rem;
   }
 }

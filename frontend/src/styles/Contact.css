@@ -1,6 +1,6 @@
 #whole {
     background-color: #f0eee6;
-    min-width: 99.5vw;
+    min-width: 100%;
     min-height: 100vh;
     padding: 100px 0 60px;
     font-size: large;
@@ -69,4 +69,19 @@
     cursor: pointer;
 }
 .bw-button:hover { filter: brightness(1.05); }
+
+@media (max-width: 768px) {
+    .contact-list {
+        gap: 20px;
+        width: min(92vw, 900px);
+    }
+
+    .contact-title {
+        font-size: 1.1rem;
+    }
+
+    .contact-email {
+        font-size: 0.95rem;
+    }
+}
 

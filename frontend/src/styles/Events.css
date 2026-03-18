@@ -1,6 +1,6 @@
 #whole {
     background-color: #f0eee6;
-    min-width: 99.5vw;
+    min-width: 100%;
     min-height: 100vh;
     padding: 100px 0 60px;
     font-size: large;
@@ -19,7 +19,7 @@
     gap: 1.5rem;
 }
 .card {
-    max-width: 50vw;
+    max-width: min(760px, 92vw);
     width: 100%;
     background: #fff;
     border: 2px solid #ddd;
@@ -45,7 +45,7 @@
     margin-bottom: 24px;
 }
 .events-underline {
-    width: 1200px;
+    width: min(1200px, 92vw);
     height: 1.5px;
     background-color: gray;
     margin: 0 auto 40px;
@@ -57,5 +57,37 @@
 }
 #fail{
     background-color: #f0eee6;
+}
+
+@media (max-width: 768px) {
+    #whole .events-container {
+        margin-top: 11vh;
+    }
+
+    .events-title {
+        font-size: 2.2rem;
+    }
+
+    .events-subtitle {
+        font-size: 1rem;
+    }
+
+    .card-img-top {
+        height: 220px;
+    }
+}
+
+@media (max-width: 480px) {
+    #whole {
+        padding: 84px 0 40px;
+    }
+
+    .card {
+        max-width: 94vw;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
 }
 

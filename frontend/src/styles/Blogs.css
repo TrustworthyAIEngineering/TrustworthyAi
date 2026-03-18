@@ -114,6 +114,18 @@
 }
 
 @media (max-width: 640px) {
+    .news-container {
+        margin-top: 11vh;
+    }
+
+    .news-title {
+        font-size: 2rem;
+    }
+
+    .news-subtitle {
+        font-size: 1rem;
+    }
+
     .news-card {
         grid-template-columns: 1fr;
     }

@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background: #f0eee6;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  overflow-wrap: anywhere;
 }

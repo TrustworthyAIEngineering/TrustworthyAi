@@ -34,7 +34,7 @@
 }
 
 .publications-underline {
-    width: 1200px;
+    width: min(1200px, 92vw);
     height: 1.5px;
     background-color: gray;
     margin: 0 0 16px;
@@ -120,7 +120,41 @@
         padding-top: 5rem;
     }
 
+    .publications-page .publications-header-container {
+        margin-top: 11vh;
+    }
+
     .publications-title {
         font-size: 2.25rem;
+    }
+
+    .publications-subtitle {
+        font-size: 1rem;
+    }
+
+    #colla .btn {
+        padding: 1rem !important;
+        align-items: flex-start !important;
+    }
+
+    #colla .author-name {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #colla .author-avatar {
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
+    }
+
+    #colla .card-body {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .card-body li {
+        font-size: 0.95rem;
     }
 }
