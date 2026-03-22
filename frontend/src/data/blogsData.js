@@ -1,21 +1,7 @@
 import fse2026 from "../assets/newsRelated/fse2026.png";
 
 const blogsData = [
-  {
-    id: "blog-3",
-    title:
-      "Paper on AI-Era Full-Stack Development Education Accepted to FSE 2026",
-    date: "2026-03-18",
-    author: "USYD Trustworthy AI Team",
-    summary:
-      "Our submission on reforming full-stack development education with continuous interactive learning has been accepted to FSE 2026's Software Engineering Education Track.",
-    image: fse2026,
-    content: [
-      "We are pleased to share that Haolin, Jiawen, Zhaoge and Linghan's submission, 'Deliverables Are Not Understanding in the AI Era: Reforming Full-Stack Development Education with Continuous Interactive Learning,' has been accepted for presentation at the ACM International Conference on the Foundations of Software Engineering 2026 (FSE 2026).",
-      "The paper was accepted in the Software Engineering Education Track (FSE 2026 - SEET) and will also appear in the companion proceedings volume.",
-      "FSE 2026 will be held in Montreal, Canada. This result reflects our team's continued interest in trustworthy and effective AI-supported software engineering education."
-    ]
-  },
+
   {
     id: "blog-2",
     title:
