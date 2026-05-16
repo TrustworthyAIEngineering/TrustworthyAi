@@ -1,0 +1,146 @@
+.profile-page-lh {
+  min-height: 100vh;
+  width: 100%;
+  background: #f4f1eb;
+  padding: 60px 0 80px;
+  color: #1f2933;
+}
+
+.profile-container-lh {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.profile-back-lh {
+  display: inline-block;
+  margin-bottom: 32px;
+  color: #314754;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.profile-back-lh:hover {
+  color: #1d2f38;
+  transform: translateX(-2px);
+}
+
+.profile-header-lh {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-avatar-lh {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 5px solid white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12),
+    0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.profile-name-lh {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1e2932;
+}
+
+.profile-role-lh {
+  font-size: 1.1rem;
+  color: #5e6872;
+  font-weight: 500;
+}
+
+.profile-section-lh {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 28px 30px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(49, 71, 84, 0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04),
+    0 3px 10px rgba(0, 0, 0, 0.03);
+}
+
+.profile-section-title-lh {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #243845;
+}
+
+.profile-section-text-lh {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #49525a;
+  margin-bottom: 0;
+}
+
+.project-grid-lh {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.project-card-lh {
+  background: white;
+  border-radius: 18px;
+  padding: 22px 24px;
+  border-left: 5px solid #314754;
+  transition: 0.25s ease;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.04),
+    0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.project-card-lh:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08),
+    0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.project-title-lh {
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: #1e2e38;
+  margin-bottom: 10px;
+}
+
+.project-abstract-lh {
+  font-size: 0.97rem;
+  line-height: 1.75;
+  color: #55606a;
+  margin-bottom: 0;
+}
+
+.profile-link-lh {
+  color: #314754;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.profile-link-lh:hover {
+  text-decoration: underline;
+  color: #1f2f38;
+}
+
+@media (max-width: 768px) {
+  .profile-page-lh {
+    padding: 40px 0 60px;
+  }
+
+  .profile-name-lh {
+    font-size: 2.2rem;
+  }
+
+  .profile-section-lh {
+    padding: 22px 20px;
+  }
+
+  .project-card-lh {
+    padding: 18px;
+  }
+}
