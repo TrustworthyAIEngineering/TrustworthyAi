@@ -6,6 +6,7 @@ import Research from "./pages/Research";
 import Publications from "./pages/Publications";
 import Contact from "./pages/Contact";
 import Huaming_Chen from "./pages/unique/Huaming_Chen";
+import Linghan_Huang from "./pages/unique/Linghan_Huang";
 import "./App.css";
 import WorkshopFactory from "./pages/workshops/WorkshopFactory";
 import Blogs from "./pages/Blogs";
@@ -85,6 +86,7 @@ function App() {
         <Route path="/publications" element={<Publications />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/members/huaming-chen" element={<Huaming_Chen />} />
+        <Route path="/members/linghan-huang" element={<Linghan_Huang />} />
       </Routes>
 
       <footer className="text-center py-3 bg-dark mt-auto">
