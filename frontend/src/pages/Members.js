@@ -91,7 +91,11 @@ export default function Members() {
             {people
               .filter((p) => p.name !== "Huaming Chen")
               .map((p, idx) => (
-                <Link key={`student-${idx}`} to="" className="member-link">
+                <Link
+                  key={`student-${idx}`}
+                  to={`/members/${p.name.toLowerCase().replace(/\s+/g, "-")}`}
+                  className="member-link"
+                >
                   <MemberCard {...p} />
                 </Link>
               ))}
