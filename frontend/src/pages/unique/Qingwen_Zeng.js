@@ -46,7 +46,7 @@ export default function Qingwen_Zeng() {
     <div className="qz-profile-page">
       <main className="qz-profile-container">
         <Link to="/members" className="qz-back-link">
-          ← Back to Members
+          Back to Members
         </Link>
 
         <header className="qz-hero">
@@ -115,12 +115,12 @@ export default function Qingwen_Zeng() {
           <h3 className="profile-item-title">Links</h3>
           <p className="profile-item-desc">
             <a
-            href="https://scholar.google.com/citations?hl=zh-CN&user=D9UaWEMAAAAJ"
+            href="https://scholar.google.com/citations?hl=en&user=D9UaWEMAAAAJ"
             className="qz-scholar-link"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Google Scholar
+            Google Scholar <span className="external-link-icon" aria-hidden="true">↗</span>
           </a>
           </p>
         </div>

@@ -46,6 +46,9 @@
 }
 
 .qz-scholar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   color: #314754;
   font-weight: 600;
   text-decoration: none;
@@ -54,6 +57,13 @@
 .qz-scholar-link:hover {
   color: #1f2f38;
   text-decoration: underline;
+}
+
+.external-link-icon {
+  display: inline-block;
+  font-size: 0.86em;
+  line-height: 1;
+  transform: translateY(-0.04em);
 }
 
 .qz-section {

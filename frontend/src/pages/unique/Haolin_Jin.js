@@ -101,7 +101,7 @@ export default function Haolin_Jin() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Google Scholar
+            Google Scholar <span className="external-link-icon" aria-hidden="true">↗</span>
           </a>
         </section>
       </main>

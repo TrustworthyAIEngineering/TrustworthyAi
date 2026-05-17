@@ -118,6 +118,9 @@
 }
 
 .profile-link-lh {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   color: #314754;
   font-weight: 600;
   text-decoration: none;

@@ -17,6 +17,9 @@ const MEMBER_PROFILE_SLUGS = new Set([
   "taozhao-chen",
   "zhaoge-bi",
   "lining-chen",
+  "jiawen-wen",
+  "yitian-yang",
+  "pengyue-yang",
 ]);
 
 function getMemberSlug(name) {

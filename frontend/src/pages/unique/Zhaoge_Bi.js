@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import zhaogeAvatar from "../../assets/general/zhaoge.jpg";
 import "../../styles/Qingwen_Zeng.css";
 import "../../styles/Linghan_Huang.css";
 
@@ -45,18 +44,18 @@ export default function Zhaoge_Bi() {
     <div className="qz-profile-page">
       <main className="qz-profile-container">
         <Link to="/members" className="qz-back-link">
-          ← Back to Members
+          Back to Members
         </Link>
 
         <header className="qz-hero">
           <div>
             <img
-                src="https://www.w3schools.com/howto/img_avatar.png"
-                alt="Zhaoge Bi"
-                className="profile-avatar-lh"
-              />
+              src="https://www.w3schools.com/howto/img_avatar.png"
+              alt="Zhaoge Bi"
+              className="profile-avatar-lh"
+            />
             <h1 className="qz-name">Zhaoge Bi</h1>
-            <p className="profile-role-lh">Master Student & Student Researcher</p>
+            <p className="profile-role-lh">PHD Student & Student Researcher</p>
           </div>
         </header>
 
@@ -117,7 +116,7 @@ export default function Zhaoge_Bi() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Google Scholar
+            Google Scholar <span className="external-link-icon" aria-hidden="true">↗</span>
           </a>
         </section>
       </main>

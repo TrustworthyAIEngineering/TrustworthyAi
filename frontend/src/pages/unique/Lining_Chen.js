@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import liningAvatar from "../../assets/general/lining.jpg";
 import "../../styles/Qingwen_Zeng.css";
 import "../../styles/Linghan_Huang.css";
 
@@ -52,10 +51,10 @@ export default function Lining_Chen() {
         <header className="qz-hero">
           <div>
             <img
-                src="https://www.w3schools.com/howto/img_avatar.png"
-                alt="Taozhao Chen"
-                className="profile-avatar-lh"
-              />
+              src="https://www.w3schools.com/howto/img_avatar.png"
+              alt="Lining Chen"
+              className="profile-avatar-lh"
+            />
             <h1 className="qz-name">Lining Chen</h1>
             <p className="profile-role-lh">Master Student & Student Researcher</p>
           </div>
@@ -118,7 +117,7 @@ export default function Lining_Chen() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Google Scholar
+            Google Scholar <span className="external-link-icon" aria-hidden="true">↗</span>
           </a>
         </section>
       </main>

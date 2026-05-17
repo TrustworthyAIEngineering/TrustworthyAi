@@ -6,7 +6,7 @@ export default function Huaming_Chen() {
   return (
     <div className="profile-page mt-lg-5 mt-lg-5 min-vh-100 w-100">
       <div className="container profile-stack">
-        <Link to="/members" className="profile-back">← Back to Members</Link>
+        <Link to="/members" className="profile-back">Back to Members</Link>
 
         <div className="profile-header">
           <img
@@ -49,7 +49,7 @@ export default function Huaming_Chen() {
                 to="https://scholar.google.com.au/citations?hl=en&user=3-qRVLUAAAAJ&view_op=list_works&alert_preview_top_rm=2&sortby=pubdate"
                 className="profile-link"
               >
-                Google Scholar
+                Google Scholar <span className="external-link-icon" aria-hidden="true">↗</span>
               </Link>
             </p>
           </div>

@@ -25,7 +25,7 @@ export default function Linghan_Huang() {
     <div className="profile-page-lh">
       <div className="profile-container-lh">
         <Link to="/members" className="profile-back-lh">
-          ← Back to Members
+          Back to Members
         </Link>
 
         <div className="profile-header-lh">
@@ -91,12 +91,12 @@ export default function Linghan_Huang() {
         <div className="profile-section-lh">
           <h3 className="profile-section-title-lh">Links</h3>
           <a
-            href="https://scholar.google.com/citations?hl=zh-CN&user=9b_rfZUAAAAJ"
+            href="https://scholar.google.com/citations?hl=en&user=9b_rfZUAAAAJ"
             className="profile-link-lh"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Google Scholar
+            Google Scholar <span className="external-link-icon" aria-hidden="true">↗</span>
           </a>
         </div>
       </div>
