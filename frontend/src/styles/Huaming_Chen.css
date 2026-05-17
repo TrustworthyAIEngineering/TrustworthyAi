@@ -1,4 +1,4 @@
-.profile-page {
+.hmc-profile {
   min-height: 100vh;
   width: 100%;
   background: #f4f1eb;
@@ -8,15 +8,22 @@
   margin-top: 0 !important;
 }
 
-.profile-page .container {
-  max-width: 960px;
+.hmc-profile .container {
+  max-width: 1120px;
   margin: 0 auto;
   padding: 0 24px;
 }
 
-.profile-back {
+.hmc-profile-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.hmc-profile .profile-back {
+  align-self: flex-start;
   display: inline-block;
-  margin-bottom: 32px !important;
+  margin-bottom: 4px !important;
   padding: 0;
   color: #314754;
   text-decoration: none;
@@ -24,99 +31,284 @@
   transition: 0.2s ease;
 }
 
-.profile-back:hover {
+.hmc-profile .profile-back:hover {
   color: #1d2f38;
   transform: translateX(-2px);
 }
 
-.profile-header {
-  text-align: center;
-  margin-bottom: 40px;
+.hmc-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 44px;
+  align-items: stretch;
 }
 
-.profile-avatar {
-  width: 140px;
-  height: 140px;
+.hmc-hero-copy,
+.hmc-identity,
+.hmc-section {
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid rgba(49, 71, 84, 0.08);
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04),
+    0 3px 10px rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(10px);
+}
+
+.hmc-hero-copy {
+  padding: 42px;
+}
+
+.hmc-eyebrow,
+.hmc-section-heading p,
+.hmc-publication span {
+  margin: 0 0 10px;
+  color: #62717b;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hmc-hero h1 {
+  color: #1e2932;
+  font-size: 3.4rem;
+  font-weight: 760;
+  line-height: 1.05;
+  margin: 0 0 14px;
+}
+
+.hmc-position {
+  color: #4b5963;
+  font-size: 1.05rem;
+  font-weight: 650;
+  line-height: 1.6;
+  margin: 0 0 22px;
+}
+
+.hmc-lead {
+  color: #49525a;
+  font-size: 1.04rem;
+  line-height: 1.85;
+  margin: 0;
+  max-width: 760px;
+}
+
+.hmc-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.hmc-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 42px;
+  padding: 0 18px;
+  border: 1px solid #263641;
+  border-radius: 8px;
+  background: transparent;
+  color: #24333d;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.hmc-action:hover {
+  background: #263641;
+  color: #ffffff;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.hmc-action-primary {
+  background: #1f2933;
+  border-color: #1f2933;
+  color: #ffffff;
+}
+
+.hmc-action-primary:hover {
+  background: #111820;
+  border-color: #111820;
+}
+
+.hmc-identity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 34px 28px;
+}
+
+.hmc-avatar {
+  width: 148px;
+  height: 148px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
-  border: 5px solid white;
+  align-self: center;
+  margin-bottom: 28px;
+  border: 5px solid #ffffff;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12),
     0 4px 10px rgba(0, 0, 0, 0.06);
 }
 
-.profile-title {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: #1e2932;
+.hmc-facts {
+  display: grid;
+  gap: 16px;
+  margin: 0;
 }
 
-.profile-position {
-  font-size: 1.1rem;
-  color: #5e6872;
-  font-weight: 500;
-  margin-bottom: 0;
+.hmc-facts div {
+  border-top: 1px solid rgba(49, 71, 84, 0.12);
+  padding-top: 14px;
 }
 
-.profile-list {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
+.hmc-facts dt {
+  color: #6a7780;
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  margin-bottom: 6px;
+  text-transform: uppercase;
 }
 
-.profile-item {
-  background: rgba(255, 255, 255, 0.72);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  padding: 28px 30px;
-  border: 1px solid rgba(49, 71, 84, 0.08);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04),
-    0 3px 10px rgba(0, 0, 0, 0.03);
+.hmc-facts dd {
+  color: #2e3c46;
+  font-size: 0.98rem;
+  font-weight: 620;
+  line-height: 1.55;
+  margin: 0;
 }
 
-.profile-item-title {
-  font-size: 1.35rem;
-  font-weight: 700;
-  margin-bottom: 14px;
+.hmc-section {
+  padding: 32px;
+}
+
+.hmc-section-heading {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 22px;
+}
+
+.hmc-section-heading h2 {
   color: #243845;
+  font-size: 1.55rem;
+  font-weight: 760;
+  line-height: 1.28;
+  margin: 0;
 }
 
-.profile-item-desc {
-  font-size: 1rem;
-  line-height: 1.8;
+.hmc-section-intro,
+.hmc-service p {
   color: #49525a;
-  margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.85;
+  margin: 0;
 }
 
-.profile-link {
+.hmc-pillar-grid,
+.hmc-publication-grid,
+.hmc-team-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.hmc-pillar-grid,
+.hmc-team-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.hmc-publication-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.hmc-pillar,
+.hmc-publication,
+.hmc-team-card {
+  min-width: 0;
+  border: 1px solid rgba(49, 71, 84, 0.1);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.58);
+  padding: 20px;
+}
+
+.hmc-pillar h3,
+.hmc-publication h3,
+.hmc-team-card h3 {
+  color: #253946;
+  font-size: 1.02rem;
+  font-weight: 760;
+  line-height: 1.45;
+  margin: 0 0 10px;
+}
+
+.hmc-pillar p,
+.hmc-publication p,
+.hmc-team-card p {
+  color: #56616a;
+  font-size: 0.94rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.hmc-publication span {
   display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  color: #314754;
-  font-weight: 600;
-  text-decoration: none;
+  margin-bottom: 12px;
 }
 
-.profile-link:hover {
-  color: #1f2f38;
-  text-decoration: underline;
+.hmc-profile .external-link-icon {
+  font-size: 0.9em;
+  line-height: 1;
 }
 
-.profile-item-desc .profile-link {
-  margin-bottom: 0 !important;
+@media (max-width: 992px) {
+  .hmc-hero,
+  .hmc-publication-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hmc-identity {
+    align-items: center;
+  }
+
+  .hmc-facts {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
-  .profile-page {
+  .hmc-profile {
     padding: 170px 0 60px;
   }
 
-  .profile-title {
-    font-size: 2.2rem;
+  .hmc-profile .container {
+    padding: 0 18px;
   }
 
-  .profile-item {
-    padding: 22px 20px;
+  .hmc-hero-copy,
+  .hmc-identity,
+  .hmc-section {
+    border-radius: 14px;
+    padding: 24px 20px;
+  }
+
+  .hmc-hero h1 {
+    font-size: 2.3rem;
+  }
+
+  .hmc-position,
+  .hmc-lead {
+    font-size: 0.98rem;
+  }
+
+  .hmc-pillar-grid,
+  .hmc-team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hmc-action {
+    flex: 1 1 100%;
   }
 }
