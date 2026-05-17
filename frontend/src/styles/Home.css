@@ -6,7 +6,7 @@
 }
 
 .home-hero {
-  margin-top: 0;
+  margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2.5rem;
@@ -91,9 +91,9 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  max-width: 500px;
+  margin-top: 10px;
   min-height: 300px;
-  height: 42vh;
+  height: 30vh;
 }
 
 .carousel-frame {

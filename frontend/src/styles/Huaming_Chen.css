@@ -1,22 +1,37 @@
 .profile-page {
-  background-color: transparent;
-  text-align: center;
-  padding: 80px 0;
-  background-color: #f0eee6;
+  min-height: 100vh;
+  width: 100%;
+  background: #f4f1eb;
+  padding: 220px 0 80px;
+  color: #1f2933;
+  text-align: left;
+  margin-top: 0 !important;
 }
 
 .profile-page .container {
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 24px;
+}
+
+.profile-back {
+  display: inline-block;
+  margin-bottom: 32px !important;
+  padding: 0;
+  color: #314754;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.profile-back:hover {
+  color: #1d2f38;
+  transform: translateX(-2px);
 }
 
 .profile-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 28px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .profile-avatar {
@@ -24,52 +39,81 @@
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
+  margin-bottom: 20px;
+  border: 5px solid white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12),
+    0 4px 10px rgba(0, 0, 0, 0.06);
 }
 
 .profile-title {
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: 700;
-  color: #222;
-  margin-bottom: 0.25rem;
+  margin-bottom: 10px;
+  color: #1e2932;
 }
 
 .profile-position {
   font-size: 1.1rem;
-  color: #555;
+  color: #5e6872;
+  font-weight: 500;
   margin-bottom: 0;
 }
 
 .profile-list {
   display: flex;
   flex-direction: column;
-  gap: 22px;
-  text-align: left;
+  gap: 24px;
 }
 
 .profile-item {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 28px 30px;
+  border: 1px solid rgba(49, 71, 84, 0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04),
+    0 3px 10px rgba(0, 0, 0, 0.03);
 }
 
 .profile-item-title {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   font-weight: 700;
-  margin-bottom: 6px;
-  color: #222;
+  margin-bottom: 14px;
+  color: #243845;
 }
 
 .profile-item-desc {
   font-size: 1rem;
-  color: #444;
-  line-height: 1.7;
-  margin: 0;
+  line-height: 1.8;
+  color: #49525a;
+  margin-bottom: 0;
 }
 
-@media (max-width: 576px) {
+.profile-link {
+  color: #314754;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.profile-link:hover {
+  color: #1f2f38;
+  text-decoration: underline;
+}
+
+.profile-item-desc .profile-link {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 768px) {
   .profile-page {
-    padding: 40px 0;
+    padding: 170px 0 60px;
   }
 
   .profile-title {
-    font-size: 2rem;
+    font-size: 2.2rem;
+  }
+
+  .profile-item {
+    padding: 22px 20px;
   }
 }

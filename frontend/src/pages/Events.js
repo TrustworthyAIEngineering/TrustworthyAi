@@ -1,12 +1,36 @@
-import React from "react";
+import React, { useMemo, useState } from "react";
 import { EVENT_TYPE_URL_PREFIX_MAPPING } from "./config";
 import "../styles/Events.css";
+import "../styles/Pagination.css";
 import { useNavigate } from "react-router-dom";
 import eventsData from "../data/eventsData";
+import Pagination, { getPaginationItems } from "./Pagination";
+
+const EVENTS_PER_PAGE = 5;
 
 function Events() {
   const navigate = useNavigate();
   const data = Array.isArray(eventsData) ? eventsData : [];
+  const visibleData = data.filter((ev) => ev?.show !== false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const totalPages = Math.max(1, Math.ceil(visibleData.length / EVENTS_PER_PAGE));
+
+  const visibleEvents = useMemo(() => {
+    const start = (currentPage - 1) * EVENTS_PER_PAGE;
+    return visibleData.slice(start, start + EVENTS_PER_PAGE);
+  }, [currentPage, visibleData]);
+
+  const paginationItems = useMemo(() => {
+    return getPaginationItems(currentPage, totalPages);
+  }, [currentPage, totalPages]);
+
+  const goToPage = (page) => {
+    const nextPage = Math.min(Math.max(page, 1), totalPages);
+    if (nextPage === currentPage) return;
+
+    setCurrentPage(nextPage);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <div id="whole" className="d-flex flex-column justify-content-start align-items-center min-vh-100 w-100">
@@ -15,48 +39,69 @@ function Events() {
         <p className="events-subtitle">Catch our latest events.</p>
         <div className="events-underline" />
       </div>
-      {data.filter((ev) => ev?.show !== false).length === 0 ? (
+      {visibleData.length === 0 ? (
         <p className="text-muted">No data</p>
       ) : (
         <div className="events-list">
-          {data
-            .filter((ev) => ev?.show !== false)
-            .map((ev) => (
-              <div className="d-flex flex-column justify-content-start align-items-start" key={ev.pk || ev._id}>
-                <div className="card h-100 shadow-sm">
-                  {ev.image && (
-                    <img
-                      src={ev.image}
-                      alt={ev.title || "event image"}
-                      className="card-img-top"
-                    />
-                  )}
-                  <div className="card-body d-flex flex-column">
-                    <h5 className="card-title">{ev.title || "Untitled"}</h5>
-                    <div className="card-text mb-2 d-flex flex-row align-items-center justify-content-start">
-                      <span className="badge bg-secondary me-2">
-                        {ev._type?.toUpperCase() || "EVENT"}
-                      </span>
-                      <small className="text-muted">
-                        {"Posted at " + ev.post_time + " " + `(${ev.time_zone})`}
-                      </small>
-                    </div>
-                    <p className="text"><small>{ev.subtitle || ""}</small></p>
+          {visibleData.length > EVENTS_PER_PAGE && (
+            <Pagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              paginationItems={paginationItems}
+              onPageChange={goToPage}
+              label="Event pagination"
+            />
+          )}
 
-                    <a
-                      className="mt-auto btn btn-sm btn-dark"
-                      aria-disabled="true"
-                      onClick={() =>
-                        (window.scrollTo({ top: 0, left: 0, behavior: "instant" }),
-                        navigate(`${EVENT_TYPE_URL_PREFIX_MAPPING[ev._type]}${ev._destination_id}`))
-                      }
-                    >
-                      Check details
-                    </a>
+          {visibleEvents.map((ev) => (
+            <div
+              className="d-flex flex-column justify-content-start align-items-start"
+              key={ev.pk || ev._id || ev.title}
+            >
+              <div className="card h-100 shadow-sm">
+                {ev.image && (
+                  <img
+                    src={ev.image}
+                    alt={ev.title || "event image"}
+                    className="card-img-top"
+                  />
+                )}
+                <div className="card-body d-flex flex-column">
+                  <h5 className="card-title">{ev.title || "Untitled"}</h5>
+                  <div className="card-text mb-2 d-flex flex-row align-items-center justify-content-start">
+                    <span className="badge bg-secondary me-2">
+                      {ev._type?.toUpperCase() || "EVENT"}
+                    </span>
+                    <small className="text-muted">
+                      Posted at {ev.post_time} ({ev.time_zone})
+                    </small>
                   </div>
+                  <p className="text"><small>{ev.subtitle || ""}</small></p>
+
+                  <button
+                    type="button"
+                    className="mt-auto btn btn-sm btn-dark"
+                    onClick={() => {
+                      window.scrollTo(0, 0);
+                      navigate(`${EVENT_TYPE_URL_PREFIX_MAPPING[ev._type]}${ev._destination_id}`);
+                    }}
+                  >
+                    Check details
+                  </button>
                 </div>
               </div>
-            ))}
+            </div>
+          ))}
+
+          {visibleData.length > EVENTS_PER_PAGE && (
+            <Pagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              paginationItems={paginationItems}
+              onPageChange={goToPage}
+              label="Event pagination"
+            />
+          )}
         </div>
       )}
     </div>

@@ -1,7 +1,37 @@
-import fse2026 from "../assets/newsRelated/fse2026.png";
-
 const blogsData = [
 
+  {
+    id: "blog-4",
+    title:
+      "Bootstrapped Exploration with Causal Reasoning Accepted to ICML 2026",
+    date: "2026-05-01",
+    author: "USYD Trustworthy AI Team",
+    summary:
+      "Qingwen, Zhaoge, Lining, and Yitian's work on adaptive forecasting agents has been accepted to ICML 2026.",
+    image:
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1200&auto=format&fit=crop",
+    content: [
+      "We are delighted to share that “Bootstrapped Exploration with Causal Reasoning: A Training Paradigm for Adaptive Forecasting Agent” has been accepted to ICML 2026.",
+      "Authored by Qingwen Zeng, Zhaoge Bi, Lining Chen, and Yitian Yang, this work studies how causal reasoning can support more adaptive forecasting agents. The paper proposes a training paradigm that encourages agents to explore, reason, and improve forecasting decisions under changing conditions.",
+      "Congratulations to Qingwen, Zhaoge, Lining, and Yitian on this exciting milestone. We look forward to seeing the work presented to the machine learning community at ICML."
+    ]
+  },
+  {
+    id: "blog-3",
+    title:
+      "Full-Stack Development Education Paper Accepted to FSE Education Track",
+    date: "2026-03-18",
+    author: "USYD Trustworthy AI Team",
+    summary:
+      "Haolin, Jiawen, Zhaoge, and Linghan's paper on continuous interactive learning in the AI era has been accepted to the FSE Education Track.",
+    image:
+      "https://conf.researchr.org/getImage/fse-2026/carousel/concordiaSGWBuilding.jpg?1744943236000",
+    content: [
+      "We are pleased to announce that “Deliverables Are Not Understanding in the AI Era: Reforming Full-Stack Development Education with Continuous Interactive Learning” has been accepted to the FSE Education Track.",
+      "The paper, authored by Haolin Jin, Jiawen Wen, Zhaoge Bi, and Linghan Huang, reflects on how software engineering education should evolve as AI tools become part of everyday development workflows. It argues for learning processes that emphasize continuous interaction, feedback, and genuine understanding rather than deliverables alone.",
+      "Congratulations to Haolin, Jiawen, Zhaoge, and Linghan on this achievement. Their work contributes to an important conversation about how we teach and assess full-stack development in the AI era."
+    ]
+  },
   {
     id: "blog-2",
     title:

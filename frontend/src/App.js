@@ -1,5 +1,5 @@
 import { Routes, Route, Link, useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import Home from "./pages/Home";
 import Members from "./pages/Members";
 import Research from "./pages/Research";
@@ -7,6 +7,7 @@ import Publications from "./pages/Publications";
 import Contact from "./pages/Contact";
 import Huaming_Chen from "./pages/unique/Huaming_Chen";
 import Linghan_Huang from "./pages/unique/Linghan_Huang";
+import Qingwen_Zeng from "./pages/unique/Qingwen_Zeng";
 import "./App.css";
 import WorkshopFactory from "./pages/workshops/WorkshopFactory";
 import Blogs from "./pages/Blogs";
@@ -35,6 +36,12 @@ function App() {
   useEffect(() => {
     setMenuOpen(false);
   }, [location.pathname, location.search]);
+
+  useLayoutEffect(() => {
+    if (location.pathname.startsWith("/members/")) {
+      window.scrollTo(0, 0);
+    }
+  }, [location.pathname]);
 
   return (
     <>
@@ -87,6 +94,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/members/huaming-chen" element={<Huaming_Chen />} />
         <Route path="/members/linghan-huang" element={<Linghan_Huang />} />
+        <Route path="/members/qingwen-zeng" element={<Qingwen_Zeng />} />
       </Routes>
 
       <footer className="text-center py-3 bg-dark mt-auto">

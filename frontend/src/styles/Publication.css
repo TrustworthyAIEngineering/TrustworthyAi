@@ -13,13 +13,6 @@
     text-align: center;
 }
 
-.publications-kicker {
-    text-transform: uppercase;
-    letter-spacing: 0.18rem;
-    font-size: 0.85rem;
-    margin-bottom: 0.8rem;
-}
-
 .publications-title {
     font-size: 2.5rem;
     font-weight: 700;
@@ -44,75 +37,146 @@
 .publications-list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 1.25rem;
+    gap: 1rem;
+    padding-bottom: 4rem;
 }
 
-#colla {
-    background-color: rgba(255, 255, 255, 0.85);
-    border: none;
-    border-radius: 16px;
-    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
-    
+.publications-summary {
+    width: min(960px, 100%);
+    color: #333;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-align: right;
 }
 
-#colla .author-toggle {
-    transition: background-color 0.2s ease, transform 0.2s ease;
+.publication-results {
+    width: min(960px, 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
-#colla .author-toggle:hover {
-    background-color: rgba(17, 17, 17, 0.04);
-}
-
-#colla .author-toggle.open {
-    background-color: rgba(17, 17, 17, 0.06);
-}
-
-#colla .author-avatar {
-    width: 48px;
-    height: 48px;
-    border-radius: 14px;
-    overflow: hidden;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
-}
-
-#colla .author-avatar img {
+.publication-item {
+    display: grid;
+    grid-template-columns: 3rem minmax(0, 1fr);
+    gap: 1rem;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+    padding: 1.1rem 1.25rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.07);
 }
 
-#colla .author-name {
-    font-size: 0.98rem;
-}
-
-#colla .author-arrow {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    background: rgba(17, 17, 17, 0.08);
+.publication-index {
+    width: 2.25rem;
+    height: 2.25rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    align-self: start;
+    color: #fff;
+    background-color: #111;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.publication-content {
+    min-width: 0;
+}
+
+.publication-title-link {
+    color: #111;
     font-size: 1rem;
-    transition: transform 0.2s ease;
+    font-weight: 700;
+    line-height: 1.45;
+    text-decoration: none;
 }
 
-#colla .author-toggle.open .author-arrow {
-    transform: rotate(180deg);
+.publication-title-link:hover {
+    color: #000;
+    text-decoration: underline;
 }
 
-#colla .btn {
-    background: transparent;
-    
+.publication-authors {
+    color: #666;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    margin-top: 0.35rem;
 }
 
-.card-body li {
+.publication-meta {
+    color: #222;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-top: 0.25rem;
+}
+
+.publication-pagination {
+    width: min(960px, 100%);
+    display: grid;
+    grid-template-columns: minmax(6rem, 1fr) auto minmax(6rem, 1fr);
+    align-items: center;
+    gap: 0.65rem;
+    margin-top: 0.75rem;
+}
+
+.pagination-pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 0.45rem;
+    min-width: 0;
+}
+
+.pagination-button {
+    min-width: 2.4rem;
+    min-height: 2.4rem;
+    padding: 0.45rem 0.8rem;
+    color: #111;
     background-color: transparent;
-    font-size: 0.95rem;
+    border: 1px solid #111;
+    border-radius: 6px;
+    font-size: 0.92rem;
+    font-weight: 700;
+    line-height: 1;
+    transition: background-color 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+}
+
+.pagination-button:hover:not(:disabled),
+.pagination-button.active {
+    color: #fff;
+    background-color: #111;
+}
+
+.pagination-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.4;
+}
+
+.pagination-control {
+    min-width: 6rem;
+}
+
+.pagination-control:first-child {
+    justify-self: start;
+}
+
+.pagination-control:last-child {
+    justify-self: end;
+}
+
+.pagination-ellipsis {
+    min-width: 1.4rem;
+    color: #111;
+    font-weight: 700;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -132,29 +196,56 @@
         font-size: 1rem;
     }
 
-    #colla .btn {
-        padding: 1rem !important;
-        align-items: flex-start !important;
+    .publications-summary {
+        text-align: left;
     }
 
-    #colla .author-name {
-        font-size: 1rem;
+    .publication-item {
+        grid-template-columns: 2.5rem minmax(0, 1fr);
+        gap: 0.75rem;
+        padding: 1rem;
+    }
+
+    .publication-index {
+        width: 2rem;
+        height: 2rem;
+        font-size: 0.82rem;
     }
 }
 
 @media (max-width: 480px) {
-    #colla .author-avatar {
-        width: 44px;
-        height: 44px;
-        border-radius: 12px;
+    .publication-item {
+        grid-template-columns: 1fr;
     }
 
-    #colla .card-body {
-        padding-left: 1rem;
-        padding-right: 1rem;
+    .publication-index {
+        border-radius: 6px;
     }
 
-    .card-body li {
-        font-size: 0.95rem;
+    .publication-pagination {
+        grid-template-columns: minmax(4.2rem, 1fr) auto minmax(4.2rem, 1fr);
+        gap: 0.35rem;
+    }
+
+    .pagination-control {
+        min-width: 4.2rem;
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+
+    .pagination-button {
+        min-width: 1.75rem;
+        min-height: 1.75rem;
+        padding: 0.25rem 0.35rem;
+        font-size: 0.72rem;
+    }
+
+    .pagination-pages {
+        gap: 0.3rem;
+    }
+
+    .pagination-ellipsis {
+        min-width: 0.8rem;
+        font-size: 0.72rem;
     }
 }

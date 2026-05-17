@@ -2,12 +2,13 @@
   min-height: 100vh;
   width: 100%;
   background: #f4f1eb;
-  padding: 60px 0 80px;
+  padding: 220px 0 80px;
   color: #1f2933;
 }
 
 .profile-container-lh {
   max-width: 960px;
+
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -129,7 +130,7 @@
 
 @media (max-width: 768px) {
   .profile-page-lh {
-    padding: 40px 0 60px;
+    padding: 170px 0 60px;
   }
 
   .profile-name-lh {

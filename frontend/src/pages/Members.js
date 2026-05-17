@@ -9,15 +9,40 @@ const membersCsvUrl = new URL(
     import.meta.url
 ).toString();
 
-function MemberCard({ avatar, name, direction }) {
+const MEMBER_PROFILE_SLUGS = new Set(["huaming-chen", "linghan-huang", "qingwen-zeng"]);
+
+function getMemberSlug(name) {
+  return name.toLowerCase().replace(/\s+/g, "-");
+}
+
+function MemberCard({ avatar, name, direction, clickable = false }) {
   return (
-      <div className="member-card">
+      <div className={`member-card ${clickable ? "member-card-clickable" : ""}`}>
         <img src={avatar} alt={name} className="member-avatar" />
         <div className="member-info">
           <h4 className="member-name">{name}</h4>
           <p className="member-dir">{direction}</p>
         </div>
       </div>
+  );
+}
+
+function MemberCardLink({ person }) {
+  const slug = getMemberSlug(person.name);
+  const hasProfilePage = MEMBER_PROFILE_SLUGS.has(slug);
+
+  if (!hasProfilePage) {
+    return (
+      <div className="member-link member-link-disabled">
+        <MemberCard {...person} />
+      </div>
+    );
+  }
+
+  return (
+    <Link to={`/members/${slug}`} className="member-link">
+      <MemberCard {...person} clickable />
+    </Link>
   );
 }
 
@@ -76,28 +101,17 @@ export default function Members() {
             {people
               .filter((p) => p.name === "Huaming Chen")
               .map((p, idx) => (
-                <Link
-                  key={`leader-${idx}`}
-                  to={`/members/${p.name.toLowerCase().replace(/\s+/g, "-")}`}
-                  className="member-link"
-                >
-                  <MemberCard {...p} />
-                </Link>
+                <MemberCardLink key={`leader-${idx}`} person={p} />
               ))}
           </div>
+
           <h2>Master/PHD Students</h2>
           <br></br>
           <div className="members-grid">
             {people
               .filter((p) => p.name !== "Huaming Chen")
               .map((p, idx) => (
-                <Link
-                  key={`student-${idx}`}
-                  to={`/members/${p.name.toLowerCase().replace(/\s+/g, "-")}`}
-                  className="member-link"
-                >
-                  <MemberCard {...p} />
-                </Link>
+                <MemberCardLink key={`student-${idx}`} person={p} />
               ))}
           </div>
 

@@ -14,8 +14,10 @@
 }
 
 .events-list {
+    width: min(960px, 92vw);
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1.25rem;
 }
 .card {
