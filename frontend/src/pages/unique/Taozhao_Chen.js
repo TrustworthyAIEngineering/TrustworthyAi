@@ -29,7 +29,7 @@ export default function Taozhao_Chen() {
         <div className="qz-profile-page">
         <main className="qz-profile-container">
             <Link to="/members" className="qz-back-link">
-            Back to Members
+            ← Back to Members
             </Link>
 
             <header className="qz-hero">
