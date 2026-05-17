@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Huaming_Chen from "./pages/unique/Huaming_Chen";
 import Linghan_Huang from "./pages/unique/Linghan_Huang";
 import Qingwen_Zeng from "./pages/unique/Qingwen_Zeng";
+import Haolin_Jin from "./pages/unique/Haolin_Jin";
 import "./App.css";
 import WorkshopFactory from "./pages/workshops/WorkshopFactory";
 import Blogs from "./pages/Blogs";
@@ -95,6 +96,7 @@ function App() {
         <Route path="/members/huaming-chen" element={<Huaming_Chen />} />
         <Route path="/members/linghan-huang" element={<Linghan_Huang />} />
         <Route path="/members/qingwen-zeng" element={<Qingwen_Zeng />} />
+        <Route path="/members/haolin-jin" element={<Haolin_Jin />} />
       </Routes>
 
       <footer className="text-center py-3 bg-dark mt-auto">

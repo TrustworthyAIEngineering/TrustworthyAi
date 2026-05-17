@@ -9,7 +9,12 @@ const membersCsvUrl = new URL(
     import.meta.url
 ).toString();
 
-const MEMBER_PROFILE_SLUGS = new Set(["huaming-chen", "linghan-huang", "qingwen-zeng"]);
+const MEMBER_PROFILE_SLUGS = new Set([
+  "huaming-chen",
+  "linghan-huang",
+  "qingwen-zeng",
+  "haolin-jin",
+]);
 
 function getMemberSlug(name) {
   return name.toLowerCase().replace(/\s+/g, "-");
