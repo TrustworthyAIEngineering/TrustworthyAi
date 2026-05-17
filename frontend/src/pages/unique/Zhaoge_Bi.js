@@ -51,10 +51,10 @@ export default function Zhaoge_Bi() {
         <header className="qz-hero">
           <div>
             <img
-              src={zhaogeAvatar}
-              alt="Zhaoge Bi"
-              className="profile-avatar-lh"
-            />
+                src="https://www.w3schools.com/howto/img_avatar.png"
+                alt="Zhaoge Bi"
+                className="profile-avatar-lh"
+              />
             <h1 className="qz-name">Zhaoge Bi</h1>
             <p className="profile-role-lh">Master Student & Student Researcher</p>
           </div>
