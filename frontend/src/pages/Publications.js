@@ -182,7 +182,7 @@ function Publications() {
             <section className="publications-header-container">
                 <h1 className="publications-title">Publications</h1>
                 <p className="publications-subtitle">
-                    Explore the our publications.
+                    Explore our publications.
                 </p>
                 <div className="publications-underline" />
             </section>
