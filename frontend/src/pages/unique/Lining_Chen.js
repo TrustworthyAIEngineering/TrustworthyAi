@@ -1,31 +1,31 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import zhaogeAvatar from "../../assets/general/zhaoge.jpg";
+import liningAvatar from "../../assets/general/lining.jpg";
 import "../../styles/Qingwen_Zeng.css";
 import "../../styles/Linghan_Huang.css";
 
-export default function Zhaoge_Bi() {
+export default function Lining_Chen() {
   const interests = [
-    "Forecasting AI",
+    "Recommendation Systems",
+    "LLM-powered Recommendation",
+    "Cold-start Recommendation",
     "Time-Series Forecasting",
-    "LLM-based Forecasting Agents",
-    "Energy Market Prediction",
   ];
 
   const publications = [
     {
       title:
-        "Bootstrapped Exploration with Causal Reasoning: A Training Paradigm for Adaptive Forecasting Agent",
-      authors:
-        "Qingwen Zeng, Dajun Guo, Zhaoge Bi, Lining Chen, Jushang Qiu, Yitian Yang, Carl Yang, Huaming Chen, Ling Chen",
-      venue: "ICML 2026",
+        "M-LLM3REC: A Motivation-Aware User-Item Interaction Framework for Enhancing Recommendation Accuracy with LLMs",
+      authors: "Lining Chen, Qingwen Zeng, Huaming Chen",
+      venue:
+        "Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM), 2025",
     },
     {
       title:
-        "NSW-EPNews: A News-Augmented Benchmark for Electricity Price Forecasting with LLMs",
+        "DAMA: A Dual Alignment Framework for Enhanced LLM-Powered Recommendations",
       authors:
-        "Zhaoge Bi, Linghan Huang, Lining Chen, Haolin Jin, Qingwen Zeng, Dong Yuan, Huaming Chen",
-      venue: "arXiv preprint arXiv:2506.11050, 2025",
+        "Qingwen Zeng, Lining Chen, Jushang Qiu, Fangchen Liu, Huaming Chen, Ling Chen",
+      venue: "2025 IEEE International Conference on Data Mining (ICDM), 2025",
     },
     {
       title:
@@ -35,9 +35,10 @@ export default function Zhaoge_Bi() {
     },
     {
       title:
-        "Deliverables Are Not Understanding in the AI Era: Reforming Full-Stack Development Education with Continuous Interactive Learning",
-      authors: "Haolin Jin, Jiawen Wen, Zhaoge Bi, Linghan Huang, Huaming Chen",
-      venue: "FSE 2026 Software Engineering Education Track",
+        "Bootstrapped Exploration with Causal Reasoning: A Training Paradigm for Adaptive Forecasting Agent",
+      authors:
+        "Qingwen Zeng, Dajun Guo, Zhaoge Bi, Lining Chen, Jushang Qiu, Yitian Yang, Carl Yang, Huaming Chen, Ling Chen",
+      venue: "ICML 2026",
     },
   ];
 
@@ -45,24 +46,24 @@ export default function Zhaoge_Bi() {
     <div className="qz-profile-page">
       <main className="qz-profile-container">
         <Link to="/members" className="qz-back-link">
-          ← Back to Members
+          Back to Members
         </Link>
 
         <header className="qz-hero">
           <div>
             <img
-              src={zhaogeAvatar}
-              alt="Zhaoge Bi"
-              className="profile-avatar-lh"
-            />
-            <h1 className="qz-name">Zhaoge Bi</h1>
+                src="https://www.w3schools.com/howto/img_avatar.png"
+                alt="Taozhao Chen"
+                className="profile-avatar-lh"
+              />
+            <h1 className="qz-name">Lining Chen</h1>
             <p className="profile-role-lh">Master Student & Student Researcher</p>
           </div>
         </header>
 
         <section className="qz-section">
           <h2 className="qz-section-title">Contact</h2>
-          <p className="qz-section-text">zhaoge.bi@sydney.edu.au</p>
+          <p className="qz-section-text">lining.chen@sydney.edu.au</p>
         </section>
 
         <section className="qz-section">
@@ -76,11 +77,11 @@ export default function Zhaoge_Bi() {
           <div>
             <h2 className="qz-section-title">Research Interests</h2>
             <p className="qz-section-text">
-              Zhaoge's research focuses on forecasting AI, time-series modeling,
-              and large language model-based forecasting agents. His recent work
-              studies adaptive forecasting with causal reasoning, electricity
-              price forecasting with multimodal news signals, and trustworthy
-              AI applications in software engineering education.
+              Lining's research focuses on recommendation systems and the use of
+              large language models to improve personalization, especially in
+              sparse-data and cold-start settings. His recent work also connects
+              LLM-based reasoning with forecasting tasks and high-stakes decision
+              support.
             </p>
           </div>
           <div className="qz-interest-list" aria-label="Research interest tags">
@@ -112,7 +113,7 @@ export default function Zhaoge_Bi() {
         <section className="qz-section">
           <h2 className="qz-section-title">Links</h2>
           <a
-            href="https://scholar.google.com/citations?hl=en&user=StMiY64AAAAJ"
+            href="https://scholar.google.com/citations?user=FAlk4gEAAAAJ&hl=en"
             className="qz-scholar-link"
             target="_blank"
             rel="noopener noreferrer"

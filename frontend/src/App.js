@@ -11,6 +11,7 @@ import Qingwen_Zeng from "./pages/unique/Qingwen_Zeng";
 import Haolin_Jin from "./pages/unique/Haolin_Jin";
 import Taozhao_Chen from "./pages/unique/Taozhao_Chen";
 import Zhaoge_Bi from "./pages/unique/Zhaoge_Bi";
+import Lining_Chen from "./pages/unique/Lining_Chen";
 import "./App.css";
 import WorkshopFactory from "./pages/workshops/WorkshopFactory";
 import Blogs from "./pages/Blogs";
@@ -101,6 +102,7 @@ function App() {
         <Route path="/members/haolin-jin" element={<Haolin_Jin />} />
         <Route path="/members/taozhao-chen" element={<Taozhao_Chen />} />
         <Route path="/members/zhaoge-bi" element={<Zhaoge_Bi />} />
+        <Route path="/members/lining-chen" element={<Lining_Chen />} />
       </Routes>
 
       <footer className="text-center py-3 bg-dark mt-auto">
