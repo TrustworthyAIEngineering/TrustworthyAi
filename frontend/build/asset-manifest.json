@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.40658721.css",
-    "main.js": "/static/js/main.d3a09e8d.js",
+    "main.css": "/static/css/main.468aced7.css",
+    "main.js": "/static/js/main.eecef6eb.js",
     "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
     "static/media/test_main_img.png": "/static/media/test_main_img.b63ae0f619269155c1d2.png",
     "static/media/ICDM_2025_trustworthy_machine_learning_12112025.png": "/static/media/ICDM_2025_trustworthy_machine_learning_12112025.adf587a3f03e7edfc989.png",
@@ -11,12 +11,12 @@
     "static/media/9.webp": "/static/media/9.6dacc9989f65d124296a.webp",
     "static/media/slack-usydeiesoftware-members.csv": "/static/media/slack-usydeiesoftware-members.42c440d9b721325a7000.csv",
     "index.html": "/index.html",
-    "main.40658721.css.map": "/static/css/main.40658721.css.map",
-    "main.d3a09e8d.js.map": "/static/js/main.d3a09e8d.js.map",
+    "main.468aced7.css.map": "/static/css/main.468aced7.css.map",
+    "main.eecef6eb.js.map": "/static/js/main.eecef6eb.js.map",
     "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40658721.css",
-    "static/js/main.d3a09e8d.js"
+    "static/css/main.468aced7.css",
+    "static/js/main.eecef6eb.js"
   ]
 }

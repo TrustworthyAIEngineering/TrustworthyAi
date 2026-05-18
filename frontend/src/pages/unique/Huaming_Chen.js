@@ -4,6 +4,7 @@ import "../../styles/Huaming_Chen.css";
 
 const scholarUrl =
   "https://scholar.google.com.au/citations?hl=en&user=3-qRVLUAAAAJ&view_op=list_works&alert_preview_top_rm=2&sortby=pubdate";
+const universityProfileUrl = "https://profiles.sydney.edu.au/huaming.chen";
 
 const researchPillars = [
   {
@@ -132,6 +133,17 @@ export default function Huaming_Chen() {
               <Link to="/publications" className="hmc-action">
                 Publications
               </Link>
+              <a
+                href={universityProfileUrl}
+                className="hmc-action"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                University Profile
+                <span className="external-link-icon" aria-hidden="true">
+                  ↗
+                </span>
+              </a>
               <a href="mailto:huaming.chen@sydney.edu.au" className="hmc-action">
                 Contact
               </a>
