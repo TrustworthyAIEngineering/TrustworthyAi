@@ -147,6 +147,7 @@
   height: 148px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center 22%;
   align-self: center;
   margin-bottom: 28px;
   border: 5px solid #ffffff;

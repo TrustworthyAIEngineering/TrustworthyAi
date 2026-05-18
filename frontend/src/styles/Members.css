@@ -89,6 +89,10 @@
   object-fit: cover;
 }
 
+.member-avatar-huaming {
+  object-position: center 22%;
+}
+
 .member-info {
   padding: 11px;
   text-align: left;
@@ -99,12 +103,18 @@
   font-weight: 600;
   color: black;
   margin-bottom: 4px;
+  line-height: 1.35;
 }
 
 .member-dir {
   font-size: 0.82rem;
   color: black;
   line-height: 1.4;
+  margin-bottom: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 @media (max-width: 1100px) {

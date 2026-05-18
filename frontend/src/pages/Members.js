@@ -26,10 +26,10 @@ function getMemberSlug(name) {
   return name.toLowerCase().replace(/\s+/g, "-");
 }
 
-function MemberCard({ avatar, name, direction, clickable = false }) {
+function MemberCard({ avatar, avatarClassName = "", name, direction, clickable = false }) {
   return (
       <div className={`member-card ${clickable ? "member-card-clickable" : ""}`}>
-        <img src={avatar} alt={name} className="member-avatar" />
+        <img src={avatar} alt={name} className={`member-avatar ${avatarClassName}`} />
         <div className="member-info">
           <h4 className="member-name">{name}</h4>
           <p className="member-dir">{direction}</p>
