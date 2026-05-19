@@ -21,6 +21,12 @@ export default function Haolin_Jin() {
     },
     {
       title:
+        "RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance",
+      authors: "Haolin Jin, Zechao Sun, Huaming Chen",
+      venue: "2024 IEEE International Conference on Agents (ICA), 2024",
+    },
+    {
+      title:
         "Uncovering Systematic Failures of LLMs in Verifying Code Against Natural Language Specifications",
       authors: "Haolin Jin, Huaming Chen",
       venue:
@@ -101,7 +107,7 @@ export default function Haolin_Jin() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Google Scholar <span className="external-link-icon" aria-hidden="true">↗</span>
+            Google Scholar
           </a>
         </section>
       </main>
