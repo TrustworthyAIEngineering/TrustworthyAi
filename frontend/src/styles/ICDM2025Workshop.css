@@ -1,4 +1,4 @@
-#whole{
+.icdm2025-workshop-page {
     background-color: #f0eee6;
     min-width: 99.5vw;
     min-height: 100vh;
@@ -6,11 +6,9 @@
     font-size: large;
 }
 
-#background{
+.icdm2025-hero {
     width: 100%;
     min-height: 45vh;
-
-    background-image: url("../assets/workshopRelated/ICDM_2025_trustworthy_machine_learning_12112025.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,24 +17,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
-
-
-
 }
 
-#background h1{
+.icdm2025-hero h1 {
     width: 100%;
     margin-top: 30px;
     text-align: center;
-
+    -webkit-text-stroke: 0.2px grey;
 }
 
-#background p{
+.icdm2025-hero p {
     text-align: center;
+    -webkit-text-stroke: 0.3px whitesmoke;
 }
 
-#call{
+.icdm2025-call {
     background: #4C93D2;
     height: fit-content;
     display: flex;
@@ -44,23 +39,30 @@
     align-items: center;
     width: 100%;
     padding: 25px;
-
 }
 
-table{
+.icdm2025-topic-list {
+    font-size: smaller;
+}
+
+.icdm2025-table-wrap {
+    text-align: center;
+}
+
+.icdm2025-table-wrap table {
     width: 100%;
     display: table;
     border-collapse: collapse;
     margin-bottom: 10px;
 }
-table td{
+
+.icdm2025-table-wrap td {
     padding: 0.2rem;
     border-bottom: 1px solid gray;
 }
 
-@media(orientation: portrait){
-    #whole{
+@media (orientation: portrait) {
+    .icdm2025-workshop-page {
         font-size: large;
-
     }
 }

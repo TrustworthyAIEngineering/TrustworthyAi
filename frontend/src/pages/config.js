@@ -6,10 +6,6 @@ export const API_BASE =
         : "https://trustworthyai-5avd.onrender.com");
 
 
-export const EVENT_TYPE_URL_PREFIX_MAPPING = {
-    "workshop": "/events/workshops/"
-}
-
 export const TIMEOUT_MS = 8 * 1000;
 
 export function MapMyVisitorsMap() {

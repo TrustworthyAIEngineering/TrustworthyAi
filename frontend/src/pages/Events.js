@@ -1,5 +1,4 @@
 import React, { useMemo, useState } from "react";
-import { EVENT_TYPE_URL_PREFIX_MAPPING } from "./config";
 import "../styles/Events.css";
 import "../styles/Pagination.css";
 import { useNavigate } from "react-router-dom";
@@ -7,6 +6,13 @@ import eventsData from "../data/eventsData";
 import Pagination, { getPaginationItems } from "./Pagination";
 
 const EVENTS_PER_PAGE = 5;
+
+const getRgbBadgeStyle = (rgbValue) => {
+  if (!rgbValue) return undefined;
+
+  const value = Array.isArray(rgbValue) ? rgbValue.join(", ") : rgbValue;
+  return { backgroundColor: `rgb(${value})` };
+};
 
 function Events() {
   const navigate = useNavigate();
@@ -69,7 +75,7 @@ function Events() {
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">{ev.title || "Untitled"}</h5>
                   <div className="card-text mb-2 d-flex flex-row align-items-center justify-content-start">
-                    <span className="badge bg-secondary me-2">
+                    <span className="badge me-2" style={getRgbBadgeStyle(ev.typeColorRgb)}>
                       {ev._type?.toUpperCase() || "EVENT"}
                     </span>
                     <small className="text-muted">
@@ -83,7 +89,7 @@ function Events() {
                     className="mt-auto btn btn-sm btn-dark"
                     onClick={() => {
                       window.scrollTo(0, 0);
-                      navigate(`${EVENT_TYPE_URL_PREFIX_MAPPING[ev._type]}${ev._destination_id}`);
+                      navigate(`/events/workshops/${ev._destination_id}`);
                     }}
                   >
                     Check details

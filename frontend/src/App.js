@@ -16,7 +16,8 @@ import Jiawen_Wen from "./pages/unique/Jiawen_Wen";
 import Yitian_Yang from "./pages/unique/Yitian_Yang";
 import Pengyue_Yang from "./pages/unique/Pengyue_Yang";
 import "./App.css";
-import WorkshopFactory from "./pages/workshops/WorkshopFactory";
+import ICDM2025Workshop from "./pages/workshops/ICDM2025Workshop";
+import ICDM2026Workshop from "./pages/workshops/ICDM2026Workshop";
 import Blogs from "./pages/Blogs";
 import Events from "./pages/Events";
 import usydlogowhite from "../src/assets/general/UoS-CMYK-standard-logo-mono-reversed (1).png";
@@ -94,7 +95,8 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/members" element={<Members />} />
         <Route path="/events" element={<Events />} />
-        <Route path="/events/workshops/:_destination_id" element={<WorkshopFactory />} />
+        <Route path="/events/workshops/icdm-workshop-2026" element={<ICDM2026Workshop />} />
+        <Route path="/events/workshops/icdm-workshop-2025" element={<ICDM2025Workshop />} />
         <Route path="/news" element={<Blogs />} />
         <Route path="/research" element={<Research />} />
         <Route path="/publications" element={<Publications />} />
