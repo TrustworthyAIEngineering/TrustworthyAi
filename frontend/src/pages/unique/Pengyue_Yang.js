@@ -105,12 +105,6 @@ export default function Pengyue_Yang() {
           </div>
         </section>
 
-        // <section className="qz-section">
-        //   <h2 className="qz-section-title">Education</h2>
-        //   <p className="qz-section-text">
-        //     Currently pursuing a Doctor of Philosophy at The University of Sydney.
-        //   </p>
-        // </section>
 
         <section className="qz-section">
           <h2 className="qz-section-title">Links</h2>
