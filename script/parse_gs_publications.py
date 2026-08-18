@@ -9,8 +9,8 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://scholar.google.com"
-DEFAULT_INPUT = Path("script/Pastedtext.txt")
-DEFAULT_OUTPUT = Path("script/Huaming_publications.json")
+DEFAULT_INPUT = Path("./Pastedtext.txt")
+DEFAULT_OUTPUT = Path("./Huaming_publications.json")
 
 
 def clean_text(text: str | None) -> str:

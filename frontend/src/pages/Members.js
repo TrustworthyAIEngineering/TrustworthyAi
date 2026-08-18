@@ -105,20 +105,14 @@ export default function Members() {
           <h1 className="members-title">Our Team</h1>
           <p className="members-subtitle">Infinitely progressing</p>
           <div className="members-underline" />
-          <h2>Supervisor</h2>
+          <h2>Team members</h2>
           <br></br>
-          <div className="members-grid-leader">
-            
+          <div className="members-grid">
             {people
               .filter((p) => p.name === "Huaming Chen")
               .map((p, idx) => (
                 <MemberCardLink key={`leader-${idx}`} person={p} />
               ))}
-          </div>
-
-          <h2>Master/PHD Students</h2>
-          <br></br>
-          <div className="members-grid">
             {people
               .filter((p) => p.name !== "Huaming Chen")
               .map((p, idx) => (
