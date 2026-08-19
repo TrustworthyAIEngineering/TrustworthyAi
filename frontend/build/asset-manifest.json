@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d786e92.css",
-    "main.js": "/static/js/main.e4d48c43.js",
-    "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
+    "main.css": "/static/css/main.5d4f9bed.css",
+    "main.js": "/static/js/main.4eb15d59.js",
+    "static/js/453.e0840517.chunk.js": "/static/js/453.e0840517.chunk.js",
     "static/media/ICDM2026_shenyang_workshop_hero.png": "/static/media/ICDM2026_shenyang_workshop_hero.bfd6f79e5f76a9dffde7.png",
     "static/media/test_main_img.png": "/static/media/test_main_img.b63ae0f619269155c1d2.png",
     "static/media/ICDM_2025_trustworthy_machine_learning_12112025.png": "/static/media/ICDM_2025_trustworthy_machine_learning_12112025.adf587a3f03e7edfc989.png",
@@ -10,14 +10,14 @@
     "static/media/ai-vs-human-feature.jpg": "/static/media/ai-vs-human-feature.e536e7d5fe9f5f184171.jpg",
     "static/media/UoS-CMYK-standard-logo-mono-reversed (1).png": "/static/media/UoS-CMYK-standard-logo-mono-reversed (1).a645f24bbe8c2a6b179b.png",
     "static/media/9.webp": "/static/media/9.6dacc9989f65d124296a.webp",
-    "static/media/slack-usydeiesoftware-members.csv": "/static/media/slack-usydeiesoftware-members.42c440d9b721325a7000.csv",
+    "static/media/slack-usydeiesoftware-members.csv": "/static/media/slack-usydeiesoftware-members.90d791c222c780a9a652.csv",
     "index.html": "/index.html",
-    "main.8d786e92.css.map": "/static/css/main.8d786e92.css.map",
-    "main.e4d48c43.js.map": "/static/js/main.e4d48c43.js.map",
-    "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
+    "main.5d4f9bed.css.map": "/static/css/main.5d4f9bed.css.map",
+    "main.4eb15d59.js.map": "/static/js/main.4eb15d59.js.map",
+    "453.e0840517.chunk.js.map": "/static/js/453.e0840517.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d786e92.css",
-    "static/js/main.e4d48c43.js"
+    "static/css/main.5d4f9bed.css",
+    "static/js/main.4eb15d59.js"
   ]
 }
