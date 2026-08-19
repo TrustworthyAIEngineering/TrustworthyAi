@@ -5,7 +5,7 @@ const huamingAvatar =
 
 const people = [
   {
-    avatar: huamingAvatar,
+    avatar: "../assets/general/huaming.jpg",
     name: "Huaming Chen",
     direction: "Trustworthy AI Systems",
     avatarClassName: "member-avatar-huaming",
