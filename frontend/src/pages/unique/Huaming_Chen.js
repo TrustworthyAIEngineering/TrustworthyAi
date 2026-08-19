@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/Huaming_Chen.css";
+import huamingAvatar from "../../assets/general/huaming.jpg";
 
 const scholarUrl =
   "https://scholar.google.com.au/citations?hl=en&user=3-qRVLUAAAAJ&view_op=list_works&alert_preview_top_rm=2&sortby=pubdate";
 const universityProfileUrl = "https://profiles.sydney.edu.au/huaming.chen";
-const profileImageUrl =
-  "https://conf.researchr.org/getProfileImage/huamingchen/cdcb1a15-04ee-4062-807d-bd5737e893d2/small.jpg?1728465972000";
 
 const researchPillars = [
   {
@@ -154,7 +153,7 @@ export default function Huaming_Chen() {
 
           <aside className="hmc-identity" aria-label="Profile summary">
             <img
-              src={profileImageUrl}
+              src={huamingAvatar}
               alt="Huaming Chen"
               className="hmc-avatar"
             />

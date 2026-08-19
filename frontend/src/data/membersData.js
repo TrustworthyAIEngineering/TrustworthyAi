@@ -1,11 +1,11 @@
+import huamingAvatar from "../assets/general/huaming.jpg";
+
 const avatarMale = "https://www.w3schools.com/howto/img_avatar.png";
 const avatarFemale = "https://www.w3schools.com/howto/img_avatar2.png";
-const huamingAvatar =
-  "https://conf.researchr.org/getProfileImage/huamingchen/cdcb1a15-04ee-4062-807d-bd5737e893d2/small.jpg?1728465972000";
 
 const people = [
   {
-    avatar: "../assets/general/huaming.jpg",
+    avatar: huamingAvatar,
     name: "Huaming Chen",
     direction: "Trustworthy AI Systems",
     avatarClassName: "member-avatar-huaming",

@@ -7,26 +7,18 @@ import "../styles/Home.css";
 import { API_BASE } from "./config";
 import { MapMyVisitorsGlobe, MapMyVisitorsMap } from "./config";
 import main_img from "../assets/general/test_main_img.png";
-import hero_alt_1 from "../assets/general/ai-vs-human-feature.jpg";
-import hero_alt_2 from "../assets/general/9.webp";
+import blogsData from "../data/blogsData";
+
+const carouselImages = [...blogsData]
+  .filter((newsItem) => newsItem.image)
+  .sort((a, b) => new Date(b.date) - new Date(a.date))
+  .slice(0, 3);
+
 function Home() {
   const [open, setOpen] = useState(false);
   const bufferRef = useRef("");
   const TARGET = "trust";
   const [carouselIndex, setCarouselIndex] = useState(0);
-
-  const carouselImages = [
-    {
-      src: hero_alt_1,
-      alt: "Human-centric AI safety research",
-
-    },
-    {
-      src: hero_alt_2,
-      alt: "Data science and AI systems",
-
-    },
-  ];
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -102,10 +94,15 @@ function Home() {
             <div className="home-carousel">
               <div className="carousel-frame">
                 <img
-                  src={carouselImages[carouselIndex].src}
-                  alt={carouselImages[carouselIndex].alt}
+                  src={carouselImages[carouselIndex].image}
+                  alt={carouselImages[carouselIndex].title}
                   className="carousel-image"
                 />
+                <div className="carousel-caption">
+                  <Link to={`/news?id=${carouselImages[carouselIndex].id}`}>
+                    {carouselImages[carouselIndex].title}
+                  </Link>
+                </div>
                 <div className="carousel-controls">
                   <button
                     className="carousel-btn"
