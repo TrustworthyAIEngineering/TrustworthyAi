@@ -1,7 +1,13 @@
 import huamingAvatar from "../assets/general/huaming.jpg";
-
-const avatarMale = "https://www.w3schools.com/howto/img_avatar.png";
-const avatarFemale = "https://www.w3schools.com/howto/img_avatar2.png";
+import haolinAvatar from "../assets/general/haolin.jpg";
+import jiawenAvatar from "../assets/general/jiawen.jpg";
+import linghanAvatar from "../assets/general/linghan.jpg";
+import liningAvatar from "../assets/general/lining.jpg";
+import pengyueAvatar from "../assets/general/pengyue.jpg";
+import qingwenAvatar from "../assets/general/qingwen.jpg";
+import taozhaoAvatar from "../assets/general/taozhao.jpg";
+import yitianAvatar from "../assets/general/yitian.jpg";
+import zhaogeAvatar from "../assets/general/zhaoge.jpg";
 
 const people = [
   {
@@ -10,15 +16,15 @@ const people = [
     direction: "Trustworthy AI Systems",
     avatarClassName: "member-avatar-huaming",
   },
-  { avatar: avatarMale, name: "Jiawen Wen", direction: "AI Software Security" },
-  { avatar: avatarMale, name: "Pengyue Yang", direction: "Trustworthy AI" },
-  { avatar: avatarMale, name: "Linghan Huang", direction: "LLM Safety & Fuzzing" },
-  { avatar: avatarMale, name: "Haolin Jin", direction: "AI in Software Engineering" },
-  { avatar: avatarMale, name: "Qingwen Zeng", direction: "LLM Recs & Forecasting" },
-  { avatar: avatarMale, name: "Lining Chen", direction: "LLM Recommendation Systems" },
-  { avatar: avatarMale, name: "Zhaoge Bi", direction: "Forecasting AI Agents" },
-  { avatar: avatarFemale, name: "Yitian Yang", direction: "Trustworthy AI" },
-  { avatar: avatarMale, name: "Taozhao Chen", direction: "Trustworthy Embodied AI" }
+  { avatar: jiawenAvatar, name: "Jiawen Wen", direction: "AI Software Security" },
+  { avatar: pengyueAvatar, name: "Pengyue Yang", direction: "Trustworthy AI" },
+  { avatar: linghanAvatar, name: "Linghan Huang", direction: "LLM Safety & Fuzzing" },
+  { avatar: haolinAvatar, name: "Haolin Jin", direction: "AI in Software Engineering" },
+  { avatar: qingwenAvatar, name: "Qingwen Zeng", direction: "LLM Recs & Forecasting" },
+  { avatar: liningAvatar, name: "Lining Chen", direction: "LLM Recommendation Systems" },
+  { avatar: zhaogeAvatar, name: "Zhaoge Bi", direction: "Forecasting AI Agents" },
+  { avatar: yitianAvatar, name: "Yitian Yang", direction: "Trustworthy AI" },
+  { avatar: taozhaoAvatar, name: "Taozhao Chen", direction: "Trustworthy Embodied AI" }
 ];
 
 export default people;
