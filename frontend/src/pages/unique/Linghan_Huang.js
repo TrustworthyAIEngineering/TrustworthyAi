@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { getMemberAvatar } from "../../data/membersData";
 import "../../styles/Linghan_Huang.css";
+
+const linghanAvatar = getMemberAvatar("Linghan Huang");
 
 export default function Linghan_Huang() {
   const projects = [
@@ -30,7 +33,7 @@ export default function Linghan_Huang() {
 
         <div className="profile-header-lh">
           <img
-            src="https://www.w3schools.com/howto/img_avatar.png"
+            src={linghanAvatar}
             alt="Linghan Huang"
             className="profile-avatar-lh"
           />

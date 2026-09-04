@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { getMemberAvatar } from "../../data/membersData";
 import "../../styles/Qingwen_Zeng.css";
 import "../../styles/Linghan_Huang.css";
+
+const pengyueAvatar = getMemberAvatar("Pengyue Yang");
 
 export default function Pengyue_Yang() {
   const interests = [
@@ -46,7 +49,7 @@ export default function Pengyue_Yang() {
         <header className="qz-hero">
           <div>
             <img
-              src="https://www.w3schools.com/howto/img_avatar.png"
+              src={pengyueAvatar}
               alt="Pengyue Yang"
               className="profile-avatar-lh"
             />

@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { getMemberAvatar } from "../../data/membersData";
 import "../../styles/Qingwen_Zeng.css";
 import "../../styles/Linghan_Huang.css";
+
+const taozhaoAvatar = getMemberAvatar("Taozhao Chen");
 
 export default function Taozhao_Chen() {
     const interests = [
@@ -35,7 +38,7 @@ export default function Taozhao_Chen() {
             <header className="qz-hero">
             <div>
                 <img
-                src="https://www.w3schools.com/howto/img_avatar.png"
+                src={taozhaoAvatar}
                 alt="Taozhao Chen"
                 className="profile-avatar-lh"
                 />

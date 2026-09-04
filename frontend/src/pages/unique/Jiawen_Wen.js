@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { getMemberAvatar } from "../../data/membersData";
 import "../../styles/Jiawen_Wen.css";
+
+const jiawenAvatar = getMemberAvatar("Jiawen Wen");
 
 export default function Jiawen_Wen() {
   const keywords = [
@@ -76,7 +79,7 @@ export default function Jiawen_Wen() {
 
         <div className="jw-header">
           <img
-            src="https://www.w3schools.com/howto/img_avatar.png"
+            src={jiawenAvatar}
             alt="Jiawen Wen"
             className="jw-avatar"
           />

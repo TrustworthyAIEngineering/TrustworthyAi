@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { getMemberAvatar } from "../../data/membersData";
 import "../../styles/Huaming_Chen.css";
-import huamingAvatar from "../../assets/general/huaming.jpg";
 
 const scholarUrl =
   "https://scholar.google.com.au/citations?hl=en&user=3-qRVLUAAAAJ&view_op=list_works&alert_preview_top_rm=2&sortby=pubdate";
 const universityProfileUrl = "https://profiles.sydney.edu.au/huaming.chen";
+const huamingAvatar = getMemberAvatar("Huaming Chen");
 
 const researchPillars = [
   {

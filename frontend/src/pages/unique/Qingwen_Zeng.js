@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { getMemberAvatar } from "../../data/membersData";
 import "../../styles/Qingwen_Zeng.css";
+
+const qingwenAvatar = getMemberAvatar("Qingwen Zeng");
 
 export default function Qingwen_Zeng() {
   const interests = ["Research Interest", "LLM MI", "LLM Application"];
@@ -53,8 +56,8 @@ export default function Qingwen_Zeng() {
           <div>
             {/* <p className="qz-eyebrow">Team Member Profile</p> */}
             <img
-            src="https://www.w3schools.com/howto/img_avatar.png"
-            alt="Linghan Huang"
+            src={qingwenAvatar}
+            alt="Qingwen Zeng"
             className="profile-avatar-lh"
           />
             <h1 className="qz-name">Qingwen Zeng</h1>

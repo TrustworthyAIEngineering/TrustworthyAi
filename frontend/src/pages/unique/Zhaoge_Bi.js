@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { getMemberAvatar } from "../../data/membersData";
 import "../../styles/Qingwen_Zeng.css";
 import "../../styles/Linghan_Huang.css";
+
+const zhaogeAvatar = getMemberAvatar("Zhaoge Bi");
 
 export default function Zhaoge_Bi() {
   const interests = [
@@ -50,7 +53,7 @@ export default function Zhaoge_Bi() {
         <header className="qz-hero">
           <div>
             <img
-              src="https://www.w3schools.com/howto/img_avatar.png"
+              src={zhaogeAvatar}
               alt="Zhaoge Bi"
               className="profile-avatar-lh"
             />

@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { getMemberAvatar } from "../../data/membersData";
 import "../../styles/Qingwen_Zeng.css";
 import "../../styles/Linghan_Huang.css";
+
+const liningAvatar = getMemberAvatar("Lining Chen");
 
 export default function Lining_Chen() {
   const interests = [
@@ -51,7 +54,7 @@ export default function Lining_Chen() {
         <header className="qz-hero">
           <div>
             <img
-              src="https://www.w3schools.com/howto/img_avatar.png"
+              src={liningAvatar}
               alt="Lining Chen"
               className="profile-avatar-lh"
             />

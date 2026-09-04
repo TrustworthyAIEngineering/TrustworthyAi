@@ -27,4 +27,9 @@ const people = [
   { avatar: taozhaoAvatar, name: "Taozhao Chen", direction: "Trustworthy Embodied AI" }
 ];
 
+export const getMemberByName = (name) =>
+  people.find((person) => person.name === name);
+
+export const getMemberAvatar = (name) => getMemberByName(name)?.avatar;
+
 export default people;

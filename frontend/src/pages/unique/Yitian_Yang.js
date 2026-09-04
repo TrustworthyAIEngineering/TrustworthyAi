@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { getMemberAvatar } from "../../data/membersData";
 import "../../styles/Qingwen_Zeng.css";
 import "../../styles/Linghan_Huang.css";
+
+const yitianAvatar = getMemberAvatar("Yitian Yang");
 
 export default function Yitian_Yang() {
   const fields = [
@@ -22,7 +25,7 @@ export default function Yitian_Yang() {
         <header className="qz-hero">
           <div>
             <img
-              src="https://www.w3schools.com/howto/img_avatar2.png"
+              src={yitianAvatar}
               alt="Yitian Yang"
               className="profile-avatar-lh"
             />

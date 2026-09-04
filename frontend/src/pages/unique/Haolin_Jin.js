@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { getMemberAvatar } from "../../data/membersData";
 import "../../styles/Qingwen_Zeng.css";
 import "../../styles/Linghan_Huang.css";
+
+const haolinAvatar = getMemberAvatar("Haolin Jin");
 
 export default function Haolin_Jin() {
   const interests = [
@@ -50,7 +53,7 @@ export default function Haolin_Jin() {
         <header className="qz-hero">
           <div>
             <img
-              src="https://www.w3schools.com/howto/img_avatar.png"
+              src={haolinAvatar}
               alt="Haolin Jin"
               className="profile-avatar-lh"
             />
