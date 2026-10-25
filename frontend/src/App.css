@@ -25,6 +25,24 @@
   font: 1.15rem "Manrope";
 }
 
+/* Default links follow the site's neutral palette instead of Bootstrap blue. */
+body {
+  --bs-link-color: #3f403a;
+  --bs-link-color-rgb: 63, 64, 58;
+  --bs-link-hover-color: #656156;
+  --bs-link-hover-color-rgb: 101, 97, 86;
+}
+
+body .link-primary {
+  color: #3f403a !important;
+  text-decoration-color: currentColor !important;
+}
+
+body .link-primary:hover,
+body .link-primary:focus {
+  color: #656156 !important;
+}
+
 #web-title {
   font-weight: 200;
   font-size: 1.85rem;

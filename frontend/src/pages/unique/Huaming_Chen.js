@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { getMemberAvatar } from "../../data/membersData";
+import { researchIdentity, researchThemes } from "../../data/researchData";
 import "../../styles/Huaming_Chen.css";
 
 const scholarUrl =
@@ -8,24 +9,7 @@ const scholarUrl =
 const universityProfileUrl = "https://profiles.sydney.edu.au/huaming.chen";
 const huamingAvatar = getMemberAvatar("Huaming Chen");
 
-const researchPillars = [
-  {
-    title: "Trustworthy Large Language Models",
-    text: "Reliability, confidence estimation, cross-cultural fidelity, and failure analysis for LLM-based systems.",
-  },
-  {
-    title: "AI for Software Engineering",
-    text: "LLM-assisted code review, specification verification, fuzz testing, and practical tools for developer workflows.",
-  },
-  {
-    title: "Robust and Secure Learning",
-    text: "Backdoor defense, machine unlearning, federated learning, and resilience against adversarial behavior.",
-  },
-  {
-    title: "AI for Decision-Making Systems",
-    text: "Recommendation, forecasting, health AI, transport analytics, and trustworthy deployment in real-world settings.",
-  },
-];
+const researchPillars = researchThemes.map((theme) => ({ title: theme.title, text: theme.summary }));
 
 const selectedPublications = [
   {
@@ -178,14 +162,13 @@ export default function Huaming_Chen() {
         <section className="hmc-section" aria-labelledby="vision-heading">
           <div className="hmc-section-heading">
             <p>Research Vision</p>
-            <h2 id="vision-heading">Trustworthy AI needs both depth and range.</h2>
+            <h2 id="vision-heading">{researchIdentity}</h2>
           </div>
           <p className="hmc-section-intro">
-            The group studies how AI systems behave when they are asked to make
-            judgements, write or verify code, recommend actions, resist attacks,
-            and operate in human-facing environments. This profile foregrounds
-            the core signal: a leader coordinating connected research threads
-            into a coherent trustworthy AI agenda.
+            The group connects interpretable and reliable machine learning with
+            trustworthy agentic systems and intelligent decision-making. We study
+            how models reach decisions, how agents can act securely and reliably,
+            and how AI applications can serve people in practice.
           </p>
         </section>
 

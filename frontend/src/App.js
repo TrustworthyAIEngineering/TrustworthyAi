@@ -43,13 +43,15 @@ function App() {
 
   useEffect(() => {
     setMenuOpen(false);
-  }, [location.pathname, location.search]);
+  }, [location.pathname, location.search, location.hash, location.key]);
 
   useLayoutEffect(() => {
-    if (location.pathname.startsWith("/members/")) {
-      window.scrollTo(0, 0);
+    if (location.hash) {
+      document.getElementById(location.hash.slice(1))?.scrollIntoView();
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" });
     }
-  }, [location.pathname]);
+  }, [location.pathname, location.hash, location.key]);
 
   return (
     <>
@@ -80,6 +82,7 @@ function App() {
           <div id="second-row" className="container py-0 my-0 justify-content-start">
             <ul className="navbar-nav w-100 flex-row">
               <li className="nav-item"><Link className="nav-link" to="/home">Home</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/home#research">Research</Link></li>
               <li className="nav-item"><Link className="nav-link" to="/members">Members</Link></li>
               <li className="nav-item"><Link className="nav-link" to="/publications">Publications</Link></li>
               <li className="nav-item"><Link className="nav-link" to="/events">Events</Link></li>
@@ -115,8 +118,9 @@ function App() {
 
       <footer className="text-center py-3 bg-dark mt-auto">
         <p className="mb-0" style={{ color: "white" }}>
-          &copy; 2025 Trustworthy AI Team, The University of Sydney.
+          &copy; 2026 Trustworthy AI Team, The University of Sydney.
         </p>
+        <Link className="text-white small" to="/home#acknowledgements">Acknowledgements &amp; website credits</Link>
       </footer>
     </>
   );

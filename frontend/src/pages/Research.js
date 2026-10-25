@@ -1,13 +1,8 @@
 import React from "react";
+import { Navigate, useLocation } from "react-router-dom";
 
-function Research(){
-    return(
-        <>
-            <div id="whole" className="d-flex flex-column justify-content-start align-items-center mt-lg-5 min-vh-100 w-100">
-                Coming soon!
-            </div>
-        </>
-    )
+// Keep existing research URLs usable after moving the content onto Home.
+export default function Research() {
+  const { hash, search } = useLocation();
+  return <Navigate replace to={{ pathname: "/home", hash: hash || "#research", search }} />;
 }
-
-export default Research;
