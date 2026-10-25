@@ -45,14 +45,29 @@ function Blogs() {
           {selectedBlog.image && (
             <img
               src={selectedBlog.image}
-              alt={selectedBlog.title}
+              alt={selectedBlog.imageAlt || selectedBlog.title}
               style={{ width: "100%", borderRadius: 16, marginBottom: 24 }}
             />
           )}
           {selectedBlog.content.map((para, idx) => (
-            <p key={idx} style={{ lineHeight: 1.8, marginBottom: 16 }}>
-              {para}
-            </p>
+            <React.Fragment key={idx}>
+              <p style={{ lineHeight: 1.8, marginBottom: 16 }}>
+                {para}
+              </p>
+              {idx === 1 && selectedBlog.paperGroups && (
+                <ul className="blog-paper-list">
+                  {selectedBlog.paperGroups.map((group) => (
+                    <li key={group.teamMembers}>
+                      <h2>{group.teamMembers}</h2>
+                      <p>{group.venue}</p>
+                      <ul className="blog-paper-titles">
+                        {group.titles.map((title) => <li key={title}>{title}</li>)}
+                      </ul>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </React.Fragment>
           ))}
           <Link className="link link-dark small" to="/news">
             Back to list
@@ -88,7 +103,7 @@ function Blogs() {
               <article className="news-card" key={item.id}>
                 {item.image && (
                   <div className="news-card__img">
-                    <img src={item.image} alt={item.title || "blog image"} />
+                    <img src={item.image} alt={item.imageAlt || item.title || "blog image"} />
                   </div>
                 )}
                 <div className="news-card__body">

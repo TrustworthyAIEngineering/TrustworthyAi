@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc31ec85.css",
-    "main.js": "/static/js/main.f9c68c07.js",
+    "main.css": "/static/css/main.ef8098eb.css",
+    "main.js": "/static/js/main.a1eea868.js",
     "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
     "static/media/ICDM2026_shenyang_workshop_hero.png": "/static/media/ICDM2026_shenyang_workshop_hero.bfd6f79e5f76a9dffde7.png",
     "static/media/test_main_img.png": "/static/media/test_main_img.b63ae0f619269155c1d2.png",
+    "static/media/neurips-icdm-logos.png": "/static/media/neurips-icdm-logos.b41dc2e9e8210379f529.png",
     "static/media/ICDM_2025_trustworthy_machine_learning_12112025.png": "/static/media/ICDM_2025_trustworthy_machine_learning_12112025.adf587a3f03e7edfc989.png",
     "static/media/jiawen.jpg": "/static/media/jiawen.23074dede036b6de388b.jpg",
     "static/media/icdm2025logosmall.png": "/static/media/icdm2025logosmall.aaafa44ca89f645ce3f8.png",
@@ -19,12 +20,12 @@
     "static/media/qingwen.jpg": "/static/media/qingwen.9f54a7b397a62fc22664.jpg",
     "static/media/slack-usydeiesoftware-members.csv": "/static/media/slack-usydeiesoftware-members.42c440d9b721325a7000.csv",
     "index.html": "/index.html",
-    "main.bc31ec85.css.map": "/static/css/main.bc31ec85.css.map",
-    "main.f9c68c07.js.map": "/static/js/main.f9c68c07.js.map",
+    "main.ef8098eb.css.map": "/static/css/main.ef8098eb.css.map",
+    "main.a1eea868.js.map": "/static/js/main.a1eea868.js.map",
     "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc31ec85.css",
-    "static/js/main.f9c68c07.js"
+    "static/css/main.ef8098eb.css",
+    "static/js/main.a1eea868.js"
   ]
 }

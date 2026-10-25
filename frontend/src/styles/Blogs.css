@@ -103,6 +103,48 @@
     white-space: normal;
 }
 
+.blog-paper-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 2rem;
+}
+
+.blog-paper-list > li {
+    padding: 1rem 1.2rem;
+    margin-bottom: 0.75rem;
+    border-left: 3px solid #b8b3a4;
+    border-radius: 0 8px 8px 0;
+    background: #f6f4ee;
+}
+
+.blog-paper-list h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #3f3f3b;
+    overflow-wrap: anywhere;
+}
+
+.blog-paper-titles {
+    margin: 0.75rem 0 0;
+    padding-left: 1.25rem;
+    color: #3f3f3b;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.blog-paper-titles li + li {
+    margin-top: 0.5rem;
+}
+
+.blog-paper-list p {
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #666;
+}
+
 @media (max-width: 900px) {
     .news-card {
         grid-template-columns: 280px minmax(0, 1fr);

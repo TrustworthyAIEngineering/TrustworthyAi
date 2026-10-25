@@ -1,5 +1,43 @@
+import conferenceLogos from "../assets/blogs/neurips-icdm-logos.png";
+
 const blogsData = [
 
+  {
+    id: "blog-5",
+    title: "Four Papers, Two Conferences: Celebrating NeurIPS and ICDM 2026",
+    date: "2026-10-25",
+    author: "USYD Trustworthy AI Team",
+    summary:
+      "Two NeurIPS papers for Qingwen, an ICDM paper for Linghan, and a joint ICDM paper for Zhaoge and Yitian — plenty to celebrate with the team.",
+    image: conferenceLogos,
+    imageAlt: "NeurIPS logo on the left and ICDM 2026 Shenyang, China logo on the right",
+    paperGroups: [
+      {
+        teamMembers: "Qingwen Zeng",
+        venue: "NeurIPS 2026 · Main Conference",
+        titles: [
+          "ScopeSAE: Model-Scope Feature Discovery with Interpretable Layer Selection",
+          "Latent Action Reparameterization for Efficient Agent Inference"
+        ]
+      },
+      {
+        teamMembers: "Linghan Huang",
+        venue: "ICDM 2026 · Main Conference",
+        titles: ["From Prompt to Perturbation: An Adaptive Framework for Voice-Based Jailbreaks on Audio LLMs"]
+      },
+      {
+        teamMembers: "Zhaoge Bi & Yitian Yang",
+        venue: "ICDM 2026 · Main Conference",
+        titles: ["FraudBench: Protocol-Sensitive Benchmarking of Adversarial Robustness for Financial Risk Assessment"]
+      }
+    ],
+    content: [
+      "Some good news to share from the team: four papers have been accepted to the NeurIPS and ICDM 2026 main conferences!",
+      "Qingwen Zeng has two papers accepted to NeurIPS 2026. At ICDM 2026, Linghan Huang has one accepted paper, and Zhaoge Bi and Yitian Yang have a joint paper accepted. A big congratulations to Qingwen, Linghan, Zhaoge, Yitian, and their co-authors!",
+      "An acceptance is a lovely moment to pause and appreciate the work that came before it: the ideas that needed rethinking, the experiments that raised new questions, and the drafts made better by a colleague's feedback. We're grateful to everyone who helped these papers take shape.",
+      "For now, it's time to celebrate. Next comes the chance to share the work, hear fresh perspectives, and catch up with the wider research community at NeurIPS and ICDM. We're looking forward to it."
+    ]
+  },
   {
     id: "blog-4",
     title:
