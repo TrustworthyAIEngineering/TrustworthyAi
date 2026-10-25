@@ -61,6 +61,36 @@
     border-bottom: 1px solid gray;
 }
 
+.icdm2026-paper-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: grid;
+    gap: 0.65rem;
+}
+
+.icdm2026-paper-card {
+    padding: 0.9rem 1rem;
+    background: #f6f4ee;
+    border-radius: 8px;
+    overflow-wrap: anywhere;
+}
+
+.icdm2026-paper-title {
+    margin: 0 0 0.3rem;
+    color: #3f3f3b;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.icdm2026-paper-authors {
+    margin: 0;
+    color: #586b87;
+    font-size: 0.875rem;
+    line-height: 1.45;
+}
+
 @media (orientation: portrait) {
     .icdm2026-workshop-page {
         font-size: large;

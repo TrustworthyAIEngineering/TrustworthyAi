@@ -26,13 +26,30 @@ const importantDates = [
   ["Paper Submission:", "August 20, 2026 AoE"],
   ["Notification to Authors:", "September 18, 2026 AoE"],
   ["Camera-ready:", "October 5, 2026 AoE"],
-  ["Workshop Date:", "TBA"]
+  ["Workshop Date:", "Thursday, November 12, 2026"]
 ];
 
 const organizers = [
   "Huaming Chen (University of Sydney)",
   "Na Zou (University of Houston)",
   "Ling Chen (University of Technology Sydney)"
+];
+
+const acceptedPapers = [
+  { id: "S26218", authors: "Jie Li, Shenglin Cao, Hongshuo Liu, and Xiaoying Duan", title: "KBGANet: A Multi-Scale Temporal Intrusion Detection Model for the Medical Internet of Things" },
+  { id: "S26217", authors: "Tharuka Kasthuri Arachchige, Veselka Boeva, and Shahrooz Abghari", title: "Hierarchical Knowledge Distillation for Fair Federated Learning" },
+  { id: "S26215", authors: "Harsh Maheshwary, Adit Jain, Manoranjan Dash, and Aadit Shah", title: "Beyond Demographics: Evaluating and Mitigating Emotion-Based Bias in Deepfake Detection" },
+  { id: "S26214", authors: "Maksim Panchuk, Viacheslav Shalamov, Sergey Muravyov, and Valeria Efimova", title: "Trustworthy Preference Mining from Conversational Data for LLM-Based Decision-Making" },
+  { id: "S26213", authors: "Sandra Mitrovic and Manuel Striani", title: "Self-consistency and Cross-consistency metrics for LLM Robustness Assessment" },
+  { id: "S26207", authors: "Nathan NOWAKOWSKI, Elöd Egyed-Zsigmond, Diana Nurbakova, and Sylvie Calabretto", title: "CALI: Failure Prediction via Cramer-Wold LatentInference and KDE" },
+  { id: "S26205", authors: "Mikhail Babenko, Alexey Tselykh, Naira Akobyan, and Maria Lapina", title: "Towards Trustworthy CNN Classification: Rethinking Classifier Architectures for Out-of-Distribution Detection" },
+  { id: "S26204", authors: "Sergei Kurashkin, Vadim Tynchenko, Aleksei Borodulin, and Vladimir Nelyub", title: "Reproducible Gains, Irreproducible Rankings: A 200-Run Audit of Bias-Mitigation Methods" },
+  { id: "S26203", authors: "Sebastian Szelest, Marek Pawlicki, Rafal Kozik, and Michal Choras", title: "Evaluating the Impact of Model Depth on SHAP-Based Explainability" },
+  { id: "S26202", authors: "Ivan Malashin, Vadim Tynchenko, Alexey Borodulin, Igor Masich, and Dmitry Martysyuk", title: "Image-Grounded Hardening for Diffusion Concept Unlearning" },
+  { id: "DM451", authors: "Durande Kamga Nguifo, Jerry Lonlac, Anthony Fleury, and Engelbert Mephu Nguifo", title: "GraPEX: GRADual Pattern EXplainer for multivariate time series classification" },
+  { id: "DM449", authors: "Anna Chistyakova and Mikhail Pautov", title: "RandMark: On Random Watermarking of Visual Foundation Models" },
+  { id: "DM399", authors: "Muntaser Syed, Ameerah Alslami, and Marius Silaghi", title: "CryptEpi: Privacy-Preserving Epistasis Detection via GPU-Accelerated Homomorphic Encryption" },
+  { id: "DM317", authors: "Liangyu Yang, Fu-lai Chung, and Shitong Wang", title: "Fast Triply-interpretable Mining of Fuzzy Association Rules by An Ensemble Classifier" }
 ];
 
 export default function ICDM2026Workshop() {
@@ -47,6 +64,8 @@ export default function ICDM2026Workshop() {
           Co-located with 26th IEEE International Conference on Data Mining (ICDM 2026)
           <br />
           November 12-15, 2026, Shenyang, China
+          <br />
+          TML4DM (W04): November 12, 2026, 08:30–15:30 | Paris Room
         </p>
       </section>
 
@@ -68,10 +87,24 @@ export default function ICDM2026Workshop() {
 
         <h2 id="schedules"><strong>Schedules</strong></h2>
         <p>
-          <span><strong>Date: </strong>TBA<br /><br /></span>
-          <span><strong>Location: </strong>Shenyang, China<br /><br /></span>
-          <span><strong>Duration: </strong>Full-day workshop<br /><br /></span>
+          <span><strong>Date: </strong>Thursday, November 12, 2026<br /><br /></span>
+          <span><strong>Venue: </strong>Paris Room, Shenyang, China<br /><br /></span>
+          <span><strong>Time: </strong>08:30–15:30 (including coffee break and lunch)<br /><br /></span>
         </p>
+        <div className="icdm2026-table-wrap">
+          <table>
+            <thead>
+              <tr><th scope="col">Time</th><th scope="col">Activity</th><th scope="col">Venue</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>08:30–09:50</td><td>W04 | TML4DM</td><td>Paris Room</td></tr>
+              <tr><td>09:50–10:10</td><td>Coffee Break</td><td>—</td></tr>
+              <tr><td>10:10–12:00</td><td>W04 | TML4DM</td><td>Paris Room</td></tr>
+              <tr><td>12:00–13:00</td><td>Lunch</td><td>Grand Ballroom 2</td></tr>
+              <tr><td>13:00–15:30</td><td>W04 | TML4DM</td><td>Paris Room</td></tr>
+            </tbody>
+          </table>
+        </div>
 
         <h2 id="introduction"><strong>Introduction</strong></h2>
         <p>
@@ -110,7 +143,14 @@ export default function ICDM2026Workshop() {
         </p>
 
         <h2 id="paperlist"><strong>Paper List</strong></h2>
-        <p>TBA</p>
+        <ol className="icdm2026-paper-list">
+          {acceptedPapers.map((paper, index) => (
+            <li key={paper.id} className="icdm2026-paper-card">
+              <h3 className="icdm2026-paper-title">{index + 1}. {paper.title}</h3>
+              <p className="icdm2026-paper-authors">{paper.authors}</p>
+            </li>
+          ))}
+        </ol>
       </main>
     </div>
   );
