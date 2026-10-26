@@ -46,10 +46,15 @@ const acceptedPapers = [
   { id: "S26204", authors: "Sergei Kurashkin, Vadim Tynchenko, Aleksei Borodulin, and Vladimir Nelyub", title: "Reproducible Gains, Irreproducible Rankings: A 200-Run Audit of Bias-Mitigation Methods" },
   { id: "S26203", authors: "Sebastian Szelest, Marek Pawlicki, Rafal Kozik, and Michal Choras", title: "Evaluating the Impact of Model Depth on SHAP-Based Explainability" },
   { id: "S26202", authors: "Ivan Malashin, Vadim Tynchenko, Alexey Borodulin, Igor Masich, and Dmitry Martysyuk", title: "Image-Grounded Hardening for Diffusion Concept Unlearning" },
-  { id: "DM451", authors: "Durande Kamga Nguifo, Jerry Lonlac, Anthony Fleury, and Engelbert Mephu Nguifo", title: "GraPEX: GRADual Pattern EXplainer for multivariate time series classification" },
+  { id: "DM451", authors: "Durande Kamga Nguifo, Jerry Lonlac, Anthony Fleury, and Engelbert Mephu Nguifo", title: "GraPEX: GRAdual Pattern EXplainer for multivariate time series classification" },
   { id: "DM449", authors: "Anna Chistyakova and Mikhail Pautov", title: "RandMark: On Random Watermarking of Visual Foundation Models" },
-  { id: "DM399", authors: "Muntaser Syed, Ameerah Alslami, and Marius Silaghi", title: "CryptEpi: Privacy-Preserving Epistasis Detection via GPU-Accelerated Homomorphic Encryption" },
-  { id: "DM317", authors: "Liangyu Yang, Fu-lai Chung, and Shitong Wang", title: "Fast Triply-interpretable Mining of Fuzzy Association Rules by An Ensemble Classifier" }
+  { id: "DM399", authors: "Muntaser Syed, Ameerah Alsulami, and Marius Silaghi", title: "CryptEpi: Privacy-Preserving Epistasis Detection via GPU-Accelerated Homomorphic Encryption" },
+  { id: "DM317", authors: "Liangyu Yang, Fu-lai Chung, and Shitong Wang", title: "Fast Triply-interpretable Mining of Fuzzy Association Rules by An Ensemble Classifier" },
+  // Internal rendering keys for transferred papers whose submission IDs were not supplied.
+  { id: "transfer-graph-reasoning", authors: "Erica Coppolillo", title: "Let Your Graph Do the Reasoning: Injecting Knowledge Graphs into Large Language Models" },
+  { id: "transfer-alien", authors: "Artem Zabolotnyi, Roman Makarov, Mile Mitrovic, Polina Proskura, Oleg Travkin, Roman Alferov, and Alexey Zaytsev", title: "ALIEN: Aligned Entropy Head for Improving Uncertainty Estimation of LLMs" },
+  { id: "transfer-finrisk-ope", authors: "Hongye Wu, Youcheng Lan, Guangyan Gan, Shaobin Shi, Jie Zou, Kwanting Leung, and Yuhan Cheng", title: "FinRisk-OPE: A Public Benchmark for Risk-Certified Financial Off-Policy Evaluation" },
+  { id: "transfer-proxyfair", authors: "Vivian Wei Jiang, Gustavo Batista, and Michael Bain", title: "ProxyFair: Fairness-Aware Causal Discovery via Proxy-Excess Regularization" }
 ];
 
 export default function ICDM2026Workshop() {
