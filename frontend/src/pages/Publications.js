@@ -189,7 +189,7 @@ function Publications() {
 
             <div className="publications-list container">
                 <div className="publications-summary">
-                    {publications.length} publications
+                    {publications.length} recent publications
                 </div>
 
                 {publications.length > PUBLICATIONS_PER_PAGE && (
