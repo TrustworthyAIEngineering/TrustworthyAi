@@ -36,7 +36,6 @@ const organizers = [
 ];
 
 const acceptedPapers = [
-  { id: "S26218", authors: "Jie Li, Shenglin Cao, Hongshuo Liu, and Xiaoying Duan", title: "KBGANet: A Multi-Scale Temporal Intrusion Detection Model for the Medical Internet of Things" },
   { id: "S26217", authors: "Tharuka Kasthuri Arachchige, Veselka Boeva, and Shahrooz Abghari", title: "Hierarchical Knowledge Distillation for Fair Federated Learning" },
   { id: "S26215", authors: "Harsh Maheshwary, Adit Jain, Manoranjan Dash, and Aadit Shah", title: "Beyond Demographics: Evaluating and Mitigating Emotion-Based Bias in Deepfake Detection" },
   { id: "S26214", authors: "Maksim Panchuk, Viacheslav Shalamov, Sergey Muravyov, and Valeria Efimova", title: "Trustworthy Preference Mining from Conversational Data for LLM-Based Decision-Making" },
@@ -54,8 +53,34 @@ const acceptedPapers = [
   { id: "transfer-graph-reasoning", authors: "Erica Coppolillo", title: "Let Your Graph Do the Reasoning: Injecting Knowledge Graphs into Large Language Models" },
   { id: "transfer-alien", authors: "Artem Zabolotnyi, Roman Makarov, Mile Mitrovic, Polina Proskura, Oleg Travkin, Roman Alferov, and Alexey Zaytsev", title: "ALIEN: Aligned Entropy Head for Improving Uncertainty Estimation of LLMs" },
   { id: "transfer-finrisk-ope", authors: "Hongye Wu, Youcheng Lan, Guangyan Gan, Shaobin Shi, Jie Zou, Kwanting Leung, and Yuhan Cheng", title: "FinRisk-OPE: A Public Benchmark for Risk-Certified Financial Off-Policy Evaluation" },
-  { id: "transfer-proxyfair", authors: "Vivian Wei Jiang, Gustavo Batista, and Michael Bain", title: "ProxyFair: Fairness-Aware Causal Discovery via Proxy-Excess Regularization" }
+  { id: "transfer-proxyfair", authors: "Vivian Wei Jiang, Gustavo Batista, and Michael Bain", title: "ProxyFair: Fairness-Aware Causal Discovery via Proxy-Excess Regularization" },
+  { id: "S26218", authors: "Jie Li, Shenglin Cao, Hongshuo Liu, and Xiaoying Duan", title: "KBGANet: A Multi-Scale Temporal Intrusion Detection Model for the Medical Internet of Things" }
 ];
+
+const presentationMinutes = 12;
+const questionMinutes = 3;
+const slotMinutes = presentationMinutes + questionMinutes;
+// Local conference time, expressed as minutes after midnight. Only complete slots fit.
+const paperSessions = [
+  { start: 8 * 60 + 30, end: 9 * 60 + 50 },
+  { start: 10 * 60 + 10, end: 12 * 60 },
+  { start: 13 * 60, end: 15 * 60 + 30 }
+];
+const paperSlots = paperSessions.flatMap(({ start, end }) =>
+  Array.from({ length: Math.floor((end - start) / slotMinutes) }, (_, index) => ({
+    start: start + index * slotMinutes,
+    end: start + (index + 1) * slotMinutes
+  }))
+);
+
+const scheduleBreaks = [
+  { title: "Coffee Break", start: 9 * 60 + 50, end: 10 * 60 + 10 },
+  { title: "Lunch", start: 12 * 60, end: 13 * 60, venue: "Grand Ballroom 2" }
+];
+
+function formatTime(minutes) {
+  return `${String(Math.floor(minutes / 60)).padStart(2, "0")}:${String(minutes % 60).padStart(2, "0")}`;
+}
 
 export default function ICDM2026Workshop() {
   return (
@@ -148,12 +173,29 @@ export default function ICDM2026Workshop() {
         </p>
 
         <h2 id="paperlist"><strong>Paper List</strong></h2>
+        <p>
+          November 12, 2026 · Paris Room · All times are local to Shenyang (UTC+8).
+          <br />
+          Each paper has a {slotMinutes}-minute slot: {presentationMinutes} minutes for the presentation and {questionMinutes} minutes for Q&amp;A.
+        </p>
         <ol className="icdm2026-paper-list">
           {acceptedPapers.map((paper, index) => (
-            <li key={paper.id} className="icdm2026-paper-card">
-              <h3 className="icdm2026-paper-title">{index + 1}. {paper.title}</h3>
-              <p className="icdm2026-paper-authors">{paper.authors}</p>
-            </li>
+            <React.Fragment key={paper.id}>
+              {scheduleBreaks.filter((item) => item.end === paperSlots[index].start).map((item) => (
+                <li key={item.title} className="icdm2026-schedule-break">
+                  <p className="icdm2026-paper-time">{formatTime(item.start)}–{formatTime(item.end)}</p>
+                  <h3 className="icdm2026-paper-title">{item.title}</h3>
+                  {item.venue && <p className="icdm2026-paper-authors">{item.venue}</p>}
+                </li>
+              ))}
+              <li value={index + 1} className="icdm2026-paper-card">
+                <p className="icdm2026-paper-time">
+                  {formatTime(paperSlots[index].start)}–{formatTime(paperSlots[index].end)}
+                </p>
+                <h3 className="icdm2026-paper-title">{index + 1}. {paper.title}</h3>
+                <p className="icdm2026-paper-authors">{paper.authors}</p>
+              </li>
+            </React.Fragment>
           ))}
         </ol>
       </main>

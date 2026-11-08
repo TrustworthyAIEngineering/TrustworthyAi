@@ -76,6 +76,14 @@
     overflow-wrap: anywhere;
 }
 
+.icdm2026-schedule-break {
+    margin: 0.4rem 0;
+    padding: 0.9rem 1rem;
+    background: #e5e1d6;
+    border-left: 3px solid #8a8170;
+    border-radius: 4px;
+}
+
 .icdm2026-paper-title {
     margin: 0 0 0.3rem;
     color: #3f3f3b;
@@ -84,9 +92,17 @@
     line-height: 1.35;
 }
 
+.icdm2026-paper-time {
+    margin: 0 0 0.45rem;
+    color: #625e54;
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+}
+
 .icdm2026-paper-authors {
     margin: 0;
-    color: #586b87;
+    color: #666359;
     font-size: 0.875rem;
     line-height: 1.45;
 }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5725eac2.css",
-    "main.js": "/static/js/main.288da024.js",
+    "main.css": "/static/css/main.66cc878f.css",
+    "main.js": "/static/js/main.436ebf0d.js",
     "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
     "static/media/ICDM2026_shenyang_workshop_hero.png": "/static/media/ICDM2026_shenyang_workshop_hero.bfd6f79e5f76a9dffde7.png",
     "static/media/neurips-icdm-logos.png": "/static/media/neurips-icdm-logos.b41dc2e9e8210379f529.png",
@@ -19,12 +19,12 @@
     "static/media/qingwen.jpg": "/static/media/qingwen.9f54a7b397a62fc22664.jpg",
     "static/media/slack-usydeiesoftware-members.csv": "/static/media/slack-usydeiesoftware-members.42c440d9b721325a7000.csv",
     "index.html": "/index.html",
-    "main.5725eac2.css.map": "/static/css/main.5725eac2.css.map",
-    "main.288da024.js.map": "/static/js/main.288da024.js.map",
+    "main.66cc878f.css.map": "/static/css/main.66cc878f.css.map",
+    "main.436ebf0d.js.map": "/static/js/main.436ebf0d.js.map",
     "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5725eac2.css",
-    "static/js/main.288da024.js"
+    "static/css/main.66cc878f.css",
+    "static/js/main.436ebf0d.js"
   ]
 }
