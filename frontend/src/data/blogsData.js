@@ -85,7 +85,7 @@ const blogsData = [
       "As one of the world's leading forums for cybersecurity and privacy, IFIP SEC is highly competitive. This acceptance underscores the technical rigor and innovative approach our team brings to solving critical security challenges.",
       "Congratulations to Taozhao and Linghan on this significant milestone. We look forward to their presentation and to continuing our contributions to the global trustworthy AI and security community."
     ]
-  },
+  }, 
   {
     id: "blog-1",
     title: "Celebrating Chinese New Year",
