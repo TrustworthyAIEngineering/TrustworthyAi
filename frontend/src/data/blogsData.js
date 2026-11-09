@@ -1,7 +1,67 @@
 import conferenceLogos from "../assets/blogs/neurips-icdm-logos.png";
+import roadshowStudents from "../assets/blogs/genai-roadshow/students.jpg";
+import roadshowAudience from "../assets/blogs/genai-roadshow/audience.jpg";
+import roadshowMotoCopilot from "../assets/blogs/genai-roadshow/moto-copilot.jpg";
+import roadshowAviation from "../assets/blogs/genai-roadshow/aviation-research.jpg";
+import roadshowGuestPresentation from "../assets/blogs/genai-roadshow/guest-presentation.jpg";
+import roadshowIndustryGuests from "../assets/blogs/genai-roadshow/industry-guests.jpg";
 
 const blogsData = [
-
+  {
+    id: "genai-projects-roadshow-elec5623",
+    title: "From Ideas to Working Applications: GenAI Projects Roadshow at the University of Sydney",
+    date: "2026-11-04",
+    author: "USYD Trustworthy AI Team",
+    summary:
+      "Students in Applied GenAI in Engineering (ELEC5623) presented their minimum viable products to an industry judging panel, marking the completion of the unit’s first offering.",
+    image: roadshowAudience,
+    imageAlt: "Students and guests seated in the lecture theatre during the GenAI Projects Roadshow",
+    imageCaption: "Students and industry guests gathered for the GenAI Projects Roadshow at the University of Sydney.",
+    content: [
+      "The University of Sydney’s GenAI Projects Roadshow brought together students, educators and industry professionals to celebrate the first offering of Applied GenAI in Engineering (ELEC5623). Student teams presented their minimum viable products (MVPs), demonstrating how ideas developed throughout the semester had become working generative AI applications.",
+      "Developed and launched with support from the Faculty of Engineering and the School of Electrical and Computer Engineering, the new unit combined AI fundamentals with the engineering technologies and practical tools needed to build real-world applications. The roadshow gave students an opportunity to demonstrate those skills and discuss their work with an experienced industry panel.",
+      "The judges spent four hours listening to presentations, asking questions and offering constructive feedback. Together, they brought more than 120 years of industry experience to the event, helping students consider their projects from professional and practical perspectives. The roadshow also recognised teams whose work stood out to the panel.",
+      "The teaching team, including Haolin Jin and Linghan Huang, supported students throughout the semester. The unit also welcomed guest speakers Ned Swaney of OpenAI, Professor Andy Chun from Hong Kong, and Adesh Gairola of raxIT. Their contributions offered students insights into the direction of AI and the skills they will need as the field continues to evolve.",
+      "With support from OpenAI and the School of Electrical and Computer Engineering, the event marked a milestone for the new unit. It highlighted the value of connecting classroom learning with practical engineering and industry feedback—and the human experience, generosity and collaboration that help students turn ambitious ideas into working applications."
+    ],
+    gallery: [
+      {
+        src: roadshowStudents,
+        alt: "Students seated with their laptops in the lecture theatre",
+        caption: "Students at the roadshow, where teams presented the applications they had built during the semester.",
+        width: 1280,
+        height: 869
+      },
+      {
+        src: roadshowMotoCopilot,
+        alt: "Moto Copilot presentation slide describing motorcycle advice, parts selection and service booking",
+        caption: "Moto Copilot: a student project connecting motorcycle information with practical next steps for riders.",
+        width: 1280,
+        height: 818
+      },
+      {
+        src: roadshowAviation,
+        alt: "A student team presenting a research project using publicly available aviation data",
+        caption: "A student team presents its aviation data research project.",
+        width: 1280,
+        height: 897
+      },
+      {
+        src: roadshowGuestPresentation,
+        alt: "A presenter speaking to students beneath screens displaying a raxIT presentation",
+        caption: "Industry perspectives complemented the students’ practical work in generative AI.",
+        width: 1280,
+        height: 756
+      },
+      {
+        src: roadshowIndustryGuests,
+        alt: "Event introduction slide listing industry guests and acknowledging the University of Sydney and OpenAI",
+        caption: "An introduction to the industry guests, with acknowledgements of support from the University of Sydney and OpenAI.",
+        width: 1280,
+        height: 700
+      }
+    ]
+  },
   {
     id: "blog-5",
     title: "Four Papers, Two Conferences: Celebrating NeurIPS and ICDM 2026",

@@ -37,17 +37,20 @@ function Blogs() {
         <div className="news-container">
           <h1 className="news-title">{selectedBlog.title}</h1>
           <p className="news-subtitle">
-            {selectedBlog.date} - {selectedBlog.author}
+            {selectedBlog.date && <><time dateTime={selectedBlog.date}>{selectedBlog.date}</time> - </>}
+            {selectedBlog.author}
           </p>
           <div className="news-underline" />
         </div>
         <div className="container w-100" style={{ maxWidth: 900 }}>
           {selectedBlog.image && (
-            <img
-              src={selectedBlog.image}
-              alt={selectedBlog.imageAlt || selectedBlog.title}
-              style={{ width: "100%", borderRadius: 16, marginBottom: 24 }}
-            />
+            <figure className="blog-cover">
+              <img
+                src={selectedBlog.image}
+                alt={selectedBlog.imageAlt || selectedBlog.title}
+              />
+              {selectedBlog.imageCaption && <figcaption>{selectedBlog.imageCaption}</figcaption>}
+            </figure>
           )}
           {selectedBlog.content.map((para, idx) => (
             <React.Fragment key={idx}>
@@ -69,6 +72,33 @@ function Blogs() {
               )}
             </React.Fragment>
           ))}
+          {selectedBlog.gallery?.length > 0 && (
+            <section className="blog-gallery" aria-labelledby="blog-gallery-title">
+              <h2 id="blog-gallery-title">In pictures</h2>
+              {selectedBlog.gallery.map((photo) => (
+                <figure className="blog-gallery-photo" key={photo.src}>
+                  <a
+                    href={photo.src}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`View full-size photo: ${photo.alt}`}
+                  >
+                    <img
+                      src={photo.src}
+                      alt={photo.alt}
+                      width={photo.width}
+                      height={photo.height}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </a>
+                  <figcaption>
+                    {photo.caption}
+                  </figcaption>
+                </figure>
+              ))}
+            </section>
+          )}
           <Link className="link link-dark small" to="/news">
             Back to list
           </Link>
@@ -109,7 +139,8 @@ function Blogs() {
                 <div className="news-card__body">
                   <h5 className="news-card__title">{item.title}</h5>
                   <p className="news-card__time">
-                    {item.date} - {item.author}
+                    {item.date && <><time dateTime={item.date}>{item.date}</time> - </>}
+                    {item.author}
                   </p>
                   <p className="news-card__desc">{item.summary}</p>
                   <Link className="link link-dark small" to={`/news?id=${item.id}`}>

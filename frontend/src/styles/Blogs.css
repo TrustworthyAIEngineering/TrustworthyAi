@@ -145,6 +145,51 @@
     color: #666;
 }
 
+.blog-cover {
+    margin: 0 0 24px;
+}
+
+.blog-cover img,
+.blog-gallery-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.blog-cover figcaption,
+.blog-gallery-photo figcaption {
+    margin-top: 12px;
+    color: #595750;
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+.blog-gallery {
+    margin: 40px 0 32px;
+}
+
+.blog-gallery > h2 {
+    margin-bottom: 24px;
+    color: #33322f;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.blog-gallery-photo {
+    margin: 0 0 32px;
+}
+
+.blog-gallery-photo > a {
+    display: block;
+    border-radius: 16px;
+}
+
+.blog-gallery-photo > a:focus-visible {
+    outline: 3px solid #595750;
+    outline-offset: 5px;
+}
+
 @media (max-width: 900px) {
     .news-card {
         grid-template-columns: 280px minmax(0, 1fr);
