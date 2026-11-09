@@ -52,7 +52,7 @@ const acceptedPapers = [
   // Internal rendering keys for transferred papers whose submission IDs were not supplied.
   { id: "transfer-graph-reasoning", authors: "Erica Coppolillo", title: "Let Your Graph Do the Reasoning: Injecting Knowledge Graphs into Large Language Models" },
   { id: "transfer-alien", authors: "Artem Zabolotnyi, Roman Makarov, Mile Mitrovic, Polina Proskura, Oleg Travkin, Roman Alferov, and Alexey Zaytsev", title: "ALIEN: Aligned Entropy Head for Improving Uncertainty Estimation of LLMs" },
-  { id: "transfer-finrisk-ope", authors: "Hongye Wu, Youcheng Lan, Guangyan Gan, Shaobin Shi, Jie Zou, Kwanting Leung, and Yuhan Cheng", title: "FinRisk-OPE: A Public Benchmark for Risk-Certified Financial Off-Policy Evaluation" },
+  { id: "transfer-finrisk-ope", authors: "Hongye Wu, Youcheng Lan, Guangyan Gan, Shaobin Shi, Jie Zou, Kwanting Leung, and Yuhan Cheng", title: "FinRisk-OPE: A Benchmark for Risk-Certified Financial Off-Policy Evaluation" },
   { id: "transfer-proxyfair", authors: "Vivian Wei Jiang, Gustavo Batista, and Michael Bain", title: "ProxyFair: Fairness-Aware Causal Discovery via Proxy-Excess Regularization" },
   { id: "S26218", authors: "Jie Li, Shenglin Cao, Hongshuo Liu, and Xiaoying Duan", title: "KBGANet: A Multi-Scale Temporal Intrusion Detection Model for the Medical Internet of Things" }
 ];
