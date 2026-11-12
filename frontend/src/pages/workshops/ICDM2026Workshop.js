@@ -39,7 +39,7 @@ const acceptedPapers = [
   { id: "S26217", authors: "Tharuka Kasthuri Arachchige, Veselka Boeva, and Shahrooz Abghari", title: "Hierarchical Knowledge Distillation for Fair Federated Learning" },
   { id: "S26215", authors: "Harsh Maheshwary, Adit Jain, Manoranjan Dash, and Aadit Shah", title: "Beyond Demographics: Evaluating and Mitigating Emotion-Based Bias in Deepfake Detection" },
   { id: "S26214", authors: "Maksim Panchuk, Viacheslav Shalamov, Sergey Muravyov, and Valeria Efimova", title: "Trustworthy Preference Mining from Conversational Data for LLM-Based Decision-Making" },
-  { id: "S26213", authors: "Sandra Mitrovic and Manuel Striani", title: "Self-consistency and Cross-consistency metrics for LLM Robustness Assessment" },
+  { id: "S26213", authors: "Sandra Mitrovic, Manuel Striani, and Francesco Flammini ", title: "Self-consistency and Cross-consistency metrics for LLM Robustness Assessment" },
   { id: "S26207", authors: "Nathan NOWAKOWSKI, Elöd Egyed-Zsigmond, Diana Nurbakova, and Sylvie Calabretto", title: "CALI: Failure Prediction via Cramer-Wold LatentInference and KDE" },
   { id: "S26205", authors: "Mikhail Babenko, Alexey Tselykh, Naira Akobyan, and Maria Lapina", title: "Towards Trustworthy CNN Classification: Rethinking Classifier Architectures for Out-of-Distribution Detection" },
   { id: "S26204", authors: "Sergei Kurashkin, Vadim Tynchenko, Aleksei Borodulin, and Vladimir Nelyub", title: "Reproducible Gains, Irreproducible Rankings: A 200-Run Audit of Bias-Mitigation Methods" },
